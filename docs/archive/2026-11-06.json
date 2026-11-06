@@ -1,0 +1,738 @@
+{
+  "generated_at": "2026-11-06T17:11:52+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "Your Retry Loop Is Untested Until You Break It on Purpose: A Fault-Injection Tutorial",
+      "url": "https://dev.to/aiio_8140/your-retry-loop-is-untested-until-you-break-it-on-purpose-a-fault-injection-tutorial-4i76",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Every benchmark announcement on the front page this week has the same shape: a score, a chart, a happy path. Almost nobody publishes the boring trace — the 429, the 500, the retry that fired twice and created two records. Here is my core claim. Your retry code is not tested until you have fed it fai",
+      "why": ""
+    },
+    {
+      "title": "My Idempotency Key Was a Timestamp, So the Tool Ran Twice",
+      "url": "https://dev.to/datacpp_3670/my-idempotency-key-was-a-timestamp-so-the-tool-ran-twice-46eg",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Duplicate tool calls are a data-model problem, not a model problem. I learned that after one job created the same row twice. The fix was six lines and one test. The symptom came back clean A nightly agent run posted a \"row created\" webhook. The downstream counter showed two rows for one request. No ",
+      "why": ""
+    },
+    {
+      "title": "Three Gates Before You Pay for Inference: A Parity Probe Decision-Guide",
+      "url": "https://dev.to/datago_8008/three-gates-before-you-pay-for-inference-a-parity-probe-decision-guide-4kob",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Most teams leave a free inference tier too early, and the teams that stay too long usually stay for the same lazy reason: nobody ever wrote down what \"good enough\" was supposed to mean. So the migration decision gets made by vibes, or by whoever got annoyed in a standup that morning. Can I interest ",
+      "why": ""
+    },
+    {
+      "title": "The Free Server Doesn't Leak. It Drifts.",
+      "url": "https://dev.to/hackhub_6179/the-free-server-doesnt-leak-it-drifts-4ghl",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "I stopped asking whether a free server crashes. Wrong question, and it cost me a demo. The things rarely crash. They drift — a few kilobytes of resident memory per request, a few extra prompt tokens per turn — and then the demo dies at minute forty with no stack trace and no obvious culprit. A crash",
+      "why": ""
+    },
+    {
+      "title": "VMAP gives ad break inventory a schedule that engineering and revenue teams can test.",
+      "url": "https://dev.to/aleksuix/vmap-gives-ad-break-inventory-a-schedule-that-engineering-and-revenue-teams-can-test-5c06",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Originally published on VASTLint . Part 6 of 8 in this series on video standards and business outcomes. A long-form video plan may promise a pre-roll and several mid-roll breaks. The sales forecast can look complete while the implementation still disagrees about when a break starts, which ad source ",
+      "why": ""
+    },
+    {
+      "title": "Silent Row Loss: A Pinned Adversarial Corpus for Import Pipelines",
+      "url": "https://dev.to/appcpp_9071/silent-row-loss-a-pinned-adversarial-corpus-for-import-pipelines-5dfk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "A broken import rarely crashes. It reports success, drops eleven rows, and ships a payroll file with three people missing. The durable fix is not a smarter parser. It is a corpus that pins what the parser must survive, plus a gate that fails when coverage shrinks. That asset matters more each quarte",
+      "why": ""
+    },
+    {
+      "title": "Your Grader Is Untested Code: A Bootcamp Lab That Mutates Student Submissions",
+      "url": "https://dev.to/hackjs_7468/your-grader-is-untested-code-a-bootcamp-lab-that-mutates-student-submissions-2h2j",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "The grader passed everything. That was the failure. Week three of a lab where students build a small agent that fixes bugs in a toy repo. Sixteen submissions, fourteen PASS . I opened two of the passing repos by hand: neither had fixed the off-by-one. The agent had described a fix in REPORT.md , and",
+      "why": ""
+    },
+    {
+      "title": "Five Anti-Patterns That Make a Free Server Look Production-Ready",
+      "url": "https://dev.to/codex_1135/five-anti-patterns-that-make-a-free-server-look-production-ready-17j3",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "A free server does not make your app production-ready. It only removes the invoice. That is the whole problem. Free hosting deletes the friction that used to force boring decisions. I keep meeting the same five shortcuts. Each one has a symptom, a root cause, and a cheap replacement. Here is the cat",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2024-27834",
+      "title": "Apple Multiple Products Improper Authentication Vulnerability",
+      "product": "Apple Multiple Products",
+      "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
+      "date": "2026-11-04",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
+    },
+    {
+      "id": "CVE-2026-119977",
+      "title": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "product": "WordPress WordPress Core",
+      "description": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
+      "date": "2026-11-03",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
+    },
+    {
+      "id": "CVE-2026-118527",
+      "title": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "product": "Ivanti Connect Secure",
+      "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+      "date": "2026-10-30",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
+    },
+    {
+      "id": "CVE-2026-111357",
+      "title": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+      "product": "Ivanti Connect Secure",
+      "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+      "date": "2026-10-30",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357"
+    },
+    {
+      "id": "CVE-2026-97229",
+      "title": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "product": "GitLab Community Edition and Enterprise Edition",
+      "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+      "date": "2026-10-29",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+    },
+    {
+      "id": "CVE-2026-76418",
+      "title": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+      "product": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+      "date": "2026-10-29",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
+    },
+    {
+      "id": "CVE-2026-41709",
+      "title": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+      "product": "Broadcom VMware ESX",
+      "description": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+      "date": "2026-10-28",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+    },
+    {
+      "id": "CVE-2026-46300",
+      "title": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+      "product": "Linux Kernel",
+      "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+      "date": "2026-10-28",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
+    },
+    {
+      "id": "CVE-2026-48356",
+      "title": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "product": "Adobe Commerce and Magento",
+      "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+      "date": "2026-10-27",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+    },
+    {
+      "id": "CVE-2026-111497",
+      "title": "Google Brotli Unchecked Return Value Vulnerability",
+      "product": "Google Brotli",
+      "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+      "date": "2026-10-27",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+    },
+    {
+      "id": "CVE-2026-109618",
+      "title": "PHP Memory Corruption Vulnerability",
+      "product": "PHP Group PHP",
+      "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+      "date": "2026-10-26",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+    },
+    {
+      "id": "CVE-2026-109619",
+      "title": "PHP Stale Internal Request-State Vulnerability",
+      "product": "PHP Group PHP",
+      "description": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+      "date": "2026-10-26",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-82418",
+      "description": "IBM Watson Speech Services Cartridge 4.0.0 through 5.4.0 could allow a remote attacker to execute arbitrary code due to a use-after-free vulnerability.",
+      "score": 9.8,
+      "date": "2026-11-04",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82418"
+    },
+    {
+      "id": "CVE-2026-86596",
+      "description": "The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, <= 260927 via the 'item_name' parameter parameter. This is due to insufficient sanitization in strip_php_tags_deep(), which only strips literal '<?' sequences, combined with a post-interpolation placeholder cleanup that reassembles a valid '<?php' opener after the attacker-controlled valu",
+      "score": 9.8,
+      "date": "2026-11-02",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86596"
+    },
+    {
+      "id": "CVE-2026-122303",
+      "description": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace tenants to overwrite resources in other namespaces via NamespacedMutatingPolicy mutate-existing targetMatchConstraints.expression. Attackers can return a CEL map literal fabricating a target with an attacker-chosen metadata.namespace, causing the privileged background controller to overwrite Secr",
+      "score": 9.4,
+      "date": "2026-11-05",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122303"
+    },
+    {
+      "id": "CVE-2026-122304",
+      "description": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace admins to escape namespace confinement because the cleanup controller builds its context loader with a nil policy. Attackers can create a namespaced CleanupPolicy with apiCall or globalReference context entries to read cross-namespace Secrets and modify validatingwebhookconfigurations using the c",
+      "score": 9.4,
+      "date": "2026-11-05",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122304"
+    },
+    {
+      "id": "CVE-2026-122310",
+      "description": "Kyverno from 1.19.1 before 1.19.2 validates a Policy's context.apiCall urlPath after cleaning it but executes the raw path, whose fragment or query the Kubernetes client discards. A namespace-scoped user who can create a Policy can hide ../ segments behind # or ? to reach cluster-scoped endpoints with Kyverno's ServiceAccount, gaining cluster admin.",
+      "score": 9.4,
+      "date": "2026-11-05",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122310"
+    },
+    {
+      "id": "CVE-2026-122311",
+      "description": "Kyverno from 1.16.0 before 1.19.2 fails to validate path segments in the resource argument of resource.get() and resource.post(), allowing namespaced CEL policies to escape their namespace. Tenants who can create a NamespacedValidatingPolicy can insert .. segments to read and write arbitrary cluster objects using the admission controller's ServiceAccount, leading to cluster takeover.",
+      "score": 9.4,
+      "date": "2026-11-05",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122311"
+    },
+    {
+      "id": "CVE-2026-122313",
+      "description": "Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allows namespace-scoped tenants to modify resources in other namespaces through NamespacedMutatingPolicy targetMatchConstraints.expression CEL output lacking namespace checks. Attackers can emit a literal target such as another tenant's RoleBinding, which the cluster-wide background controller then mutates to add ",
+      "score": 9.4,
+      "date": "2026-11-05",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122313"
+    },
+    {
+      "id": "CVE-2026-123488",
+      "description": "Craft CMS 4.0.0 before 4.18.9 and 5.0.0 before 5.11.2 contains an unauthenticated SQL injection vulnerability in the element search endpoint because the attribute parameter is concatenated into the query unsanitized and emulated PDO prepares allow stacked statements. Remote attackers can read and write the database, setting the admin flag or overwriting password hashes in the users table to gain a",
+      "score": 9.3,
+      "date": "2026-11-06",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123488"
+    },
+    {
+      "id": "CVE-2026-122302",
+      "description": "Kyverno before 1.19.2 contains a privilege escalation vulnerability that allows namespace admins to create resources beyond their RBAC because generate-rule admission checks verify the controller's permissions, not the author's. Attackers can create a namespaced Policy with generate rules targeting other namespaces or cluster-scoped kinds, making the background controller create or clone resources",
+      "score": 9.3,
+      "date": "2026-11-05",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122302"
+    },
+    {
+      "id": "CVE-2026-119757",
+      "description": "BTCPay Server before 2.4.2, including 2.4.2 release candidates, contains an information disclosure vulnerability that allows unauthenticated remote attackers to retrieve .macaroon credential files for an LND (Lightning Network Daemon) node. Attackers can use the exposed macaroon to gain full control of the LND node, including moving funds, resulting in theft of funds from affected deployments.",
+      "score": 9.3,
+      "date": "2026-11-05",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119757"
+    },
+    {
+      "id": "CVE-2026-121606",
+      "description": "A vulnerability has been found in Qihoo 360 D621-2, D603-2, D600-2, D619, D606-6 and D706 up to 6.4.9. Affected by this issue is the function verify_sign of the file fs2/bin/iscm of the component Firmware Signature Verification. Such manipulation of the argument sign leads to improper verification of cryptographic signature. The attack can be launched remotely. The exploit has been disclosed to th",
+      "score": 9.3,
+      "date": "2026-11-04",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121606"
+    },
+    {
+      "id": "CVE-2026-121607",
+      "description": "A vulnerability was found in Qihoo 360 D603-2, D600-2, D606-6 and D706 up to 6.4.9. This affects the function testspeed_command of the file /fs2/bin/iscm. Performing a manipulation of the argument host results in os command injection. The attack may be initiated remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in",
+      "score": 9.3,
+      "date": "2026-11-04",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121607"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-5q7h-w9jf-cx97",
+      "cve": "CVE-2026-105769",
+      "title": "kaniko can send the build's Azure (Entra ID) access token to lookalike ACR registry hosts",
+      "packages": [
+        "go/github.com/chainguard-dev/kaniko"
+      ],
+      "date": "2026-11-05",
+      "url": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97"
+    },
+    {
+      "id": "GHSA-33r5-xmm8-v6x5",
+      "cve": "CVE-2026-44267",
+      "title": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
+      "packages": [
+        "npm/@enspirit/elo"
+      ],
+      "date": "2026-11-03",
+      "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5"
+    },
+    {
+      "id": "GHSA-7w38-ggh5-v542",
+      "cve": "CVE-2026-44266",
+      "title": "Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
+      "packages": [
+        "npm/@enspirit/elo"
+      ],
+      "date": "2026-11-03",
+      "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542"
+    },
+    {
+      "id": "GHSA-4xm8-rg9h-jhq2",
+      "cve": null,
+      "title": "Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution",
+      "packages": [
+        "npm/@signalk/resources-provider",
+        "npm/signalk-server"
+      ],
+      "date": "2026-10-30",
+      "url": "https://github.com/advisories/GHSA-4xm8-rg9h-jhq2"
+    },
+    {
+      "id": "GHSA-hff9-5pqw-6w9f",
+      "cve": null,
+      "title": "imgproxy has integer overflow in imgproxy ICO loader that causes denial of service and may permit remote code execution",
+      "packages": [
+        "go/github.com/imgproxy/imgproxy",
+        "go/github.com/imgproxy/imgproxy/v2",
+        "go/github.com/imgproxy/imgproxy/v3"
+      ],
+      "date": "2026-10-30",
+      "url": "https://github.com/advisories/GHSA-hff9-5pqw-6w9f"
+    },
+    {
+      "id": "GHSA-5xjx-3w67-w9x9",
+      "cve": null,
+      "title": "pypi-publish action revocation of CA in the chain that Sigstore uses in Trusted Publishing and Digital Attestations for PyPI",
+      "packages": [
+        "actions/pypa/gh-action-pypi-publish"
+      ],
+      "date": "2026-10-30",
+      "url": "https://github.com/advisories/GHSA-5xjx-3w67-w9x9"
+    },
+    {
+      "id": "GHSA-6jp4-8v48-cc5v",
+      "cve": "CVE-2026-117601",
+      "title": "Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
+      "packages": [
+        "pip/electrum"
+      ],
+      "date": "2026-10-28",
+      "url": "https://github.com/advisories/GHSA-6jp4-8v48-cc5v"
+    },
+    {
+      "id": "GHSA-mghf-wjfp-p5xm",
+      "cve": "CVE-2026-115893",
+      "title": "Wasmtime: Cranelift backend on aarch64 can jump to incorrect target on large Wasm `br_table` instruction",
+      "packages": [
+        "rust/wasmtime"
+      ],
+      "date": "2026-10-28",
+      "url": "https://github.com/advisories/GHSA-mghf-wjfp-p5xm"
+    },
+    {
+      "id": "GHSA-m665-v7pm-7grj",
+      "cve": "CVE-2026-115905",
+      "title": "zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE",
+      "packages": [
+        "rust/zip"
+      ],
+      "date": "2026-10-28",
+      "url": "https://github.com/advisories/GHSA-m665-v7pm-7grj"
+    },
+    {
+      "id": "GHSA-26p8-2jq9-3vq9",
+      "cve": "CVE-2026-116692",
+      "title": "MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules",
+      "packages": [
+        "pip/mlflow"
+      ],
+      "date": "2026-10-27",
+      "url": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9"
+    },
+    {
+      "id": "GHSA-965c-763c-88jm",
+      "cve": "CVE-2026-114607",
+      "title": "better-auth: OAuth state can be used as a Magic Link to sign in as another user",
+      "packages": [
+        "npm/better-auth"
+      ],
+      "date": "2026-10-27",
+      "url": "https://github.com/advisories/GHSA-965c-763c-88jm"
+    },
+    {
+      "id": "GHSA-6v38-4h7w-rj9h",
+      "cve": "CVE-2026-96760",
+      "title": "Authlib: empty signatures validation in JWS JSON deserialization",
+      "packages": [
+        "pip/authlib"
+      ],
+      "date": "2026-10-27",
+      "url": "https://github.com/advisories/GHSA-6v38-4h7w-rj9h"
+    }
+  ],
+  "news": [
+    {
+      "title": "Your Retry Loop Is Untested Until You Break It on Purpose: A Fault-Injection Tutorial",
+      "url": "https://dev.to/aiio_8140/your-retry-loop-is-untested-until-you-break-it-on-purpose-a-fault-injection-tutorial-4i76",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Every benchmark announcement on the front page this week has the same shape: a score, a chart, a happy path. Almost nobody publishes the boring trace — the 429, the 500, the retry that fired twice and created two records. Here is my core claim. Your retry code is not tested until you have fed it fai"
+    },
+    {
+      "title": "My Idempotency Key Was a Timestamp, So the Tool Ran Twice",
+      "url": "https://dev.to/datacpp_3670/my-idempotency-key-was-a-timestamp-so-the-tool-ran-twice-46eg",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Duplicate tool calls are a data-model problem, not a model problem. I learned that after one job created the same row twice. The fix was six lines and one test. The symptom came back clean A nightly agent run posted a \"row created\" webhook. The downstream counter showed two rows for one request. No "
+    },
+    {
+      "title": "Three Gates Before You Pay for Inference: A Parity Probe Decision-Guide",
+      "url": "https://dev.to/datago_8008/three-gates-before-you-pay-for-inference-a-parity-probe-decision-guide-4kob",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Most teams leave a free inference tier too early, and the teams that stay too long usually stay for the same lazy reason: nobody ever wrote down what \"good enough\" was supposed to mean. So the migration decision gets made by vibes, or by whoever got annoyed in a standup that morning. Can I interest "
+    },
+    {
+      "title": "The Free Server Doesn't Leak. It Drifts.",
+      "url": "https://dev.to/hackhub_6179/the-free-server-doesnt-leak-it-drifts-4ghl",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "I stopped asking whether a free server crashes. Wrong question, and it cost me a demo. The things rarely crash. They drift — a few kilobytes of resident memory per request, a few extra prompt tokens per turn — and then the demo dies at minute forty with no stack trace and no obvious culprit. A crash"
+    },
+    {
+      "title": "VMAP gives ad break inventory a schedule that engineering and revenue teams can test.",
+      "url": "https://dev.to/aleksuix/vmap-gives-ad-break-inventory-a-schedule-that-engineering-and-revenue-teams-can-test-5c06",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Originally published on VASTLint . Part 6 of 8 in this series on video standards and business outcomes. A long-form video plan may promise a pre-roll and several mid-roll breaks. The sales forecast can look complete while the implementation still disagrees about when a break starts, which ad source "
+    },
+    {
+      "title": "Silent Row Loss: A Pinned Adversarial Corpus for Import Pipelines",
+      "url": "https://dev.to/appcpp_9071/silent-row-loss-a-pinned-adversarial-corpus-for-import-pipelines-5dfk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "A broken import rarely crashes. It reports success, drops eleven rows, and ships a payroll file with three people missing. The durable fix is not a smarter parser. It is a corpus that pins what the parser must survive, plus a gate that fails when coverage shrinks. That asset matters more each quarte"
+    },
+    {
+      "title": "Your Grader Is Untested Code: A Bootcamp Lab That Mutates Student Submissions",
+      "url": "https://dev.to/hackjs_7468/your-grader-is-untested-code-a-bootcamp-lab-that-mutates-student-submissions-2h2j",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "The grader passed everything. That was the failure. Week three of a lab where students build a small agent that fixes bugs in a toy repo. Sixteen submissions, fourteen PASS . I opened two of the passing repos by hand: neither had fixed the off-by-one. The agent had described a fix in REPORT.md , and"
+    },
+    {
+      "title": "Five Anti-Patterns That Make a Free Server Look Production-Ready",
+      "url": "https://dev.to/codex_1135/five-anti-patterns-that-make-a-free-server-look-production-ready-17j3",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "A free server does not make your app production-ready. It only removes the invoice. That is the whole problem. Free hosting deletes the friction that used to force boring decisions. I keep meeting the same five shortcuts. Each one has a symptom, a root cause, and a cheap replacement. Here is the cat"
+    },
+    {
+      "title": "Retry the Cheap Model or Escalate? A Decision Rule for Failed Agent SQL Drafts",
+      "url": "https://dev.to/dataio_4921/retry-the-cheap-model-or-escalate-a-decision-rule-for-failed-agent-sql-drafts-4f4n",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "A drafting loop can spend its entire allowance on a failure the model was never able to fix. Consider a cheap tier that keeps emitting the same unknown column name because the catalog never contained it. Four repairs later the loop has burned its budget, returned nothing usable, and taught you nothi"
+    },
+    {
+      "title": "48-Hour Field Notes: The Prompt That Broke Without a Changelog",
+      "url": "https://dev.to/devpro_9167/48-hour-field-notes-the-prompt-that-broke-without-a-changelog-1g91",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "A prompt that returned clean JSON on Friday came back on Monday as a friendly sentence wrapped around the JSON. No changelog. No version bump in my config. The endpoint string was byte-for-byte identical, and that is exactly the problem: an alias is not a version. So I spent 48 hours on one narrow q"
+    },
+    {
+      "title": "The Defect Life Cycle: From New to Closed",
+      "url": "https://dev.to/keyur_shah_f3f68b0d63db96/the-defect-life-cycle-from-new-to-closed-3k2l",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "Every software team eventually asks the same question: “Where is this bug right now?” Regardless of whether you track work in Jira, Azure DevOps, or a simple spreadsheet, a defect moves through a predictable set of states. Understanding these states, who owns them, and the best practices around them"
+    },
+    {
+      "title": "How to Review AI-Generated Test Cases Before You Trust Them",
+      "url": "https://dev.to/craig_brown_a75c4b1621284/how-to-review-ai-generated-test-cases-before-you-trust-them-5dhd",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "I'm the only QA engineer on a large development team, so I use AI a lot. ChatGPT, Claude and Copilot all help me get a first draft of test cases down far faster than I could type them. But here's the thing I've learnt the hard way: AI drafts look more complete than they are. They're well formatted, "
+    },
+    {
+      "title": "The first four weeks of a QA course in Nepal, and why automation waits",
+      "url": "https://dev.to/saarathi_academy/the-first-four-weeks-of-a-qa-course-in-nepal-and-why-automation-waits-2m0m",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-06",
+      "snippet": "The first month of a good QA course has no test automation in it. You spend four weeks learning what to test, how to report a bug so it gets fixed, and how to check an API and a database. Automation comes after that, because a script only repeats the checks you chose. If you choose weak checks, the "
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-06",
+      "snippet": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocat"
+    },
+    {
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the"
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux system"
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reli"
+    },
+    {
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The fla"
+    },
+    {
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop"
+    },
+    {
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what "
+    },
+    {
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company sai"
+    },
+    {
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in it"
+    },
+    {
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, C"
+    },
+    {
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]"
+    },
+    {
+      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]"
+    },
+    {
+      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]"
+    },
+    {
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]"
+    },
+    {
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]"
+    },
+    {
+      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]"
+    },
+    {
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-06",
+      "snippet": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]"
+    },
+    {
+      "title": "nexus studio mobile testing",
+      "url": "https://dev.to/nexus_studioqa/nexus-studio-mobile-testing-27p3",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-05",
+      "snippet": "One test, three phones, and each one files its own evidence. Nexus StudioQA runs the same test on emulated profiles (Chrome on a Pixel 5, WebKit on an iPhone 13, a low-end phone with the CPU throttled) and History lines them up per identity. For a real Android phone, a guided setup walks through six"
+    },
+    {
+      "title": "Cypress Email Tests Need a Causal Trace",
+      "url": "https://dev.to/silviutech/cypress-email-tests-need-a-causal-trace-137k",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-05",
+      "snippet": "A Cypress email test can tell you that a verification link was not found. It usually cannot tell you why. The message may have arrived late, the test may have searched the wrong inbox, or the application may never have requested the email at all. Those failures look very similar when the only artifa"
+    },
+    {
+      "title": "Decentralize ownership, not load testing",
+      "url": "https://dev.to/gatling/decentralize-ownership-not-load-testing-2j0a",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-05",
+      "snippet": "The release candidate is ready, the functional tests are green, and the product manager has a date. Then someone asks whether it has been load tested. The performance team's next slot is in two weeks. This is the traditional model: a small group of specialists, a shared pre-production environment, a"
+    },
+    {
+      "title": "An AI agent tested Toolshop from just the URL: 23 issues, 8 real",
+      "url": "https://dev.to/shahidhelalkhan/an-ai-agent-tested-toolshop-from-just-the-url-23-issues-8-real-27oj",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-05",
+      "snippet": "Toolshop's sign-up page says a password needs at least 8 characters. The form enforces 8. The API enforces 8. Type 7 and the error message says the minimum is 6. That's the best of 8 real bugs our AI testing agent found on Toolshop , the demo hardware store a lot of testers learn Playwright and Cypr"
+    },
+    {
+      "title": "Quality Assurance - Web Testing",
+      "url": "https://dev.to/dev-dinakajoy/quality-assurance-web-testing-39ng",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-05",
+      "snippet": "I have learned how to test features, write test cases, execute tests, and report bugs. As a software developer transitioning into software testing, my next step is WebTesting. What actually happens when I interact with a web application? Say I click Login, search for a restaurant, or add food to my "
+    },
+    {
+      "title": "AI Can Write Tests. But Are We Testing the Right Things?",
+      "url": "https://dev.to/rimonnassory/ai-can-write-tests-but-are-we-testing-the-right-things-27mk",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-05",
+      "snippet": "AI is changing how we approach software testing. But generating more tests doesn't necessarily mean delivering better software. AI Is Making Test Automation Faster Over the past year, I've been exploring how AI can improve our QA processes, especially when working with Playwright and automated regre"
+    },
+    {
+      "title": "Your LLM app regresses silently. Version-guard it before the next ship.",
+      "url": "https://dev.to/lixingliangsy/your-llm-app-regresses-silently-version-guard-it-before-the-next-ship-3j23",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-05",
+      "snippet": "LLM-powered features have a failure mode traditional software doesn't: they degrade without breaking. The output is still valid JSON, still 200 OK, just worse — and the regression hides until a user complains about something that \"used to work.\" I built TestPilot because \"it worked in testing\" is th"
+    },
+    {
+      "title": "v1.65.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+      "source": "Playwright",
+      "category": "Tools",
+      "date": "2026-11-05",
+      "snippet": "🥟 Run tests with Bun The test runner now runs under Bun . Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js: bunx --bun playwright test Our CI runs the test runner "
+    },
+    {
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-05",
+      "snippet": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw cri"
+    },
+    {
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-05",
+      "snippet": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]"
+    },
+    {
+      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+      "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-05",
+      "snippet": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]"
+    },
+    {
+      "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+      "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-05",
+      "snippet": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]"
+    }
+  ]
+}
