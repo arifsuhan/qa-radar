@@ -2,7 +2,7 @@
 
 **A free, self-updating radar of exploited vulnerabilities, critical CVEs and software testing news — summarized by an AI agent. Zero servers. Zero cost. Fork it in 2 minutes.**
 
-![Updates every 6h](https://img.shields.io/badge/updates-every%206h-brightgreen) ![Cost](https://img.shields.io/badge/cost-%240-blue) ![Servers](https://img.shields.io/badge/servers-0-orange)
+![Updates every day at 6:00 AM](https://img.shields.io/badge/updates-every%206h-brightgreen) ![Cost](https://img.shields.io/badge/cost-%240-blue) ![Servers](https://img.shields.io/badge/servers-0-orange)
 
 👉 **Live site:** `https://<your-username>.github.io/qa-radar/`
 
@@ -16,7 +16,7 @@
 
 ## ⚙️ How it works
 ```
-GitHub Actions (every 6h) → fetch feeds → LLM ranks & summarizes → data.json → GitHub Pages
+GitHub Actions (every day 6:00 AM) → fetch feeds → LLM ranks & summarizes → data.json → GitHub Pages
 ```
 Facts (CVE IDs, scores) come straight from official feeds. The AI only ranks and summarizes,
 and a built-in guard drops any AI bullet that mentions a CVE not in the source data. 🛡️

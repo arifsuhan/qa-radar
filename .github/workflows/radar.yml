@@ -2,7 +2,7 @@ name: QA Radar update
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6 hours
+    - cron: "0 6 * * *"       # daily at 6:00 AM
   workflow_dispatch:          # "Run workflow" button
 
 permissions:
