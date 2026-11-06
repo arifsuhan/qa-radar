@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QA Radar 📡 — vulnerabilities & SQA news, updated by AI</title>
+<meta name="description" content="Free, self-updating radar of exploited vulnerabilities, critical CVEs and software testing news.">
+<style>
+  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--text:#e6edf3;--muted:#8b949e;
+        --red:#f85149;--orange:#db6d28;--green:#3fb950;--blue:#58a6ff}
+  *{box-sizing:border-box}
+  body{margin:0;font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
+  header,main{max-width:1100px;margin:auto;padding:0 20px}
+  header{padding-top:36px}
+  h1{margin:0;font-size:34px;letter-spacing:-.5px}
+  .sub{color:var(--muted);margin:4px 0 0}
+  .updated{color:var(--green);font-size:14px;margin-top:8px}
+  input{width:100%;padding:12px 14px;margin:18px 0 0;border-radius:10px;border:1px solid var(--line);
+        background:var(--card);color:var(--text);font-size:15px}
+  section{margin-top:30px}
+  h2{font-size:19px;border-bottom:1px solid var(--line);padding-bottom:8px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .card a{color:var(--blue);text-decoration:none;font-weight:600}
+  .card a:hover{text-decoration:underline}
+  .desc{margin-top:6px;font-size:14px}
+  .meta{color:var(--muted);font-size:13px;margin-top:8px}
+  .tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid var(--line);margin-right:6px}
+  .crit{color:var(--red);border-color:var(--red)} .hot{color:var(--orange);border-color:var(--orange)}
+  .brief{background:linear-gradient(135deg,#1f2a44,#161b22);border:1px solid var(--line);border-radius:14px;padding:16px 24px}
+  .brief li{margin:7px 0}
+  .why{color:var(--green);font-size:14px;margin-top:6px}
+  footer{color:var(--muted);text-align:center;font-size:13px;padding:40px 20px}
+  footer a{color:var(--blue)}
+</style>
+</head>
+<body>
+<header>
+  <h1>📡 QA Radar</h1>
+  <p class="sub">Exploited vulnerabilities, critical CVEs & software testing news — collected and summarized by an AI agent. Zero servers.</p>
+  <div class="updated" id="updated">Loading…</div>
+  <input id="q" type="search" placeholder="🔍 Filter: playwright, chrome, CVE-2026, ransomware…">
+</header>
+
+<main>
+  <section id="s-brief"><h2>🧠 AI Daily Brief</h2><ul class="brief" id="brief"></ul></section>
+  <section id="s-top"><h2>⭐ Must-read for QA</h2><div class="grid" id="top"></div></section>
+  <section id="s-kev"><h2>🔥 Actively exploited (CISA KEV)</h2><div class="grid" id="kev"></div></section>
+  <section id="s-nvd"><h2>🚨 New critical CVEs (last 7 days)</h2><div class="grid" id="nvd"></div></section>
+  <section id="s-ghsa"><h2>📦 Critical package advisories</h2><div class="grid" id="ghsa"></div></section>
+  <section id="s-news"><h2>📰 All SQA & security news</h2><div class="grid" id="news"></div></section>
+</main>
+
+<footer>
+  Data: CISA KEV · NVD · GitHub Advisory Database · RSS feeds. AI summaries can be wrong — always check the source.<br>
+  Built with GitHub Actions + GitHub Pages. <a id="repo" href="https://github.com/">Fork it on GitHub ⭐</a>
+</footer>
+
+<script>
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
+
+function card({title, url, desc, why, tags = [], meta}) {
+  return `<div class="card">
+    <a href="${esc(safeUrl(url))}" target="_blank" rel="noopener">${esc(title)}</a>
+    ${desc ? `<div class="desc">${esc(desc)}</div>` : ""}
+    ${why ? `<div class="why">💡 ${esc(why)}</div>` : ""}
+    <div class="meta">${tags.map(t => `<span class="tag ${t.cls || ""}">${esc(t.text)}</span>`).join("")}${esc(meta || "")}</div>
+  </div>`;
+}
+
+function fill(id, items, toCard) {
+  const el = document.getElementById(id);
+  if (!items || !items.length) { document.getElementById("s-" + id).style.display = "none"; return; }
+  el.innerHTML = items.map(toCard).join("");
+}
+
+function timeAgo(iso) {
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (!(m >= 1)) return "just now";  // also covers clock skew / NaN
+  return m < 60 ? `${m} min ago` : m < 1440 ? `${Math.round(m / 60)} h ago` : `${Math.round(m / 1440)} days ago`;
+}
+
+// <user>.github.io/<repo>/ → github.com/<user>/<repo>
+(() => {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/i);
+  const repo = location.pathname.split("/").filter(Boolean)[0];
+  if (m && repo) document.getElementById("repo").href = `https://github.com/${m[1]}/${repo}`;
+})();
+
+fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
+  document.getElementById("updated").textContent =
+    `● Updated ${timeAgo(d.generated_at)} · model: ${d.model}`;
+
+  const brief = document.getElementById("brief");
+  if (d.brief && d.brief.length) brief.innerHTML = d.brief.map(b => `<li>${esc(b)}</li>`).join("");
+  else document.getElementById("s-brief").style.display = "none";
+
+  const newsCard = n => card({title: n.title, url: n.url, desc: n.snippet, why: n.why,
+    tags: [{text: n.category}], meta: `${n.source} · ${n.date}`});
+
+  fill("top", d.top_news, newsCard);
+  fill("kev", d.kev, v => card({title: `${v.id} — ${v.product}`, url: v.url, desc: v.description,
+    tags: [{text: "EXPLOITED", cls: "hot"}, ...(v.ransomware ? [{text: "RANSOMWARE", cls: "crit"}] : [])],
+    meta: `added ${v.date}`}));
+  fill("nvd", d.nvd, v => card({title: v.id, url: v.url, desc: v.description,
+    tags: [{text: `CVSS ${v.score ?? "?"}`, cls: "crit"}], meta: v.date}));
+  fill("ghsa", d.ghsa, a => card({title: a.title, url: a.url, desc: a.packages.join(", "),
+    tags: [{text: "CRITICAL", cls: "crit"}, ...(a.cve ? [{text: a.cve}] : [])], meta: a.date}));
+  fill("news", d.news, newsCard);
+}).catch(() => {
+  document.getElementById("updated").textContent = "No data yet — run the GitHub Action once.";
+});
+
+document.getElementById("q").addEventListener("input", e => {
+  const q = e.target.value.toLowerCase();
+  document.querySelectorAll(".grid").forEach(grid => {
+    const cards = [...grid.querySelectorAll(".card")];
+    if (!cards.length) return;  // section already hidden for having no data
+    let shown = 0;
+    cards.forEach(c => {
+      const hit = c.textContent.toLowerCase().includes(q);
+      c.style.display = hit ? "" : "none";
+      shown += hit;
+    });
+    grid.closest("section").style.display = shown ? "" : "none";
+  });
+});
+</script>
+</body>
+</html>
