@@ -1,78 +1,78 @@
 {
-  "generated_at": "2026-11-07T18:38:14+00:00",
+  "generated_at": "2026-11-08T10:05:46+00:00",
   "model": "gemini-2.5-flash",
   "brief": [],
   "top_news": [
     {
-      "title": "Opinion: Cheap Tokens Are for Disagreement, Not Generation",
-      "url": "https://dev.to/airs_6907/opinion-cheap-tokens-are-for-disagreement-not-generation-m2o",
+      "title": "AI Training Jobs From Home: Human Data Tasks on TestLancer",
+      "url": "https://dev.to/testlancer/ai-training-jobs-from-home-human-data-tasks-on-testlancer-1a85",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Free model capacity will not make your code better. It can make your review sharper. That is the whole argument. Cheap tokens have little value where you generate code. They have real value where you disagree with a first answer. Most teams spend a free allowance the wrong way. They point it at gene",
+      "date": "2026-11-08",
+      "snippet": "AI training jobs from home pay people to label data and judge AI answers, because AI models still learn from human judgement. TestLancer runs AI data projects such as data annotation, image labelling, AI response evaluation and dataset validation, and members earn rewards for approved work. This gui",
       "why": ""
     },
     {
-      "title": "Case Study: A Cassette Proxy That Records a Model Once and Replays It in CI",
-      "url": "https://dev.to/devrs_9381/case-study-a-cassette-proxy-that-records-a-model-once-and-replays-it-in-ci-5fid",
+      "title": "Data Entry and Micro Tasks Online: Earn Beyond Testing on TestLancer",
+      "url": "https://dev.to/testlancer/data-entry-and-micro-tasks-online-earn-beyond-testing-on-testlancer-5ff5",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Your integration tests should not need a network, an API key, or a budget to prove that your prompt-building code still assembles the right payload. The cheapest way to get there is to call the model exactly once, store the response under a hash of the request, and replay that response forever after",
+      "date": "2026-11-08",
+      "snippet": "TestLancer isn't only for app testers. The same free account unlocks small freelance tasks, often called micro tasks, such as data entry, web research, data labelling and transcription. Add those skills to your profile, accept tasks that match, follow the instructions, and earn rewards once your wor",
       "why": ""
     },
     {
-      "title": "Every Gate Needs a Receipt: A Machine-Checkable Readiness Ledger for AI Prototypes",
-      "url": "https://dev.to/codecpp_5026/every-gate-needs-a-receipt-a-machine-checkable-readiness-ledger-for-ai-prototypes-n5k",
+      "title": "Nouveauté en cours de développement : les TESTS UNITAIRES arrivent dans CoddyRun !",
+      "url": "https://dev.to/coddyrun/nouveaute-en-cours-de-developpement-les-tests-unitaires-arrivent-dans-coddyrun--1mhc",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "A checklist that lives in a wiki is a wish list. A checklist that emits a dated, hashed artifact, and a script that refuses to exit 0 without one, is a gate. That distinction is the whole article. If your readiness review can pass because someone ticked a box at 5:40pm on a Friday, you have a ritual",
+      "date": "2026-11-08",
+      "snippet": "Nouveauté en cours de développement : les TESTS UNITAIRES arrivent dans CoddyRun ! Tester son code, c’est une habitude essentielle chez les développeurs pour vérifier que leur programme fonctionne comme prévu. Je travaille actuellement à rendre cette pratique accessible, directement dans CoddyRun. h",
       "why": ""
     },
     {
-      "title": "I tested Hindsight Memory Before Trusting CI Fixes",
-      "url": "https://dev.to/shourya_bist/i-tested-hindsight-memory-before-trusting-ci-fixes-279c",
+      "title": "TestFlight vs Google Play Closed Testing: Key Differences for Cross-Platform Teams",
+      "url": "https://dev.to/testlancer/testflight-vs-google-play-closed-testing-key-differences-for-cross-platform-teams-4b4k",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "II Tested Hindsight Memory Before Trusting CI Fixes A test passing once does not prove that a debugging assistant is reliable. An application might successfully analyze a CI log but fail to save the investigation. It might retrieve an old memory but misclassify a failed workaround as a verified fix.",
+      "date": "2026-11-08",
+      "snippet": "Short answer: the biggest difference is that Google Play makes a closed test mandatory for new personal developer accounts (at least 12 testers opted in for 14 continuous days before production), while Apple's TestFlight is optional but needs App Review approval before external testers can install. ",
       "why": ""
     },
     {
-      "title": "The Connection Closed Cleanly, So We Saved Half an Answer",
-      "url": "https://dev.to/datacpp_3670/the-connection-closed-cleanly-so-we-saved-half-an-answer-6me",
+      "title": "My link checker said six of our citations were dead. All six were my HTTP client.",
+      "url": "https://dev.to/daniel_pertu/my-link-checker-said-six-of-our-citations-were-dead-all-six-were-my-http-client-211g",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "A clean socket close is not a finished answer. A streamed response has three possible endings: completed, truncated, aborted. Most clients collapse all three into one boolean called done . That boolean is exactly where half-answers get saved as final. This is a debugging retrospective you can replay",
+      "date": "2026-11-08",
+      "snippet": "Our content pages cite their sources. A page that tells a candidate how long a test is has a link to the vendor page that says so, and when the vendor deletes that page we are left asserting a number with nothing behind it. So link rot is not a tidiness problem here, it is an accuracy problem. I pul",
       "why": ""
     },
     {
-      "title": "Record the Free Tier, Replay It Offline: A Hash-Chained Cassette Tutorial for LLM Calls",
-      "url": "https://dev.to/aiio_8140/record-the-free-tier-replay-it-offline-a-hash-chained-cassette-tutorial-for-llm-calls-1oj",
+      "title": "Require a Real Boolean Before Creating a Gift-Wrap Task",
+      "url": "https://dev.to/tom_8d160ea57bf5c0395981d/require-a-real-boolean-before-creating-a-gift-wrap-task-328k",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "A demo that only runs while someone else's quota lasts is a claim, not evidence. So here is the whole thesis up front: if you cannot replay your LLM run with the network unplugged, you cannot debug it, benchmark it, or hand it to a reviewer. Free model access makes experimentation cheap. It also mak",
+      "date": "2026-11-08",
+      "snippet": "Workstations at YX Fulfillment. An order payload contains giftWrap: \"false\" . A JavaScript adapter checks if (payload.giftWrap) and creates the packing task anyway. The problem is a mismatch between the source contract and JavaScript coercion. A nonempty string is truthy, including the string \"false",
       "why": ""
     },
     {
-      "title": "Count the Empty Cells Before You Quote a Pass Rate",
-      "url": "https://dev.to/hackhub_6179/count-the-empty-cells-before-you-quote-a-pass-rate-1pj8",
+      "title": "Verify XLSX metadata cleanup with Python",
+      "url": "https://dev.to/aimetaclean/verify-xlsx-metadata-cleanup-with-python-3hl6",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Count the Empty Cells Before You Quote a Pass Rate A pass rate is an average over a grid you never drew. That's the whole problem. Ninety-four percent sounds like a verdict, but it's really a summary of whatever happened to be sitting in your case file that afternoon, and the file has holes in it yo",
+      "date": "2026-11-08",
+      "snippet": "An XLSX cleanup report can tell you which fields it changed. For a regression check, I also want to inspect the downloaded file itself. Did the chosen author and company fields become empty or disappear? Did the sheets, formulas, and other package parts keep the same bytes? This example uses a small",
       "why": ""
     },
     {
-      "title": "The Handoff Gate: A Bootcamp Lab Where the Free Server Has to Survive a Fresh Clone",
-      "url": "https://dev.to/hackjs_7468/the-handoff-gate-a-bootcamp-lab-where-the-free-server-has-to-survive-a-fresh-clone-3fp4",
+      "title": "A harness grown from losses",
+      "url": "https://dev.to/serhovskyi/a-harness-grown-from-losses-jg1",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Your students' agent demos don't fail because the model is weak. They fail because nobody but the author can start them. That's the whole lab. One endpoint, four gates, and a rubric that gives zero points for cleverness and full points for reproducibility. I've watched cohort after cohort ship a dem",
+      "date": "2026-11-08",
+      "snippet": "I almost never see the auto-compact warning in Claude Code. That is not a setting. I dislike what compaction does — the conversation is replaced by a lossy summary, and the nested instruction files do not survive it — so the workflow was built so that almost no session reaches half of its context wi",
       "why": ""
     }
   ],
@@ -188,6 +188,13 @@
   ],
   "nvd": [
     {
+      "id": "CVE-2026-123551",
+      "description": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvalidated internal forward on legacy Liberty ID-FF endpoints, collecting iPlanetDirectoryPro tokens to hijack user and administrator sessions.",
+      "score": 10.0,
+      "date": "2026-11-08",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551"
+    },
+    {
       "id": "CVE-2026-109469",
       "description": "Authorization bypass through user-controlled key in Entra Device Registration allows an unauthorized attacker to elevate privileges over a network.",
       "score": 10.0,
@@ -263,13 +270,6 @@
       "score": 9.9,
       "date": "2026-11-07",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17158"
-    },
-    {
-      "id": "CVE-2026-17239",
-      "description": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to a path traversal vulnerability.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17239"
     }
   ],
   "ghsa": [
@@ -399,84 +399,116 @@
   ],
   "news": [
     {
-      "title": "Opinion: Cheap Tokens Are for Disagreement, Not Generation",
-      "url": "https://dev.to/airs_6907/opinion-cheap-tokens-are-for-disagreement-not-generation-m2o",
+      "title": "AI Training Jobs From Home: Human Data Tasks on TestLancer",
+      "url": "https://dev.to/testlancer/ai-training-jobs-from-home-human-data-tasks-on-testlancer-1a85",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Free model capacity will not make your code better. It can make your review sharper. That is the whole argument. Cheap tokens have little value where you generate code. They have real value where you disagree with a first answer. Most teams spend a free allowance the wrong way. They point it at gene"
+      "date": "2026-11-08",
+      "snippet": "AI training jobs from home pay people to label data and judge AI answers, because AI models still learn from human judgement. TestLancer runs AI data projects such as data annotation, image labelling, AI response evaluation and dataset validation, and members earn rewards for approved work. This gui"
     },
     {
-      "title": "Case Study: A Cassette Proxy That Records a Model Once and Replays It in CI",
-      "url": "https://dev.to/devrs_9381/case-study-a-cassette-proxy-that-records-a-model-once-and-replays-it-in-ci-5fid",
+      "title": "Data Entry and Micro Tasks Online: Earn Beyond Testing on TestLancer",
+      "url": "https://dev.to/testlancer/data-entry-and-micro-tasks-online-earn-beyond-testing-on-testlancer-5ff5",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Your integration tests should not need a network, an API key, or a budget to prove that your prompt-building code still assembles the right payload. The cheapest way to get there is to call the model exactly once, store the response under a hash of the request, and replay that response forever after"
+      "date": "2026-11-08",
+      "snippet": "TestLancer isn't only for app testers. The same free account unlocks small freelance tasks, often called micro tasks, such as data entry, web research, data labelling and transcription. Add those skills to your profile, accept tasks that match, follow the instructions, and earn rewards once your wor"
     },
     {
-      "title": "Every Gate Needs a Receipt: A Machine-Checkable Readiness Ledger for AI Prototypes",
-      "url": "https://dev.to/codecpp_5026/every-gate-needs-a-receipt-a-machine-checkable-readiness-ledger-for-ai-prototypes-n5k",
+      "title": "Nouveauté en cours de développement : les TESTS UNITAIRES arrivent dans CoddyRun !",
+      "url": "https://dev.to/coddyrun/nouveaute-en-cours-de-developpement-les-tests-unitaires-arrivent-dans-coddyrun--1mhc",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "A checklist that lives in a wiki is a wish list. A checklist that emits a dated, hashed artifact, and a script that refuses to exit 0 without one, is a gate. That distinction is the whole article. If your readiness review can pass because someone ticked a box at 5:40pm on a Friday, you have a ritual"
+      "date": "2026-11-08",
+      "snippet": "Nouveauté en cours de développement : les TESTS UNITAIRES arrivent dans CoddyRun ! Tester son code, c’est une habitude essentielle chez les développeurs pour vérifier que leur programme fonctionne comme prévu. Je travaille actuellement à rendre cette pratique accessible, directement dans CoddyRun. h"
     },
     {
-      "title": "I tested Hindsight Memory Before Trusting CI Fixes",
-      "url": "https://dev.to/shourya_bist/i-tested-hindsight-memory-before-trusting-ci-fixes-279c",
+      "title": "TestFlight vs Google Play Closed Testing: Key Differences for Cross-Platform Teams",
+      "url": "https://dev.to/testlancer/testflight-vs-google-play-closed-testing-key-differences-for-cross-platform-teams-4b4k",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "II Tested Hindsight Memory Before Trusting CI Fixes A test passing once does not prove that a debugging assistant is reliable. An application might successfully analyze a CI log but fail to save the investigation. It might retrieve an old memory but misclassify a failed workaround as a verified fix."
+      "date": "2026-11-08",
+      "snippet": "Short answer: the biggest difference is that Google Play makes a closed test mandatory for new personal developer accounts (at least 12 testers opted in for 14 continuous days before production), while Apple's TestFlight is optional but needs App Review approval before external testers can install. "
     },
     {
-      "title": "The Connection Closed Cleanly, So We Saved Half an Answer",
-      "url": "https://dev.to/datacpp_3670/the-connection-closed-cleanly-so-we-saved-half-an-answer-6me",
+      "title": "My link checker said six of our citations were dead. All six were my HTTP client.",
+      "url": "https://dev.to/daniel_pertu/my-link-checker-said-six-of-our-citations-were-dead-all-six-were-my-http-client-211g",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "A clean socket close is not a finished answer. A streamed response has three possible endings: completed, truncated, aborted. Most clients collapse all three into one boolean called done . That boolean is exactly where half-answers get saved as final. This is a debugging retrospective you can replay"
+      "date": "2026-11-08",
+      "snippet": "Our content pages cite their sources. A page that tells a candidate how long a test is has a link to the vendor page that says so, and when the vendor deletes that page we are left asserting a number with nothing behind it. So link rot is not a tidiness problem here, it is an accuracy problem. I pul"
     },
     {
-      "title": "Record the Free Tier, Replay It Offline: A Hash-Chained Cassette Tutorial for LLM Calls",
-      "url": "https://dev.to/aiio_8140/record-the-free-tier-replay-it-offline-a-hash-chained-cassette-tutorial-for-llm-calls-1oj",
+      "title": "Require a Real Boolean Before Creating a Gift-Wrap Task",
+      "url": "https://dev.to/tom_8d160ea57bf5c0395981d/require-a-real-boolean-before-creating-a-gift-wrap-task-328k",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "A demo that only runs while someone else's quota lasts is a claim, not evidence. So here is the whole thesis up front: if you cannot replay your LLM run with the network unplugged, you cannot debug it, benchmark it, or hand it to a reviewer. Free model access makes experimentation cheap. It also mak"
+      "date": "2026-11-08",
+      "snippet": "Workstations at YX Fulfillment. An order payload contains giftWrap: \"false\" . A JavaScript adapter checks if (payload.giftWrap) and creates the packing task anyway. The problem is a mismatch between the source contract and JavaScript coercion. A nonempty string is truthy, including the string \"false"
     },
     {
-      "title": "Count the Empty Cells Before You Quote a Pass Rate",
-      "url": "https://dev.to/hackhub_6179/count-the-empty-cells-before-you-quote-a-pass-rate-1pj8",
+      "title": "Verify XLSX metadata cleanup with Python",
+      "url": "https://dev.to/aimetaclean/verify-xlsx-metadata-cleanup-with-python-3hl6",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Count the Empty Cells Before You Quote a Pass Rate A pass rate is an average over a grid you never drew. That's the whole problem. Ninety-four percent sounds like a verdict, but it's really a summary of whatever happened to be sitting in your case file that afternoon, and the file has holes in it yo"
+      "date": "2026-11-08",
+      "snippet": "An XLSX cleanup report can tell you which fields it changed. For a regression check, I also want to inspect the downloaded file itself. Did the chosen author and company fields become empty or disappear? Did the sheets, formulas, and other package parts keep the same bytes? This example uses a small"
     },
     {
-      "title": "The Handoff Gate: A Bootcamp Lab Where the Free Server Has to Survive a Fresh Clone",
-      "url": "https://dev.to/hackjs_7468/the-handoff-gate-a-bootcamp-lab-where-the-free-server-has-to-survive-a-fresh-clone-3fp4",
+      "title": "A harness grown from losses",
+      "url": "https://dev.to/serhovskyi/a-harness-grown-from-losses-jg1",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Your students' agent demos don't fail because the model is weak. They fail because nobody but the author can start them. That's the whole lab. One endpoint, four gates, and a rubric that gives zero points for cleverness and full points for reproducibility. I've watched cohort after cohort ship a dem"
+      "date": "2026-11-08",
+      "snippet": "I almost never see the auto-compact warning in Claude Code. That is not a setting. I dislike what compaction does — the conversation is replaced by a lossy summary, and the nested instruction files do not survive it — so the workflow was built so that almost no session reaches half of its context wi"
     },
     {
-      "title": "Five Ways a Free Token Allowance Dies Quietly — and the Budget Gate That Stops It",
-      "url": "https://dev.to/codex_1135/five-ways-a-free-token-allowance-dies-quietly-and-the-budget-gate-that-stops-it-5el8",
+      "title": "Reading a test result out of a coding agent's transcript is harder than checking the exit code",
+      "url": "https://dev.to/whatmyaithinks/reading-a-test-result-out-of-a-coding-agents-transcript-is-harder-than-checking-the-exit-code-3l76",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "Your free allowance does not fail loudly. It fails at 3pm on a Tuesday. Here is my position after watching this pattern repeat: an allowance is a deadline , not a cushion. Treat it like a deploy budget, or it will ambush you. This post is an anti-pattern catalog. For each one: symptoms, root cause, "
+      "date": "2026-11-08",
+      "snippet": "Coding agents record every command they run. So checking \"did the last test run pass?\" looks like one line of code: find the last test command and read its exit code. I tried that on about 16,000 public agent runs. It was wrong often enough to change the result. For one model, 88 runs looked like th"
     },
     {
-      "title": "Letter to Pre-Benchmark-Me: Three Timing Mistakes That Cost Me a Day",
-      "url": "https://dev.to/codejs_8314/letter-to-pre-benchmark-me-three-timing-mistakes-that-cost-me-a-day-2ph6",
+      "title": "Retry Timing Is a Hypothesis. Here Is How to Test Yours.",
+      "url": "https://dev.to/swipe-again/retry-timing-is-a-hypothesis-here-is-how-to-test-yours-1i19",
       "source": "DEV #testing",
       "category": "Testing",
+      "date": "2026-11-08",
+      "snippet": "Every retry schedule encodes a set of beliefs about strangers' bank accounts. The beliefs are rarely written down, which makes them impossible to argue with and even harder to improve. The schedule says day one, day three, day seven, and behind those numbers sit assumptions: that money arrives on ce"
+    },
+    {
+      "title": "Playwright Email Tests Need a Causal Timeline",
+      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-causal-timeline-38cm",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-08",
+      "snippet": "An email test that says only expected verification link, got timeout is not very useful. It tells the QA engineer where the test stopped, but not what happened before that point. For browser flows that depend on email, I treat the test as a small distributed system. The application creates a message"
+    },
+    {
+      "title": "We Used to Have Time to Be Wrong",
+      "url": "https://dev.to/diana_matusevich/we-used-to-have-time-to-be-wrong-3o8b",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-08",
+      "snippet": "AI compressed development. The requirements didn't get better — they just landed on QA with no runway left. Before AI, most of us worked inside the Agile framework - pigs and chickens, skin in the game, stand-ups, retros, story points, the whole vocabulary we all learned to speak fluently, half iron"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-08",
+      "snippet": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocat"
+    },
+    {
+      "title": "A Simple Boundary Value Analysis Exercise for Beginner QA Testers",
+      "url": "https://dev.to/miroslawqa/a-simple-boundary-value-analysis-exercise-for-beginner-qa-testers-243j",
+      "source": "DEV #qa",
+      "category": "Testing",
       "date": "2026-11-07",
-      "snippet": "Last Tuesday I lost a full day to a stream that was mostly healthy. Forty-one runs failed my own latency check. Not one of them was a slow model. The ruler was broken. Here is the letter I needed before run one. It is specific, it is short, and it takes forty minutes to follow. The goal was a boring"
+      "snippet": "A Simple Boundary Value Analysis Exercise for Beginner QA Testers One of the easiest ways to understand Boundary Value Analysis is to stop reading about it and test an actual rule. Imagine this requirement: Free delivery applies to orders of $50.00 or more. Orders below $50.00 cost $4.99 to deliver."
     },
     {
       "title": "bug report nexus studioQA",
@@ -485,14 +517,6 @@
       "category": "Testing",
       "date": "2026-11-07",
       "snippet": "What one failed test leaves behind, file by file. Every failure in Nexus StudioQA opens as a bug report in the Evidence Locker: the failure recording, a forensic report readable without the Studio, metadata, telemetry (console and network) and the raw log, plus an AI analysis written by your own AI "
-    },
-    {
-      "title": "Nightly",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium",
-      "category": "Tools",
-      "date": "2026-11-07",
-      "snippet": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocat"
     },
     {
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -701,30 +725,6 @@
       "category": "Testing",
       "date": "2026-11-05",
       "snippet": "The release candidate is ready, the functional tests are green, and the product manager has a date. Then someone asks whether it has been load tested. The performance team's next slot is in two weeks. This is the traditional model: a small group of specialists, a shared pre-production environment, a"
-    },
-    {
-      "title": "An AI agent tested Toolshop from just the URL: 23 issues, 8 real",
-      "url": "https://dev.to/shahidhelalkhan/an-ai-agent-tested-toolshop-from-just-the-url-23-issues-8-real-27oj",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-05",
-      "snippet": "Toolshop's sign-up page says a password needs at least 8 characters. The form enforces 8. The API enforces 8. Type 7 and the error message says the minimum is 6. That's the best of 8 real bugs our AI testing agent found on Toolshop , the demo hardware store a lot of testers learn Playwright and Cypr"
-    },
-    {
-      "title": "Quality Assurance - Web Testing",
-      "url": "https://dev.to/dev-dinakajoy/quality-assurance-web-testing-39ng",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-05",
-      "snippet": "I have learned how to test features, write test cases, execute tests, and report bugs. As a software developer transitioning into software testing, my next step is WebTesting. What actually happens when I interact with a web application? Say I click Login, search for a restaurant, or add food to my "
-    },
-    {
-      "title": "AI Can Write Tests. But Are We Testing the Right Things?",
-      "url": "https://dev.to/rimonnassory/ai-can-write-tests-but-are-we-testing-the-right-things-27mk",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-05",
-      "snippet": "AI is changing how we approach software testing. But generating more tests doesn't necessarily mean delivering better software. AI Is Making Test Automation Faster Over the past year, I've been exploring how AI can improve our QA processes, especially when working with Playwright and automated regre"
     },
     {
       "title": "v1.65.0",
