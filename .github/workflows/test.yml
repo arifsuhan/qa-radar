@@ -1,14 +1,14 @@
-name: Scheduled Workflow (Native UTC+6)
+# name: Scheduled Workflow (Native UTC+6)
 
-on:
-  schedule:
-    # Example: Runs daily at 9:30 AM local time (UTC+6)
-    - cron: '1 * * * *'
-      timezone: 'Asia/Dhaka' # Sets the reference timezone directly
+# on:
+#   schedule:
+#     # Example: Runs daily at 9:30 AM local time (UTC+6)
+#     - cron: '1 * * * *'
+#       timezone: 'Asia/Dhaka' # Sets the reference timezone directly
 
-jobs:
-  run-cron:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Execute script
-        run: echo "Running task in UTC+6 time context"
+# jobs:
+#   run-cron:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Execute script
+#         run: echo "Running task in UTC+6 time context"
