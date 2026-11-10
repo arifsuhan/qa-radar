@@ -1,82 +1,118 @@
 {
-  "generated_at": "2026-11-09T11:16:05+00:00",
+  "generated_at": "2026-11-10T10:56:52+00:00",
   "model": "gemini-2.5-flash",
   "brief": [],
   "top_news": [
     {
-      "title": "How I test CSS animations with Playwright and getAnimations()",
-      "url": "https://dev.to/dmytroshyshko/how-i-test-css-animations-with-playwright-and-getanimations-4bnl",
+      "title": "Providers On A Laptop",
+      "url": "https://dev.to/anton_brilliantov/providers-on-a-laptop-9dc",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "I build nudge-icons , a set of animated line icons for React and Vue. Every icon has its own small motion: the bell rings, the arrow sinks into the tray, the menu folds into a cross. All of it is plain CSS, with no animation library. Testing these animations turned out to be harder than testing the ",
+      "date": "2026-11-10",
+      "snippet": "Third-party APIs raised on a laptop as emulators built from their own published API, answering by scenario - a provider that returns 5xx, one with the wrong account settings, timeouts, duplicated callbacks. A proposal; nothing is built yet. 👋 Hi, I'm Anton - a software engineer. These days I work on",
       "why": ""
     },
     {
-      "title": "Predictive Test Selection Without SaaS Lock-In: Storing TIA Indexes in GitHub Actions Cache or S3",
-      "url": "https://dev.to/baokhang83/predictive-test-selection-without-saas-lock-in-storing-tia-indexes-in-github-actions-cache-or-s3-5coo",
+      "title": "Anatomy of a Clean Pen Test and a Compromised AI Agent",
+      "url": "https://dev.to/vivek_1122/anatomy-of-a-clean-pen-test-and-a-compromised-ai-agent-11eh",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Hosted predictive test selection products solve a real problem, and they come with a procurement conversation: another vendor, another bill, and a security review about sending build and test metadata to someone else's servers. Some teams clear that review. Plenty do not, or cannot justify the budge",
+      "date": "2026-11-10",
+      "snippet": "A company launches an AI support agent. It can look up orders, update customer records, send emails, and issue refunds up to a set limit. Before launch, the security team runs a full penetration test. The results are excellent. Ports are locked down. Authentication is solid. APIs are patched. The re",
       "why": ""
     },
     {
-      "title": "Software Testing for Kids: Why Learning to Check Code Is as Important as Writing It",
-      "url": "https://dev.to/codingzen/software-testing-for-kids-why-learning-to-check-code-is-as-important-as-writing-it-57a",
+      "title": "A one-line CSV fixture with two different ways to fail",
+      "url": "https://dev.to/dwu081979/a-one-line-csv-fixture-with-two-different-ways-to-fail-34hn",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "A student builds a calculator that adds two numbers correctly. They test 5 + 3, get 8, and proudly announce that the project is finished. But what happens when someone enters a negative number? What if the input is left blank? What if a user types letters instead of numbers? The calculator may work ",
+      "date": "2026-11-10",
+      "snippet": "This is an AI-generated test note. The Python example below was executed before publication. One input row is enough for a broken importer to pass a plausible test. The last column survives even when the earlier fields are wrong. import csv row = '\"Elm, East\",\"A \"\"quiet\"\" room\",3' expected = [ 'Elm,",
       "why": ""
     },
     {
-      "title": "Catch Metronome Editing by Measuring Shot Length Spread in Python",
-      "url": "https://dev.to/yusuf_khan_a36b09b5591961/catch-metronome-editing-by-measuring-shot-length-spread-in-python-caj",
+      "title": "Checking a word-reveal caption pipeline without mistaking hashes for review",
+      "url": "https://dev.to/pawpiteam/checking-a-word-reveal-caption-pipeline-without-mistaking-hashes-for-review-4cp0",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "A reel where every cut lands about two seconds after the last one can feel mechanical, even when each shot is fine on its own. You can flag that from the shot lengths alone. Measure how much the shot lengths vary, check for runs of near-identical cuts, and print a verdict. Two numbers, two different",
+      "date": "2026-11-10",
+      "snippet": "A short video can decode correctly while its captions are wrong. The useful engineering split is to check file identity, timeline boundaries, audio preservation and visual behavior separately. Here is one concrete 24 fps caption pipeline, including the limits of its checks. Generated with AI from Pa",
       "why": ""
     },
     {
-      "title": "I built 10 free dev & QA tools that run in your browser, then tested them like production",
-      "url": "https://dev.to/rupeshpjadhav/i-built-10-free-dev-qa-tools-that-run-in-your-browser-then-tested-them-like-production-462b",
+      "title": "Earn Money Testing Websites and Apps: The Complete TestLancer Guide",
+      "url": "https://dev.to/testlancer/earn-money-testing-websites-and-apps-the-complete-testlancer-guide-1jc0",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "I've spent 20+ years in QA, and a surprising amount of my day goes to small chores: generating test data, pretty-printing an API response, diffing two payloads, checking a YAML pipeline file before it breaks a build. For years I used a dozen different websites for those chores. Some were full of pop",
+      "date": "2026-11-10",
+      "snippet": "You can earn money testing websites and apps on TestLancer. Join with one free account, add your devices and skills, accept tasks that match, submit honest work with evidence, and collect rewards in your wallet once they're approved. This complete guide brings together everything TestLancer publishe",
       "why": ""
     },
     {
-      "title": "How to Run Test Impact Analysis in Maven Without Breaking JaCoCo Code Coverage",
-      "url": "https://dev.to/baokhang83/how-to-run-test-impact-analysis-in-maven-without-breaking-jacoco-code-coverage-32ec",
+      "title": "What happens when an AI receptionist doesn't know the answer?",
+      "url": "https://dev.to/adelatya/what-happens-when-an-ai-receptionist-doesnt-know-the-answer-4lbp",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Test impact analysis (TIA) and code coverage both want the same thing from your build: a seat on the test JVM's command line. Coverage tools attach a Java agent through argLine . Many TIA tools do too. When two agents, or two plugins writing the same property, meet in one argLine , the usual outcome",
+      "date": "2026-11-10",
+      "snippet": "A well-built AI receptionist says it doesn't know, takes the caller's name and number, and logs the call for a person to follow up. A badly built one guesses, and a confident guess about a price or an opening time is worse than silence. Which of the two you get depends on how the agent is set up, no",
       "why": ""
     },
     {
-      "title": "Paid App Testing in India: What Testers Should Know Before Joining",
-      "url": "https://dev.to/testlancer/paid-app-testing-in-india-what-testers-should-know-before-joining-150p",
+      "title": "Sort an Inventory View Without Reordering the Source Snapshot",
+      "url": "https://dev.to/tom_8d160ea57bf5c0395981d/sort-an-inventory-view-without-reordering-the-source-snapshot-34ik",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Paid app testing in India is real, but it's task-based. On TestLancer, Indian testers join free, list their phones and languages, take matching app and website tests, and receive rewards in their wallet once work is approved. When the approved balance reaches the minimum shown in the wallet, they re",
+      "date": "2026-11-10",
+      "snippet": "An inventory review wants high quantities first. A second consumer expects the original snapshot order. Calling sort() on their shared array makes the first view change the second consumer's input. For a Shopify 3PL reporting adapter, define ownership of the snapshot before building display views. J",
       "why": ""
     },
     {
-      "title": "How to Become an App Tester (No Experience Needed)",
-      "url": "https://dev.to/testlancer/how-to-become-an-app-tester-no-experience-needed-ba3",
+      "title": "Remote Software Tester Jobs for Freshers: Start With Real Projects",
+      "url": "https://dev.to/testlancer/remote-software-tester-jobs-for-freshers-start-with-real-projects-1mli",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "To become an app tester, you need a phone you use daily, the patience to follow instructions, and the ability to describe problems clearly. Then join a genuine platform. On TestLancer you sign up free, add your devices and skills, get matched to tasks, and earn rewards when your work is approved. No",
+      "date": "2026-11-10",
+      "snippet": "Freshers looking for remote software tester jobs often hit the \"no experience\" wall: every listing wants a year of QA work you haven't had a chance to do. Task-based testing on TestLancer helps bridge that gap. You join free, test real apps and websites for real businesses, build a record of approve",
       "why": ""
     }
   ],
   "kev": [
+    {
+      "id": "CVE-2026-102895",
+      "title": "GPUStack Improper Authentication Vulnerability",
+      "product": "GPUStack GPUStack",
+      "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+    },
+    {
+      "id": "CVE-2026-123158",
+      "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "product": "OpenBSD OpenSSH",
+      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    },
+    {
+      "id": "CVE-2026-116779",
+      "title": "SignalWire FreeSwitch Code Injection Vulnerability",
+      "product": "SignalWire FreeSwitch",
+      "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+    },
+    {
+      "id": "CVE-2026-123218",
+      "title": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+      "product": "IBM Aspera Faspex",
+      "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+    },
     {
       "id": "CVE-2026-19868",
       "title": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
@@ -148,45 +184,37 @@
       "date": "2026-10-28",
       "ransomware": false,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
-    },
-    {
-      "id": "CVE-2026-46300",
-      "title": "Linux Kernel Missing Initialization of a Variable Vulnerability",
-      "product": "Linux Kernel",
-      "description": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
-      "date": "2026-10-28",
-      "ransomware": false,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
-    },
-    {
-      "id": "CVE-2026-48356",
-      "title": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "product": "Adobe Commerce and Magento",
-      "description": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
-      "date": "2026-10-27",
-      "ransomware": false,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
-    },
-    {
-      "id": "CVE-2026-111497",
-      "title": "Google Brotli Unchecked Return Value Vulnerability",
-      "product": "Google Brotli",
-      "description": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
-      "date": "2026-10-27",
-      "ransomware": false,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
-    },
-    {
-      "id": "CVE-2026-109618",
-      "title": "PHP Memory Corruption Vulnerability",
-      "product": "PHP Group PHP",
-      "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-      "date": "2026-10-26",
-      "ransomware": false,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
     }
   ],
   "nvd": [
+    {
+      "id": "CVE-2026-120017",
+      "description": "SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incoming authentication assertions under certain configurations. An unauthenticated attacker could submit specially crafted data to bypass authentication and impersonate arbitrary users, including privileged accounts. Successful exploitation could cause a full system compromise, with the impact potentially extendin",
+      "score": 10.0,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120017"
+    },
+    {
+      "id": "CVE-2026-76964",
+      "description": "SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high ",
+      "score": 10.0,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76964"
+    },
+    {
+      "id": "CVE-2026-89103",
+      "description": "SAP Gateway activates the default Access Control List with high privileges allowing categorization of external attacker as internal application server. As a result an unauthenticated attacker with network access to the SAP Gateway could exploit this weakness to potentially perform unauthorized actions within the application environment, resulting in a high impact on the confidentiality, integrity,",
+      "score": 10.0,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89103"
+    },
+    {
+      "id": "CVE-2026-89126",
+      "description": "SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high impact on confident",
+      "score": 10.0,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89126"
+    },
     {
       "id": "CVE-2026-123551",
       "description": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvalidated internal forward on legacy Liberty ID-FF endpoints, collecting iPlanetDirectoryPro tokens to hijack user and administrator sessions.",
@@ -200,6 +228,27 @@
       "score": 10.0,
       "date": "2026-11-06",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109469"
+    },
+    {
+      "id": "CVE-2026-109795",
+      "description": "SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality. An attacker with low privileges could send specially crafted input through a remote interface to inject and execute arbitrary code within the affected system. Successful exploitation could extend the attacker's reach beyond the vulnerable component, resulting",
+      "score": 9.9,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109795"
+    },
+    {
+      "id": "CVE-2026-109803",
+      "description": "SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the affected functionality. Under certain conditions, an authenticated user with access to the affected functionality could cause an unauthorized XSL transformation to be processed, potentially leading to arbitrary code execution in the application context. Successful exp",
+      "score": 9.9,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109803"
+    },
+    {
+      "id": "CVE-2026-76965",
+      "description": "SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for certain internal functionality. An attacker with low privileges could invoke affected functionality to execute arbitrary operating system commands on the underlying host. Successful exploitation could impact resources beyond the vulnerable component, resulting in a high impact on confidentia",
+      "score": 9.9,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76965"
     },
     {
       "id": "CVE-2026-107331",
@@ -221,58 +270,69 @@
       "score": 9.9,
       "date": "2026-11-07",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16920"
-    },
-    {
-      "id": "CVE-2026-17049",
-      "description": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information and modify arbitrary documents due to authorization bypass through user-controlled keys.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17049"
-    },
-    {
-      "id": "CVE-2026-17132",
-      "description": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary SQL commands due to improper neutralization of special elements used in an SQL command.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17132"
-    },
-    {
-      "id": "CVE-2026-17134",
-      "description": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary SQL commands due to SQL injection.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17134"
-    },
-    {
-      "id": "CVE-2026-17146",
-      "description": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary JavaScript and obtain sensitive information due to improper input validation.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17146"
-    },
-    {
-      "id": "CVE-2026-17158",
-      "description": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to gain elevated privileges due to improper authentication.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17158"
-    },
-    {
-      "id": "CVE-2026-17298",
-      "description": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17298"
-    },
-    {
-      "id": "CVE-2026-17336",
-      "description": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary SQL commands due to improper neutralization of special elements used in an SQL command.",
-      "score": 9.9,
-      "date": "2026-11-07",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17336"
     }
   ],
   "ghsa": [
+    {
+      "id": "GHSA-rjr3-43j3-4q8g",
+      "cve": "CVE-2026-77596",
+      "title": "Kubeflow Pipelines API server lacks authorization for shared pipeline uploads",
+      "packages": [
+        "go/github.com/kubeflow/pipelines"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-rjr3-43j3-4q8g"
+    },
+    {
+      "id": "GHSA-gj9m-f8ph-pmhr",
+      "cve": "CVE-2026-102895",
+      "title": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
+      "packages": [
+        "pip/gpustack"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr"
+    },
+    {
+      "id": "GHSA-rm8c-2cv8-jwf6",
+      "cve": "CVE-2026-115770",
+      "title": "Pocket ID: Email verification token remains valid after address change, enabling arbitrary verified-email spoofing",
+      "packages": [
+        "go/github.com/pocket-id/pocket-id/backend"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-rm8c-2cv8-jwf6"
+    },
+    {
+      "id": "GHSA-p2mm-64f6-gmpp",
+      "cve": "CVE-2026-63471",
+      "title": "fastapi-code-generator: Import-time RCE via route path -> unescaped @app.get('...') decorator",
+      "packages": [
+        "pip/fastapi-code-generator"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-p2mm-64f6-gmpp"
+    },
+    {
+      "id": "GHSA-6xmv-cjr5-w3q8",
+      "cve": "CVE-2026-63469",
+      "title": "fastapi-code-generator: Import-time RCE via response status-code key -> unescaped @app.get(..., responses={...}) dict",
+      "packages": [
+        "pip/fastapi-code-generator"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-6xmv-cjr5-w3q8"
+    },
+    {
+      "id": "GHSA-h667-4jj2-cgv4",
+      "cve": "CVE-2026-63470",
+      "title": "fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring",
+      "packages": [
+        "pip/fastapi-code-generator"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-h667-4jj2-cgv4"
+    },
     {
       "id": "GHSA-47w9-6r3f-938g",
       "cve": null,
@@ -332,151 +392,248 @@
       ],
       "date": "2026-11-06",
       "url": "https://github.com/advisories/GHSA-9j25-mm2h-2f76"
-    },
-    {
-      "id": "GHSA-5q7h-w9jf-cx97",
-      "cve": "CVE-2026-105769",
-      "title": "kaniko can send the build's Azure (Entra ID) access token to lookalike ACR registry hosts",
-      "packages": [
-        "go/github.com/chainguard-dev/kaniko"
-      ],
-      "date": "2026-11-05",
-      "url": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97"
-    },
-    {
-      "id": "GHSA-33r5-xmm8-v6x5",
-      "cve": "CVE-2026-44267",
-      "title": "Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
-      "packages": [
-        "npm/@enspirit/elo"
-      ],
-      "date": "2026-11-03",
-      "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5"
-    },
-    {
-      "id": "GHSA-7w38-ggh5-v542",
-      "cve": "CVE-2026-44266",
-      "title": "Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
-      "packages": [
-        "npm/@enspirit/elo"
-      ],
-      "date": "2026-11-03",
-      "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542"
-    },
-    {
-      "id": "GHSA-4xm8-rg9h-jhq2",
-      "cve": null,
-      "title": "Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution",
-      "packages": [
-        "npm/@signalk/resources-provider",
-        "npm/signalk-server"
-      ],
-      "date": "2026-10-30",
-      "url": "https://github.com/advisories/GHSA-4xm8-rg9h-jhq2"
-    },
-    {
-      "id": "GHSA-hff9-5pqw-6w9f",
-      "cve": null,
-      "title": "imgproxy has integer overflow in imgproxy ICO loader that causes denial of service and may permit remote code execution",
-      "packages": [
-        "go/github.com/imgproxy/imgproxy",
-        "go/github.com/imgproxy/imgproxy/v2",
-        "go/github.com/imgproxy/imgproxy/v3"
-      ],
-      "date": "2026-10-30",
-      "url": "https://github.com/advisories/GHSA-hff9-5pqw-6w9f"
-    },
-    {
-      "id": "GHSA-5xjx-3w67-w9x9",
-      "cve": null,
-      "title": "pypi-publish action revocation of CA in the chain that Sigstore uses in Trusted Publishing and Digital Attestations for PyPI",
-      "packages": [
-        "actions/pypa/gh-action-pypi-publish"
-      ],
-      "date": "2026-10-30",
-      "url": "https://github.com/advisories/GHSA-5xjx-3w67-w9x9"
     }
   ],
   "news": [
     {
-      "title": "How I test CSS animations with Playwright and getAnimations()",
-      "url": "https://dev.to/dmytroshyshko/how-i-test-css-animations-with-playwright-and-getanimations-4bnl",
+      "title": "Providers On A Laptop",
+      "url": "https://dev.to/anton_brilliantov/providers-on-a-laptop-9dc",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "I build nudge-icons , a set of animated line icons for React and Vue. Every icon has its own small motion: the bell rings, the arrow sinks into the tray, the menu folds into a cross. All of it is plain CSS, with no animation library. Testing these animations turned out to be harder than testing the "
+      "date": "2026-11-10",
+      "snippet": "Third-party APIs raised on a laptop as emulators built from their own published API, answering by scenario - a provider that returns 5xx, one with the wrong account settings, timeouts, duplicated callbacks. A proposal; nothing is built yet. 👋 Hi, I'm Anton - a software engineer. These days I work on"
     },
     {
-      "title": "Predictive Test Selection Without SaaS Lock-In: Storing TIA Indexes in GitHub Actions Cache or S3",
-      "url": "https://dev.to/baokhang83/predictive-test-selection-without-saas-lock-in-storing-tia-indexes-in-github-actions-cache-or-s3-5coo",
+      "title": "Anatomy of a Clean Pen Test and a Compromised AI Agent",
+      "url": "https://dev.to/vivek_1122/anatomy-of-a-clean-pen-test-and-a-compromised-ai-agent-11eh",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Hosted predictive test selection products solve a real problem, and they come with a procurement conversation: another vendor, another bill, and a security review about sending build and test metadata to someone else's servers. Some teams clear that review. Plenty do not, or cannot justify the budge"
+      "date": "2026-11-10",
+      "snippet": "A company launches an AI support agent. It can look up orders, update customer records, send emails, and issue refunds up to a set limit. Before launch, the security team runs a full penetration test. The results are excellent. Ports are locked down. Authentication is solid. APIs are patched. The re"
     },
     {
-      "title": "Software Testing for Kids: Why Learning to Check Code Is as Important as Writing It",
-      "url": "https://dev.to/codingzen/software-testing-for-kids-why-learning-to-check-code-is-as-important-as-writing-it-57a",
+      "title": "A one-line CSV fixture with two different ways to fail",
+      "url": "https://dev.to/dwu081979/a-one-line-csv-fixture-with-two-different-ways-to-fail-34hn",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "A student builds a calculator that adds two numbers correctly. They test 5 + 3, get 8, and proudly announce that the project is finished. But what happens when someone enters a negative number? What if the input is left blank? What if a user types letters instead of numbers? The calculator may work "
+      "date": "2026-11-10",
+      "snippet": "This is an AI-generated test note. The Python example below was executed before publication. One input row is enough for a broken importer to pass a plausible test. The last column survives even when the earlier fields are wrong. import csv row = '\"Elm, East\",\"A \"\"quiet\"\" room\",3' expected = [ 'Elm,"
     },
     {
-      "title": "Catch Metronome Editing by Measuring Shot Length Spread in Python",
-      "url": "https://dev.to/yusuf_khan_a36b09b5591961/catch-metronome-editing-by-measuring-shot-length-spread-in-python-caj",
+      "title": "Checking a word-reveal caption pipeline without mistaking hashes for review",
+      "url": "https://dev.to/pawpiteam/checking-a-word-reveal-caption-pipeline-without-mistaking-hashes-for-review-4cp0",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "A reel where every cut lands about two seconds after the last one can feel mechanical, even when each shot is fine on its own. You can flag that from the shot lengths alone. Measure how much the shot lengths vary, check for runs of near-identical cuts, and print a verdict. Two numbers, two different"
+      "date": "2026-11-10",
+      "snippet": "A short video can decode correctly while its captions are wrong. The useful engineering split is to check file identity, timeline boundaries, audio preservation and visual behavior separately. Here is one concrete 24 fps caption pipeline, including the limits of its checks. Generated with AI from Pa"
     },
     {
-      "title": "I built 10 free dev & QA tools that run in your browser, then tested them like production",
-      "url": "https://dev.to/rupeshpjadhav/i-built-10-free-dev-qa-tools-that-run-in-your-browser-then-tested-them-like-production-462b",
+      "title": "Earn Money Testing Websites and Apps: The Complete TestLancer Guide",
+      "url": "https://dev.to/testlancer/earn-money-testing-websites-and-apps-the-complete-testlancer-guide-1jc0",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "I've spent 20+ years in QA, and a surprising amount of my day goes to small chores: generating test data, pretty-printing an API response, diffing two payloads, checking a YAML pipeline file before it breaks a build. For years I used a dozen different websites for those chores. Some were full of pop"
+      "date": "2026-11-10",
+      "snippet": "You can earn money testing websites and apps on TestLancer. Join with one free account, add your devices and skills, accept tasks that match, submit honest work with evidence, and collect rewards in your wallet once they're approved. This complete guide brings together everything TestLancer publishe"
     },
     {
-      "title": "How to Run Test Impact Analysis in Maven Without Breaking JaCoCo Code Coverage",
-      "url": "https://dev.to/baokhang83/how-to-run-test-impact-analysis-in-maven-without-breaking-jacoco-code-coverage-32ec",
+      "title": "What happens when an AI receptionist doesn't know the answer?",
+      "url": "https://dev.to/adelatya/what-happens-when-an-ai-receptionist-doesnt-know-the-answer-4lbp",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Test impact analysis (TIA) and code coverage both want the same thing from your build: a seat on the test JVM's command line. Coverage tools attach a Java agent through argLine . Many TIA tools do too. When two agents, or two plugins writing the same property, meet in one argLine , the usual outcome"
+      "date": "2026-11-10",
+      "snippet": "A well-built AI receptionist says it doesn't know, takes the caller's name and number, and logs the call for a person to follow up. A badly built one guesses, and a confident guess about a price or an opening time is worse than silence. Which of the two you get depends on how the agent is set up, no"
     },
     {
-      "title": "Paid App Testing in India: What Testers Should Know Before Joining",
-      "url": "https://dev.to/testlancer/paid-app-testing-in-india-what-testers-should-know-before-joining-150p",
+      "title": "Sort an Inventory View Without Reordering the Source Snapshot",
+      "url": "https://dev.to/tom_8d160ea57bf5c0395981d/sort-an-inventory-view-without-reordering-the-source-snapshot-34ik",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Paid app testing in India is real, but it's task-based. On TestLancer, Indian testers join free, list their phones and languages, take matching app and website tests, and receive rewards in their wallet once work is approved. When the approved balance reaches the minimum shown in the wallet, they re"
+      "date": "2026-11-10",
+      "snippet": "An inventory review wants high quantities first. A second consumer expects the original snapshot order. Calling sort() on their shared array makes the first view change the second consumer's input. For a Shopify 3PL reporting adapter, define ownership of the snapshot before building display views. J"
     },
     {
-      "title": "How to Become an App Tester (No Experience Needed)",
-      "url": "https://dev.to/testlancer/how-to-become-an-app-tester-no-experience-needed-ba3",
+      "title": "Remote Software Tester Jobs for Freshers: Start With Real Projects",
+      "url": "https://dev.to/testlancer/remote-software-tester-jobs-for-freshers-start-with-real-projects-1mli",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "To become an app tester, you need a phone you use daily, the patience to follow instructions, and the ability to describe problems clearly. Then join a genuine platform. On TestLancer you sign up free, add your devices and skills, get matched to tasks, and earn rewards when your work is approved. No"
+      "date": "2026-11-10",
+      "snippet": "Freshers looking for remote software tester jobs often hit the \"no experience\" wall: every listing wants a year of QA work you haven't had a chance to do. Task-based testing on TestLancer helps bridge that gap. You join free, test real apps and websites for real businesses, build a record of approve"
     },
     {
-      "title": "JEV 1.14 for developers: what the decision model takes in, returns and can judge",
-      "url": "https://dev.to/buluo/jev-114-for-developers-what-the-decision-model-takes-in-returns-and-can-judge-328j",
+      "title": "A Cue Sheet for Reviewing Fictional Voice Assets",
+      "url": "https://dev.to/sophie_bella_5f438de0c1c3/a-cue-sheet-for-reviewing-fictional-voice-assets-n6o",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Many features in a product come down to a small decision on a piece of text. Which queue should this ticket go to? Is this message urgent? Does this retrieved paragraph actually answer the user's question? You can ask a general chat model these things, but it replies in prose. You then write a parse"
+      "date": "2026-11-10",
+      "snippet": "The playable file is not the publishable unit Voice interfaces make it easy to test a script, but a shareable clip includes more than audio. A viewer meets a title, first frame, caption, visible action, and line at once. If those pieces do not agree, a recognisable candidate label can appear to prov"
     },
     {
-      "title": "Beta Testing an App Before Launch on Google Play and the App Store: A 3-Week Plan",
-      "url": "https://dev.to/testlancer/beta-testing-an-app-before-launch-on-google-play-and-the-app-store-a-3-week-plan-35a7",
+      "title": "Beta Testing Apps for Money: Do It Right and Get Approved",
+      "url": "https://dev.to/testlancer/beta-testing-apps-for-money-do-it-right-and-get-approved-4dan",
       "source": "DEV #testing",
       "category": "Testing",
+      "date": "2026-11-10",
+      "snippet": "Beta testing apps for money works when you commit fully: install the pre-release build, use it daily as instructed, report real issues and stay until the test ends. On TestLancer, rewards for beta and closed tests usually depend on completing the full period and the daily check-ins, and are credited"
+    },
+    {
+      "title": "ISTQB CTFL v4.0 : d'où viennent vraiment les 40 questions de l'examen",
+      "url": "https://dev.to/automationdatacamp/istqb-ctfl-v40-dou-viennent-vraiment-les-40-questions-de-lexamen-4b14",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-10",
+      "snippet": "Le Certified Tester Foundation Level de l'ISTQB (CTFL, syllabus v4.0) est un examen de 40 questions à choix multiples. Vous avez 60 minutes et il faut 26 bonnes réponses (65 %). Si vous ne passez pas l'examen dans votre langue maternelle, vous avez 25 % de temps en plus. La plupart des guides donnen"
+    },
+    {
+      "title": "ISTQB CTFL v4.0: where the 40 exam questions really come from",
+      "url": "https://dev.to/automationdatacamp/istqb-ctfl-v40-where-the-40-exam-questions-really-come-from-1o5g",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-10",
+      "snippet": "The ISTQB Certified Tester Foundation Level (CTFL, syllabus v4.0) is a 40-question multiple-choice exam. You have 60 minutes and need 26 correct answers (65%). If you do not take it in your native language, you get 25% extra time. Most study guides give every chapter the same attention. The exam doe"
+    },
+    {
+      "title": "Testing Websites on Real Phones: Our Pre-Launch QA Process",
+      "url": "https://dev.to/aimencoders/testing-websites-on-real-phones-our-pre-launch-qa-process-48d0",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-10",
+      "snippet": "Emulators catch layout bugs. They do not catch what a real phone does to your site. This is how we run pre-launch mobile website testing at aimEncoders: real devices, real taps, real mobile data, before anything ships. The short version: a site is launch-ready when it works in a customer's hand, not"
+    },
+    {
+      "title": "289 tests, 23 bugs, 8 real: what we learned checking every finding our AI testing agent made",
+      "url": "https://dev.to/testoptim-ai/289-tests-23-bugs-8-real-what-we-learned-checking-every-finding-our-ai-testing-agent-made-1po2",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-10",
+      "snippet": "Judge an AI testing tool by what survives a manual check, not by how many bugs it reports. I build an AI testing tool, so let me say the uncomfortable part first: tools like mine sell on volume. \"Hundreds of tests in minutes.\" \"Dozens of bugs on the first run.\" I get why. A big number looks great in"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-10",
+      "snippet": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocat"
+    },
+    {
+      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which "
+    },
+    {
+      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+      "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost set"
+    },
+    {
+      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+      "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three worki"
+    },
+    {
+      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+      "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component"
+    },
+    {
+      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+      "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking our"
+    },
+    {
+      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are"
+    },
+    {
+      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]"
+    },
+    {
+      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]"
+    },
+    {
+      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]"
+    },
+    {
+      "title": "Fireworks AI discloses new breach after cloud provider hack",
+      "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-10",
+      "snippet": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]"
+    },
+    {
+      "title": "Playwright Email Tests: Find the First Bad State",
+      "url": "https://dev.to/silviutech/playwright-email-tests-find-the-first-bad-state-8lk",
+      "source": "DEV #qa",
+      "category": "Testing",
       "date": "2026-11-09",
-      "snippet": "Short answer: start the Google Play closed test as early as possible, because new personal accounts need at least 12 testers opted in for 14 continuous days and then a production access review. Run a TestFlight beta in parallel for iOS. Use week one for setup and stability, week two for real-world u"
+      "snippet": "Email verification tests often fail in the inbox step, but the inbox is rarely the real cause. A signup test can pass the form, create a user, request a message, and then fail because the assertion ran before the message became visible. The failure is usualy reported as “email not found,” which hide"
+    },
+    {
+      "title": "Your API test suite is green and your contract is still untested",
+      "url": "https://dev.to/itfabers/your-api-test-suite-is-green-and-your-contract-is-still-untested-4317",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-09",
+      "snippet": "A test that checks for HTTP 200 and stops there is not testing your API. It is testing that the server is awake. I have been building a small tool that turns OpenAPI specs into runnable test suites. The hard part was never generating the code. It was deciding what a generated test is allowed to asse"
+    },
+    {
+      "title": "AI Agents in QA Testing: Is 2026 The Year Everything Changes?",
+      "url": "https://dev.to/wuweiweiwu/ai-agents-in-qa-testing-is-2026-the-year-everything-changes-141d",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-09",
+      "snippet": "Originally published on the Momentic blog . Is 2026 set to be the year of the AI agent? It certainly seems to be shaping up that way. With the cost and efficiency benefits of GenAI now firmly established, a recent McKinsey study suggests that 92% of businesses are planning to invest more in generati"
+    },
+    {
+      "title": "AI Can Generate the Tests. QA Still Has to Define “Correct.”",
+      "url": "https://dev.to/oleksoleks07/ai-can-generate-the-tests-qa-still-has-to-define-correct-3coo",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-09",
+      "snippet": "AI Can Generate the Tests. QA Still Has to Define “Correct.” An AI coding agent can generate twenty tests before you finish your coffee. It can add edge cases, run the suite, and report a green check. But there is a question those green checks cannot answer on their own: Who decided what the correct"
+    },
+    {
+      "title": "Our checkout tests were green for six weeks. Checkout was broken for two of them.",
+      "url": "https://dev.to/alexai/our-checkout-tests-were-green-for-six-weeks-checkout-was-broken-for-two-of-them-23pg",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-09",
+      "snippet": "Last spring I spent a Thursday afternoon explaining to our support lead why customers in Ontario couldn't finish a purchase while our CI dashboard showed nothing but green. It wasn't a fun conversation, and it changed how I think about what a test is supposed to prove. What we were actually testing "
     },
     {
       "title": "Bug Reports Kept Arriving as Messy Chats, So I Built a Tracker That Fits in One Page",
@@ -487,252 +644,92 @@
       "snippet": "When I started doing QA testing, I noticed something fast. Bugs did not arrive as bug reports. They arrived as chat messages. \"The login is broken.\" No severity. No steps to reproduce. No expected result, no actual result. Nothing a developer could act on, and nothing I could hand to a client as pro"
     },
     {
-      "title": "Playwright explained before you join QA automation training in Nepal",
-      "url": "https://dev.to/saarathi_academy/playwright-explained-before-you-join-qa-automation-training-in-nepal-382h",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Playwright is a free, open source tool that opens a real browser, clicks through a website like a user, and checks what it sees. In most QA automation training it is the tool you spend the most hours with, so try it for 30 minutes tonight before you pay anyone. You do not need to know how to code fo"
-    },
-    {
-      "title": "LLM-as-a-judge: building an AI grader you can actually trust",
-      "url": "https://dev.to/nikolay_chernev_a67479931/llm-as-a-judge-building-an-ai-grader-you-can-actually-trust-3eao",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "Short answer: An LLM judge works when you've calibrated it against human labels. Without calibration it's noise dressed up as a metric. The rubric is the actual work — the judge model just executes it. Teams reach for LLM-as-judge because there's no other way to automatically score whether a support"
-    },
-    {
-      "title": "Turning Product Claims Into Repeatable Performance Tests OEM Buyers Can Audit",
-      "url": "https://dev.to/madeindayin/turning-product-claims-into-repeatable-performance-tests-oem-buyers-can-audit-5e5",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-09",
-      "snippet": "A supplier says a dartboard scores accurately and a robot vacuum handles pet hair. Both statements sound reassuring and neither can be verified. For an OEM buyer this is exactly where disputes begin, because a claim built on adjectives means something different to the factory, the brand, and the per"
-    },
-    {
-      "title": "Nightly",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium",
-      "category": "Tools",
-      "date": "2026-11-09",
-      "snippet": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocat"
-    },
-    {
-      "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-      "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-09",
-      "snippet": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts use"
-    },
-    {
-      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-      "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-09",
-      "snippet": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video foota"
-    },
-    {
-      "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-      "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-09",
-      "snippet": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where"
-    },
-    {
-      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-      "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-09",
-      "snippet": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or inte"
-    },
-    {
-      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-      "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-09",
-      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2"
-    },
-    {
-      "title": "One product, three doors: testing a FinTech platform through a web portal, a Telegram Mini App and a bot",
-      "url": "https://dev.to/nutts5796/one-product-three-doors-testing-a-fintech-platform-through-a-web-portal-a-telegram-mini-app-and-3c2l",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-08",
-      "snippet": "For about a year I tested a FinTech platform that customers could reach in three ways: a web client portal, a Telegram Mini App and a Telegram bot. Payments, billing and reports were the same underneath, but each channel showed them differently, and each one could break in its own way. This is what "
-    },
-    {
-      "title": "The box that fell behind a seat: what delivery logistics taught me about data between systems",
-      "url": "https://dev.to/nutts5796/the-box-that-fell-behind-a-seat-what-delivery-logistics-taught-me-about-data-between-systems-291f",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-08",
-      "snippet": "Before I became a QA engineer, I ran transport logistics at a delivery warehouse near Moscow. Every day 50 to 60 drivers left our gates, and together they made about 2,500 to 3,000 deliveries. Later, for a few months, I drove a delivery van myself, doing 70 to 100 drops a day. I now test software fo"
-    },
-    {
-      "title": "Playwright Email Tests Need a Causal Timeline",
-      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-causal-timeline-38cm",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-08",
-      "snippet": "An email test that says only expected verification link, got timeout is not very useful. It tells the QA engineer where the test stopped, but not what happened before that point. For browser flows that depend on email, I treat the test as a small distributed system. The application creates a message"
-    },
-    {
-      "title": "We Used to Have Time to Be Wrong",
-      "url": "https://dev.to/diana_matusevich/we-used-to-have-time-to-be-wrong-3o8b",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-08",
-      "snippet": "AI compressed development. The requirements didn't get better — they just landed on QA with no runway left. Before AI, most of us worked inside the Agile framework - pigs and chickens, skin in the game, stand-ups, retros, story points, the whole vocabulary we all learned to speak fluently, half iron"
-    },
-    {
-      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-08",
-      "snippet": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]"
-    },
-    {
-      "title": "A Simple Boundary Value Analysis Exercise for Beginner QA Testers",
-      "url": "https://dev.to/miroslawqa/a-simple-boundary-value-analysis-exercise-for-beginner-qa-testers-243j",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "A Simple Boundary Value Analysis Exercise for Beginner QA Testers One of the easiest ways to understand Boundary Value Analysis is to stop reading about it and test an actual rule. Imagine this requirement: Free delivery applies to orders of $50.00 or more. Orders below $50.00 cost $4.99 to deliver."
-    },
-    {
-      "title": "bug report nexus studioQA",
-      "url": "https://dev.to/nexus_studioqa/bug-report-nexus-studioqa-4031",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-07",
-      "snippet": "What one failed test leaves behind, file by file. Every failure in Nexus StudioQA opens as a bug report in the Evidence Locker: the failure recording, a forensic report readable without the Studio, metadata, telemetry (console and network) and the raw log, plus an AI analysis written by your own AI "
-    },
-    {
-      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-07",
-      "snippet": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in"
-    },
-    {
-      "title": "Hackers pull off $133 million French bank heist via service provider",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-07",
-      "snippet": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]"
-    },
-    {
-      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-07",
-      "snippet": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without deliver"
-    },
-    {
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-07",
-      "snippet": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]"
-    },
-    {
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the"
-    },
-    {
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux system"
-    },
-    {
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reli"
-    },
-    {
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The fla"
-    },
-    {
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]"
-    },
-    {
-      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]"
-    },
-    {
-      "title": "Fake security tools on GitHub push backdoors and infostealers",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]"
-    },
-    {
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]"
-    },
-    {
-      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]"
-    },
-    {
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-06",
-      "snippet": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]"
-    },
-    {
       "title": "v1.65.0",
       "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
       "source": "Playwright",
       "category": "Tools",
-      "date": "2026-11-05",
+      "date": "2026-11-09",
       "snippet": "🥟 Run tests with Bun The test runner now runs under Bun . Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js: bunx --bun playwright test Our CI runs the test runner "
+    },
+    {
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attack"
+    },
+    {
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its no"
+    },
+    {
+      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+      "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust implementations,\" Fortinet"
+    },
+    {
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside norm"
+    },
+    {
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]"
+    },
+    {
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]"
+    },
+    {
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]"
+    },
+    {
+      "title": "York University breach exposed personal information dating to 2007",
+      "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]"
+    },
+    {
+      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]"
+    },
+    {
+      "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-09",
+      "snippet": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]"
     }
   ]
 }
