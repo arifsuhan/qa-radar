@@ -1,0 +1,790 @@
+{
+  "generated_at": "2026-11-17T11:39:36+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "Keep timeouts in your inference benchmark denominator",
+      "url": "https://dev.to/cloudgpu_app/keep-timeouts-in-your-inference-benchmark-denominator-26e4",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "A latency report can be mathematically correct and still answer the wrong question. If you retain only completed inference requests, the median describes those completions, not what happened to everyone who sent a request. This is a small, provider-neutral reporting exercise from CloudGPU. All numbe",
+      "why": ""
+    },
+    {
+      "title": "When Code Bends to Pass Its Tests, the Tests Are the Finding",
+      "url": "https://dev.to/tarandevich/when-code-bends-to-pass-its-tests-the-tests-are-the-finding-13m8",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "One function in my codebase began with an import inside its body. The comment above it gave the reason: a top-level import would move cited lines. That comment is not about Python, and not about the function. It is about the tests. A test somewhere expected a certain line of this file to stay exactl",
+      "why": ""
+    },
+    {
+      "title": "Vaš AI agent mora moći reći \"ne znam\"",
+      "url": "https://dev.to/omarbaruzzo/vas-ai-agent-mora-moci-reci-ne-znam-1h7k",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "TL;DR: Agent s dva izlaza, odgovor ili error, odlučuje i onda kad ne bi smio. Treći izlaz, abstention, mora se dizajnirati u kodu, testirati u eval setu i zabilježiti u decision logu. Confidence modela nije izlaz Primamljiva prečica je pitati model koliko je siguran i postaviti prag. Ono što dobijet",
+      "why": ""
+    },
+    {
+      "title": "Il vostro agente AI deve poter dire «non lo so»",
+      "url": "https://dev.to/omarbaruzzo/il-vostro-agente-ai-deve-poter-dire--4nkk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "TL;DR: Un agente con due sole uscite, risposta o errore, decide comunque anche quando non dovrebbe. La terza uscita, l'astensione, va progettata nel codice, provata nell'eval set e scritta nel registro delle decisioni. La sicurezza del modello non è l'uscita La scorciatoia è chiedere al modello quan",
+      "why": ""
+    },
+    {
+      "title": "Your AI agent needs a way to say \"I don't know\"",
+      "url": "https://dev.to/omarbaruzzo/your-ai-agent-needs-a-way-to-say-i-dont-know-4397",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "TL;DR: Agents built with only two exits, answer or error, decide anyway on the cases they should not. The third exit, abstention, has to be designed in code, tested in the eval set and recorded in the decision log. The model's confidence is not the exit The tempting shortcut is to ask the model how ",
+      "why": ""
+    },
+    {
+      "title": "Autonoma AI Shut Down in 2026. What Happened, and What's the Best Alternative?",
+      "url": "https://dev.to/mellowthunder735/autonoma-ai-shut-down-in-2026-what-happened-and-whats-the-best-alternative-2o13",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "Autonoma's closure raises some uncomfortable questions about venture-backed AI startups, the future of software testing, and what really matters when choosing a test automation platform. In September 2026, Autonoma AI announced that it was shutting down after approximately three years. The company h",
+      "why": ""
+    },
+    {
+      "title": "OpenCode Browse vs Playwright MCP vs Chrome DevTools MCP: ¿Qué MCP de navegador deberías usar?",
+      "url": "https://dev.to/roobia/opencode-browse-vs-playwright-mcp-vs-chrome-devtools-mcp-que-mcp-de-navegador-deberias-usar-6md",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "En OpenCode Browse vs Playwright MCP, la cuestión es quién controla el navegador de tu agente. OpenCode Browse conduce tu navegador real, con tus sesiones iniciadas, y te cede la pestaña para inicios de sesión y pagos. Playwright MCP lanza su propio navegador con su propio perfil, pensado para autom",
+      "why": ""
+    },
+    {
+      "title": "Sorting CISA's KEV Catalog by CVE Year Before You Book a Pen Test",
+      "url": "https://dev.to/upriteservices/sorting-cisas-kev-catalog-by-cve-year-before-you-book-a-pen-test-4dda",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "If you run IT for a small company and somebody asks you for a penetration test, I'd spend an afternoon with CISA's Known Exploited Vulnerabilities catalog before you call a single vendor. We did that for our Dallas clients in November 2026, sorting a year of entries by the year in each CVE number, a",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2026-114713",
+      "title": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "product": "UnrealIRCd UnrealIRCd",
+      "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+    },
+    {
+      "id": "CVE-2026-123039",
+      "title": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "product": "Check Point Multiple Products",
+      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+    },
+    {
+      "id": "CVE-2026-124194",
+      "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "product": "Microsoft Office",
+      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+    },
+    {
+      "id": "CVE-2026-111793",
+      "title": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "product": "Openwave Messaging Limited Webtop Media Transcoder",
+      "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+    },
+    {
+      "id": "CVE-2026-20320",
+      "title": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "product": "Cisco BroadWorks",
+      "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+    },
+    {
+      "id": "CVE-2026-111560",
+      "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "product": "Barracuda Networks Multiple Products",
+      "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+    },
+    {
+      "id": "CVE-2026-116606",
+      "title": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "product": "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    },
+    {
+      "id": "CVE-2026-125350",
+      "title": "Google Chromium Use-After-Free Vulnerability",
+      "product": "Google Chromium",
+      "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
+    },
+    {
+      "id": "CVE-2026-102895",
+      "title": "GPUStack Improper Authentication Vulnerability",
+      "product": "GPUStack GPUStack",
+      "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+    },
+    {
+      "id": "CVE-2026-123158",
+      "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "product": "OpenBSD OpenSSH",
+      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    },
+    {
+      "id": "CVE-2026-116779",
+      "title": "SignalWire FreeSwitch Code Injection Vulnerability",
+      "product": "SignalWire FreeSwitch",
+      "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+    },
+    {
+      "id": "CVE-2026-123218",
+      "title": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+      "product": "IBM Aspera Faspex",
+      "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-120002",
+      "description": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+      "score": 9.9,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002"
+    },
+    {
+      "id": "CVE-2026-79614",
+      "description": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is disabled by default on these devices.",
+      "score": 9.8,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614"
+    },
+    {
+      "id": "CVE-2026-120779",
+      "description": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
+      "score": 9.6,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779"
+    },
+    {
+      "id": "CVE-2026-118383",
+      "description": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions, arbitrary code execution in the context of the server process. Replica set members are affected, includin",
+      "score": 9.5,
+      "date": "2026-11-10",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118383"
+    },
+    {
+      "id": "CVE-2026-126378",
+      "description": "Vvveb through 1.0.8.6 contains a file upload vulnerability in the theme installer validFile() function that uses strpos() instead of strict path matching. Attackers with admin credentials can upload a ZIP containing a PHP file whose path includes /theme.php to achieve remote code execution on nginx deployments.",
+      "score": 9.4,
+      "date": "2026-11-13",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126378"
+    },
+    {
+      "id": "CVE-2026-128049",
+      "description": "OpenMage Magento LTS before 20.18.2 and 21.0.0-beta1 before 21.0.0-beta3 contains a cross-site request forgery vulnerability in the admin and storefront OAuth confirm and confirmSimple actions, which accept GET requests without form-key validation. Attackers holding OAuth consumer credentials can lure a logged-in administrator or customer to a crafted confirm URL that authorizes the attacker's req",
+      "score": 9.4,
+      "date": "2026-11-13",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-128049"
+    },
+    {
+      "id": "CVE-2026-129952",
+      "description": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to gain administrator access by forging JWTs with the hardcoded 'nodepress-secret' fallback key. Attackers can sign HS256 bearer tokens with the default issuer, audience, and role 'admin' to access administrator-only APIs for article, comment, options, and file management.",
+      "score": 9.3,
+      "date": "2026-11-16",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129952"
+    },
+    {
+      "id": "CVE-2026-129955",
+      "description": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain administrator access by using the hardcoded default password 'root'. Attackers can send base64-encoded 'root' to POST /admin/login when NP_ADMIN_DEFAULT_PASSWORD is unset to obtain admin tokens and fully control the site.",
+      "score": 9.3,
+      "date": "2026-11-16",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129955"
+    },
+    {
+      "id": "CVE-2026-130070",
+      "description": "Ghost by muneeb141 on the main branch from commit c731cdf through commit 672dfec contains an authentication bypass vulnerability in the whitelisted ghost.api.ghost.convert_to_real_user method that allows unauthenticated attackers to skip OTP verification by setting the client-supplied bypass_otp parameter. Attackers can obtain a ghost session from the guest-accessible create_ghost_session endpoint",
+      "score": 9.3,
+      "date": "2026-11-16",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130070"
+    },
+    {
+      "id": "CVE-2026-130071",
+      "description": "TridotsTech go1cms master branch through commit 7f68d05 and version-3 branch before commit ead8da3 contains a missing authentication vulnerability in the guest-whitelisted update_doc method that allows unauthenticated attackers to modify any document. Attackers can supply a doctype, name and arbitrary fields that are saved with ignore_permissions=True, altering User records to escalate privileges,",
+      "score": 9.3,
+      "date": "2026-11-16",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130071"
+    },
+    {
+      "id": "CVE-2026-129354",
+      "description": "A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the component HNAP Handler. Executing a manipulation can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been published and may be used.",
+      "score": 9.3,
+      "date": "2026-11-15",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129354"
+    },
+    {
+      "id": "CVE-2026-129483",
+      "description": "Cyrus SASL through 2.1.28 contains an authentication bypass vulnerability in the SRP server mechanism because srp_server_mech_step2 does not reject client public values A that are multiples of N. Unauthenticated network clients can send A equal to N to force a zero shared secret, authenticating as any existing user without the password and learning session keys.",
+      "score": 9.3,
+      "date": "2026-11-15",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129483"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-x585-4vv8-2mh2",
+      "cve": "CVE-2026-100397",
+      "title": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+      "packages": [
+        "pip/rucio"
+      ],
+      "date": "2026-11-13",
+      "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2"
+    },
+    {
+      "id": "GHSA-f3w6-w445-fwh9",
+      "cve": "CVE-2026-122006",
+      "title": "Active Storage: Possible arbitrary file write and read in image analysis",
+      "packages": [
+        "rubygems/activestorage"
+      ],
+      "date": "2026-11-12",
+      "url": "https://github.com/advisories/GHSA-f3w6-w445-fwh9"
+    },
+    {
+      "id": "GHSA-4g86-54fm-h9h8",
+      "cve": "CVE-2026-118740",
+      "title": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+      "packages": [
+        "nuget/Aspire.Dashboard.Sdk.linux-arm64",
+        "nuget/Aspire.Dashboard.Sdk.linux-musl-x64",
+        "nuget/Aspire.Dashboard.Sdk.linux-x64",
+        "nuget/Aspire.Dashboard.Sdk.osx-arm64"
+      ],
+      "date": "2026-11-12",
+      "url": "https://github.com/advisories/GHSA-4g86-54fm-h9h8"
+    },
+    {
+      "id": "GHSA-xqc2-xf4c-x3h3",
+      "cve": "CVE-2026-126187",
+      "title": "React: Unauthenticated Remote Code Execution in React Server Components",
+      "packages": [
+        "npm/react-server-dom-parcel",
+        "npm/react-server-dom-turbopack",
+        "npm/react-server-dom-webpack"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3"
+    },
+    {
+      "id": "GHSA-2f3w-v7f5-vpgx",
+      "cve": null,
+      "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+      "packages": [
+        "nuget/Aspire.Dashboard.Sdk.linux-x64"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-2f3w-v7f5-vpgx"
+    },
+    {
+      "id": "GHSA-pcrw-h46h-c93h",
+      "cve": "CVE-2026-125120",
+      "title": "Mongoose: sanitizeFilter not applied on countDocuments",
+      "packages": [
+        "npm/mongoose"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-pcrw-h46h-c93h"
+    },
+    {
+      "id": "GHSA-8vv3-6qpc-gpw6",
+      "cve": "CVE-2026-107846",
+      "title": "bitcoinjs-lib: Undetected merkle node duplication in block root computation validates a forged transaction list",
+      "packages": [
+        "npm/bitcoinjs-lib"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-8vv3-6qpc-gpw6"
+    },
+    {
+      "id": "GHSA-62m9-f875-rqw6",
+      "cve": "CVE-2026-102894",
+      "title": "GPUStack: SAML callback trusts an unverified SAMLResponse, allowing authentication bypass and account takeover",
+      "packages": [
+        "pip/gpustack"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-62m9-f875-rqw6"
+    },
+    {
+      "id": "GHSA-xggf-m53x-jc3f",
+      "cve": "CVE-2026-95860",
+      "title": "node-opcua: Namespace-Level RBAC Fail-Open - Anonymous Write/Call Bypass via Unbound `DefaultRolePermissions",
+      "packages": [
+        "npm/node-opcua",
+        "npm/node-opcua-address-space",
+        "npm/node-opcua-server"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-xggf-m53x-jc3f"
+    },
+    {
+      "id": "GHSA-rjr3-43j3-4q8g",
+      "cve": "CVE-2026-77596",
+      "title": "Kubeflow Pipelines API server lacks authorization for shared pipeline uploads",
+      "packages": [
+        "go/github.com/kubeflow/pipelines"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-rjr3-43j3-4q8g"
+    },
+    {
+      "id": "GHSA-gj9m-f8ph-pmhr",
+      "cve": "CVE-2026-102895",
+      "title": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
+      "packages": [
+        "pip/gpustack"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr"
+    },
+    {
+      "id": "GHSA-rm8c-2cv8-jwf6",
+      "cve": "CVE-2026-115770",
+      "title": "Pocket ID: Email verification token remains valid after address change, enabling arbitrary verified-email spoofing",
+      "packages": [
+        "go/github.com/pocket-id/pocket-id/backend"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-rm8c-2cv8-jwf6"
+    }
+  ],
+  "news": [
+    {
+      "title": "Keep timeouts in your inference benchmark denominator",
+      "url": "https://dev.to/cloudgpu_app/keep-timeouts-in-your-inference-benchmark-denominator-26e4",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "A latency report can be mathematically correct and still answer the wrong question. If you retain only completed inference requests, the median describes those completions, not what happened to everyone who sent a request. This is a small, provider-neutral reporting exercise from CloudGPU. All numbe"
+    },
+    {
+      "title": "When Code Bends to Pass Its Tests, the Tests Are the Finding",
+      "url": "https://dev.to/tarandevich/when-code-bends-to-pass-its-tests-the-tests-are-the-finding-13m8",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "One function in my codebase began with an import inside its body. The comment above it gave the reason: a top-level import would move cited lines. That comment is not about Python, and not about the function. It is about the tests. A test somewhere expected a certain line of this file to stay exactl"
+    },
+    {
+      "title": "Vaš AI agent mora moći reći \"ne znam\"",
+      "url": "https://dev.to/omarbaruzzo/vas-ai-agent-mora-moci-reci-ne-znam-1h7k",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "TL;DR: Agent s dva izlaza, odgovor ili error, odlučuje i onda kad ne bi smio. Treći izlaz, abstention, mora se dizajnirati u kodu, testirati u eval setu i zabilježiti u decision logu. Confidence modela nije izlaz Primamljiva prečica je pitati model koliko je siguran i postaviti prag. Ono što dobijet"
+    },
+    {
+      "title": "Il vostro agente AI deve poter dire «non lo so»",
+      "url": "https://dev.to/omarbaruzzo/il-vostro-agente-ai-deve-poter-dire--4nkk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "TL;DR: Un agente con due sole uscite, risposta o errore, decide comunque anche quando non dovrebbe. La terza uscita, l'astensione, va progettata nel codice, provata nell'eval set e scritta nel registro delle decisioni. La sicurezza del modello non è l'uscita La scorciatoia è chiedere al modello quan"
+    },
+    {
+      "title": "Your AI agent needs a way to say \"I don't know\"",
+      "url": "https://dev.to/omarbaruzzo/your-ai-agent-needs-a-way-to-say-i-dont-know-4397",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "TL;DR: Agents built with only two exits, answer or error, decide anyway on the cases they should not. The third exit, abstention, has to be designed in code, tested in the eval set and recorded in the decision log. The model's confidence is not the exit The tempting shortcut is to ask the model how "
+    },
+    {
+      "title": "Autonoma AI Shut Down in 2026. What Happened, and What's the Best Alternative?",
+      "url": "https://dev.to/mellowthunder735/autonoma-ai-shut-down-in-2026-what-happened-and-whats-the-best-alternative-2o13",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "Autonoma's closure raises some uncomfortable questions about venture-backed AI startups, the future of software testing, and what really matters when choosing a test automation platform. In September 2026, Autonoma AI announced that it was shutting down after approximately three years. The company h"
+    },
+    {
+      "title": "OpenCode Browse vs Playwright MCP vs Chrome DevTools MCP: ¿Qué MCP de navegador deberías usar?",
+      "url": "https://dev.to/roobia/opencode-browse-vs-playwright-mcp-vs-chrome-devtools-mcp-que-mcp-de-navegador-deberias-usar-6md",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "En OpenCode Browse vs Playwright MCP, la cuestión es quién controla el navegador de tu agente. OpenCode Browse conduce tu navegador real, con tus sesiones iniciadas, y te cede la pestaña para inicios de sesión y pagos. Playwright MCP lanza su propio navegador con su propio perfil, pensado para autom"
+    },
+    {
+      "title": "Sorting CISA's KEV Catalog by CVE Year Before You Book a Pen Test",
+      "url": "https://dev.to/upriteservices/sorting-cisas-kev-catalog-by-cve-year-before-you-book-a-pen-test-4dda",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "If you run IT for a small company and somebody asks you for a penetration test, I'd spend an afternoon with CISA's Known Exploited Vulnerabilities catalog before you call a single vendor. We did that for our Dallas clients in November 2026, sorting a year of entries by the year in each CVE number, a"
+    },
+    {
+      "title": "A day planner with no hourly schedule, on purpose",
+      "url": "https://dev.to/itfabers/a-day-planner-with-no-hourly-schedule-on-purpose-2l3b",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "I built this pack as a PDF instead of an app because the thing that breaks a day planner is not missing features. It is the hourly grid. One missed block and the page turns into a record of failure, so it stops being opened. So the design rule was simple: ask for less. The daily page has three must-"
+    },
+    {
+      "title": "Load Bank Testing an Industrial Generator: Planning the Steps and Checking the Log With Python",
+      "url": "https://dev.to/ibrahim_nauman_786/load-bank-testing-an-industrial-generator-planning-the-steps-and-checking-the-log-with-python-2i9k",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "A standby set that only ever runs its weekly no-load exercise is an untested machine. We at Enpower see this on factory sites across Punjab and Sindh: the set starts every Friday, idles for ten minutes, and nobody knows whether it can carry its rating until the grid drops in the middle of a shift. A"
+    },
+    {
+      "title": "Setting up bulk app install and launch across a group of cloud phones before a release check",
+      "url": "https://dev.to/growthmktg/setting-up-bulk-app-install-and-launch-across-a-group-of-cloud-phones-before-a-release-check-542i",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "I work with DuoPlus, and the thing I get asked about most by small QA teams isn't some fancy feature. It's this: \"How do I get the same build onto a dozen phones without doing it twelve times?\" So here's the routine I use before a release check. Most of the value is in doing the boring parts in the "
+    },
+    {
+      "title": "A QA engineer in Nepal writes more bug reports than code",
+      "url": "https://dev.to/saarathi_academy/a-qa-engineer-in-nepal-writes-more-bug-reports-than-code-jk",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "A junior QA engineer in Nepal spends most of the week reading requirements, running test cases and writing bug reports. Automation shows up in the job posts, but for junior roles it is usually a \"nice to have\", and the bug report is the work you are judged on. We read four QA job posts from Kathmand"
+    },
+    {
+      "title": "Managed Playwright testing is the future of testing, and X360 AI does it today",
+      "url": "https://dev.to/x360ai/managed-playwright-testing-is-the-future-of-testing-and-x360-ai-does-it-today-17ic",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "Written by the X360 AI team. Originally published on x360aitech.com . Playwright won the framework race, and the tests still need an owner. X360 AI runs Playwright as managed code, with people approving what changes. Playwright won the framework race. Teams got a fast, reliable way to drive a browse"
+    },
+    {
+      "title": "A Cert-Week Regression Set for PS5, Xbox and Nintendo Switch Submissions",
+      "url": "https://dev.to/juegotech/a-cert-week-regression-set-for-ps5-xbox-and-nintendo-switch-submissions-2fg",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "Certification week is the worst time to discover that your regression pass and the platform holder's requirements have drifted apart. Sony's TRC, Microsoft's Xbox requirements (XRs, formerly TCRs) and Nintendo's Lotcheck guidelines are all under NDA, so I won't quote them here. But the shape of what"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-17",
+      "snippet": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocat"
+    },
+    {
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation ShadowCloud"
+    },
+    {
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its A"
+    },
+    {
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday"
+    },
+    {
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments "
+    },
+    {
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and "
+    },
+    {
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]"
+    },
+    {
+      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]"
+    },
+    {
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]"
+    },
+    {
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]"
+    },
+    {
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilitie"
+    },
+    {
+      "title": "Free US Test Address Generator: Realistic City+State+ZIP Triples for QA (USAddressGen)",
+      "url": "https://dev.to/cleveland_oil_207b0fec369/free-us-test-address-generator-realistic-citystatezip-triples-for-qa-usaddressgen-1bec",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-16",
+      "snippet": "If you build web apps, you constantly need addresses to test form validation, seed databases, or fill demo dashboards. Copy-pasting real-looking addresses from the internet is a bad idea: they can belong to real people. This post covers a small free tool that solves this — and why synthetic test dat"
+    },
+    {
+      "title": "Five questions our QA contractor asked before testing on cloud phones (and what I told her)",
+      "url": "https://dev.to/growthmktg/five-questions-our-qa-contractor-asked-before-testing-on-cloud-phones-and-what-i-told-her-1kci",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-16",
+      "snippet": "I work with DuoPlus, so take this as one operator's notes rather than a neutral review. Last month we brought in a freelance QA tester for a client's Android app. She'd always tested on a shelf of physical phones, and she came in skeptical. These are the questions she asked in the first call, more o"
+    },
+    {
+      "title": "Best cloud number setups for testing your own app's signup and OTP flow (2026)",
+      "url": "https://dev.to/growthmktg/best-cloud-number-setups-for-testing-your-own-apps-signup-and-otp-flow-2026-38al",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-16",
+      "snippet": "I work with DuoPlus, so read the second entry with that in mind. I'm a growth marketing person, not a QA lead, but I end up walking through our own app's signup screen more often than I'd like. Every time a release touches the phone step, somebody asks \"did the code actually arrive, and did the scre"
+    },
+    {
+      "title": "Measuring answer faithfulness in RAG: metrics that hold up",
+      "url": "https://dev.to/nikolay_chernev_a67479931/measuring-answer-faithfulness-in-rag-metrics-that-hold-up-lgg",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-16",
+      "snippet": "Short answer: faithfulness in RAG means every claim the answer makes is supported by the retrieved context — not by what the model memorized. Three metrics hold up: a RAGAS faithfulness score for eval suites, a deterministic grounding check for CI, and a narrow LLM-as-judge for the edge cases neithe"
+    },
+    {
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. I"
+    },
+    {
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still p"
+    },
+    {
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. "
+    },
+    {
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kasper"
+    },
+    {
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives com"
+    },
+    {
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]"
+    },
+    {
+      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+      "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]"
+    },
+    {
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organi"
+    },
+    {
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]"
+    },
+    {
+      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-16",
+      "snippet": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]"
+    },
+    {
+      "title": "A 30-Minute Smoke Test Before Every Game Build Goes Out",
+      "url": "https://dev.to/juegostudiosofficial/a-30-minute-smoke-test-before-every-game-build-goes-out-e27",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-15",
+      "snippet": "Most broken game builds that reach players aren't broken in subtle ways. They crash on launch, lose a save, or freeze when the controller gets unplugged. These are things a short, repeatable smoke test would have caught. Here's the checklist we keep pinned for builds that go to testers, publishers, "
+    },
+    {
+      "title": "Playwright Email Fixtures Need Better Failure Evidence",
+      "url": "https://dev.to/silviutech/playwright-email-fixtures-need-better-failure-evidence-5bp6",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-15",
+      "snippet": "Email tests rarely fail because an email is completely absent. More often, the test sees the wrong message, reads the inbox too early, or loses the evidence that would explain what happened. A temp mail generator can provide a useful isolated fixture, but isolation alone does not make an end-to-end "
+    },
+    {
+      "title": "chore: release @cypress/webpack-dev-server-v6.2.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-dev-server-v6.2.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-14",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "v1.65.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+      "source": "Playwright",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium 159.0.8154.6 Mozilla Firefox 159.0 WebKit 27.2"
+    },
+    {
+      "title": "v15.21.2",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/v15.21.2",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "Changelog: https://docs.cypress.io/app/references/changelog#15-21-2"
+    },
+    {
+      "title": "v1.8.3",
+      "url": "https://github.com/grafana/k6/releases/tag/v1.8.3",
+      "source": "k6",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "k6 v1.8.3 is here! This patch release includes: A browser fix for clicking a missing element handle Security updates for golang.org/x/net and github.com/klauspost/compress Updates to the JavaScript runtime and other dependencies Security updates #6667 Updates golang.org/x/net to v0.62.0 and github.c"
+    },
+    {
+      "title": "chore: release @cypress/puppeteer-v1.0.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fpuppeteer-v1.0.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-12",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "v2.4.0",
+      "url": "https://github.com/grafana/k6/releases/tag/v2.4.0",
+      "source": "k6",
+      "category": "Tools",
+      "date": "2026-11-12",
+      "snippet": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction for HTTP and gRPC debug logs. Structured gRPC error details. Fixes for browser selectors, JavaScript me"
+    },
+    {
+      "title": "v16.3.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/v16.3.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-10",
+      "snippet": "Changelog: https://docs.cypress.io/app/references/changelog#16-3-0"
+    }
+  ]
+}
