@@ -1,0 +1,798 @@
+{
+  "generated_at": "2026-11-18T11:26:28+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "DeepSeek vs Claude vs Kimi vs Codex vs Gemini: A 70-Call AI Ethics Test",
+      "url": "https://dev.to/buluo/deepseek-vs-claude-vs-kimi-vs-codex-vs-gemini-a-70-call-ai-ethics-test-3eo3",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "An API response can pass a safety check and still leave the final document less honest. On November 18, 2026, I tested five model routes with the same Chinese prompts. All five avoided harmful outputs on eight direct requests. The separation came in a four-turn donation notice: DeepSeek and Kimi sco",
+      "why": ""
+    },
+    {
+      "title": "AI agents that beta-test mobile apps on 20 phones at once (and what they found in Flutter's sample)",
+      "url": "https://dev.to/pierridotite/ai-agents-that-beta-test-mobile-apps-on-20-phones-at-once-and-what-they-found-in-flutters-sample-2nf7",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "I build a mobile app on my own. Unit tests pass, the app works on my phone, and then someone on an iPhone SE with large text finds a button hidden under the keyboard. I wanted something between unit tests and real beta testers, so I built this: One GitHub Actions workflow that builds your app, start",
+      "why": ""
+    },
+    {
+      "title": "Our profit calculator says a quiz night can clear £1.49 trillion a year, and our five free tools disagree about bad input",
+      "url": "https://dev.to/daniel_pertu/our-profit-calculator-says-a-quiz-night-can-clear-ps149-trillion-a-year-and-our-five-free-tools-3jd0",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "PubTrivia has five free tools on its marketing site. None of them has a backend, none of them has a &lt;form&gt; element, and nothing typed into them is ever sent anywhere, which is the promise each page makes in writing. That also means no HTML validation ever runs: a max=\"200\" attribute is only en",
+      "why": ""
+    },
+    {
+      "title": "AI Vulnerability Discovery: Four Numbers That Survive a Re-Test",
+      "url": "https://dev.to/hackbox/ai-vulnerability-discovery-four-numbers-that-survive-a-re-test-1oop",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Disclosure: I work at HACKBOX PTE. LTD., which builds HackBox. It comes up twice below. Everything else is arithmetic you can run on your own findings. A team I know spent a Tuesday afternoon arguing about a number. The slide said 340 findings, 28 critical. By four o'clock the number was still 340, ",
+      "why": ""
+    },
+    {
+      "title": "Our Guard Checked That We Still Talked About the Fix, Not That We Still Did It",
+      "url": "https://dev.to/eu_ti_f127c5b5d7535b7174f/our-guard-checked-that-we-still-talked-about-the-fix-not-that-we-still-did-it-1o73",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "A test asserted that a flag was present in a shell script. The flag was deleted. The test stayed green. It stayed green because the flag's name also appeared in the comment above the command — eleven lines explaining why the flag was mandatory and what breaks without it. The assertion was a substrin",
+      "why": ""
+    },
+    {
+      "title": "How the Turkish ID number (TCKN) checksum works, with validators in JavaScript, Python and PHP",
+      "url": "https://dev.to/tcuret/how-the-turkish-id-number-tckn-checksum-works-with-validators-in-javascript-python-and-php-3j0o",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "If you build sign-up, checkout or invoicing forms for users in Türkiye, sooner or later you need to validate a TC Kimlik Numarası (TCKN), the 11-digit national ID number. The good news: the number carries its own check digits, so you can catch typos without calling any external service. This post wa",
+      "why": ""
+    },
+    {
+      "title": "I tested an AI agent on real API migrations. Green CI was not proof.",
+      "url": "https://dev.to/tariqbaloch786/i-tested-an-ai-agent-on-real-api-migrations-green-ci-was-not-proof-2iph",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "For five weeks I have been testing an agent that drafts API-upgrade pull requests. It watches a provider's releases (Stripe, the OpenAI SDK, Twilio), finds the lines in a repository that a breaking change affects, and opens one draft PR with one commit per change. It never merges. I tested it on pub",
+      "why": ""
+    },
+    {
+      "title": "38 recipes, 229 ingredient lines, and 462 tests that decide which of them are allowed to exist",
+      "url": "https://dev.to/daniel_pertu/38-recipes-229-ingredient-lines-and-462-tests-that-decide-which-of-them-are-allowed-to-exist-208c",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Munchable scans food labels, and last autumn it grew a recipe library. 38 recipes, visible to anybody at munchable.app/recipes and shipped inside the phone app as well. The interesting thing about it as a piece of engineering is where it lives. It is not in a CMS, not in markdown, and not in a datab",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2026-115731",
+      "title": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "product": "Perforce Puppet Enterprise",
+      "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.",
+      "date": "2026-11-17",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+    },
+    {
+      "id": "CVE-2026-114713",
+      "title": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "product": "UnrealIRCd UnrealIRCd",
+      "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+    },
+    {
+      "id": "CVE-2026-123039",
+      "title": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "product": "Check Point Multiple Products",
+      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+    },
+    {
+      "id": "CVE-2026-124194",
+      "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "product": "Microsoft Office",
+      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+    },
+    {
+      "id": "CVE-2026-111793",
+      "title": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "product": "Openwave Messaging Limited Webtop Media Transcoder",
+      "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+    },
+    {
+      "id": "CVE-2026-20320",
+      "title": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "product": "Cisco BroadWorks",
+      "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+    },
+    {
+      "id": "CVE-2026-111560",
+      "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "product": "Barracuda Networks Multiple Products",
+      "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+    },
+    {
+      "id": "CVE-2026-116606",
+      "title": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "product": "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    },
+    {
+      "id": "CVE-2026-125350",
+      "title": "Google Chromium Use-After-Free Vulnerability",
+      "product": "Google Chromium",
+      "description": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
+    },
+    {
+      "id": "CVE-2026-102895",
+      "title": "GPUStack Improper Authentication Vulnerability",
+      "product": "GPUStack GPUStack",
+      "description": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+    },
+    {
+      "id": "CVE-2026-123158",
+      "title": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "product": "OpenBSD OpenSSH",
+      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    },
+    {
+      "id": "CVE-2026-116779",
+      "title": "SignalWire FreeSwitch Code Injection Vulnerability",
+      "product": "SignalWire FreeSwitch",
+      "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
+      "date": "2026-11-09",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-114784",
+      "description": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security).  Supported versions that are affected are 8.2.0.0.0 and  26.01.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Business Intelligence Enterprise Edition.  While the vulnerability is in Oracle Busine",
+      "score": 10.0,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784"
+    },
+    {
+      "id": "CVE-2026-114824",
+      "description": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Platform Security for Java.  While the vulnerability is in Oracle Platform Securit",
+      "score": 10.0,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824"
+    },
+    {
+      "id": "CVE-2026-114835",
+      "description": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Admin Console).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact addit",
+      "score": 10.0,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114835"
+    },
+    {
+      "id": "CVE-2026-91500",
+      "description": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impa",
+      "score": 10.0,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500"
+    },
+    {
+      "id": "CVE-2026-91510",
+      "description": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impa",
+      "score": 10.0,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510"
+    },
+    {
+      "id": "CVE-2026-91569",
+      "description": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: TopLink Integration).  Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and  15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server.  While the vulnerability is in Oracle WebLogic Server, attac",
+      "score": 10.0,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91569"
+    },
+    {
+      "id": "CVE-2026-114819",
+      "description": "Vulnerability in the Oracle Text component of Oracle Database Server.  Supported versions that are affected are 19.3-19.32, 21.3-21.24 and  23.4.0-23.26.3. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to compromise Oracle Text.  While the vulnerability is in Oracle Text, attacks may significantly impact additiona",
+      "score": 9.9,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114819"
+    },
+    {
+      "id": "CVE-2026-114822",
+      "description": "Vulnerability in the RDBMS component of Oracle Database Server.  Supported versions that are affected are 23.4.0-23.26.4. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to compromise RDBMS.  While the vulnerability is in RDBMS, attacks may significantly impact additional products (scope change).  Successful attacks",
+      "score": 9.9,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114822"
+    },
+    {
+      "id": "CVE-2026-114848",
+      "description": "Vulnerability in the Oracle Text component of Oracle Database Server.  Supported versions that are affected are 19.3-19.33, 21.3-21.24 and  23.4.0-23.26.3. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to compromise Oracle Text.  While the vulnerability is in Oracle Text, attacks may significantly impact additiona",
+      "score": 9.9,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114848"
+    },
+    {
+      "id": "CVE-2026-114978",
+      "description": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security).   The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Hyperion Financial Management.  While the vulnerability is in Oracle Hyperion Financial Management, attacks may signifi",
+      "score": 9.9,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114978"
+    },
+    {
+      "id": "CVE-2026-114980",
+      "description": "Vulnerability in the Oracle AutoVue product of Oracle Supply Chain (component: Security Related Issues).   The supported version that is affected is 21.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle AutoVue.  While the vulnerability is in Oracle AutoVue, attacks may significantly impact additional products (scope change).  Suc",
+      "score": 9.9,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114980"
+    },
+    {
+      "id": "CVE-2026-114785",
+      "description": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security).   The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion Planning.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability",
+      "score": 9.6,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114785"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-gfv3-m769-5xm3",
+      "cve": "CVE-2026-53998",
+      "title": "Phoenix: Format String Injection in applyChatTemplate",
+      "packages": [
+        "pip/arize-phoenix"
+      ],
+      "date": "2026-11-17",
+      "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3"
+    },
+    {
+      "id": "GHSA-x585-4vv8-2mh2",
+      "cve": "CVE-2026-100397",
+      "title": "Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+      "packages": [
+        "pip/rucio"
+      ],
+      "date": "2026-11-13",
+      "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2"
+    },
+    {
+      "id": "GHSA-f3w6-w445-fwh9",
+      "cve": "CVE-2026-122006",
+      "title": "Active Storage: Possible arbitrary file write and read in image analysis",
+      "packages": [
+        "rubygems/activestorage"
+      ],
+      "date": "2026-11-12",
+      "url": "https://github.com/advisories/GHSA-f3w6-w445-fwh9"
+    },
+    {
+      "id": "GHSA-4g86-54fm-h9h8",
+      "cve": "CVE-2026-118740",
+      "title": "Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+      "packages": [
+        "nuget/Aspire.Dashboard.Sdk.linux-arm64",
+        "nuget/Aspire.Dashboard.Sdk.linux-musl-x64",
+        "nuget/Aspire.Dashboard.Sdk.linux-x64",
+        "nuget/Aspire.Dashboard.Sdk.osx-arm64"
+      ],
+      "date": "2026-11-12",
+      "url": "https://github.com/advisories/GHSA-4g86-54fm-h9h8"
+    },
+    {
+      "id": "GHSA-xqc2-xf4c-x3h3",
+      "cve": "CVE-2026-126187",
+      "title": "React: Unauthenticated Remote Code Execution in React Server Components",
+      "packages": [
+        "npm/react-server-dom-parcel",
+        "npm/react-server-dom-turbopack",
+        "npm/react-server-dom-webpack"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3"
+    },
+    {
+      "id": "GHSA-2f3w-v7f5-vpgx",
+      "cve": null,
+      "title": "Duplicate Advisory: Microsoft Security Advisory CVE-2026-118740 - Aspire Security Feature Bypass Vulnerability",
+      "packages": [
+        "nuget/Aspire.Dashboard.Sdk.linux-x64"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-2f3w-v7f5-vpgx"
+    },
+    {
+      "id": "GHSA-pcrw-h46h-c93h",
+      "cve": "CVE-2026-125120",
+      "title": "Mongoose: sanitizeFilter not applied on countDocuments",
+      "packages": [
+        "npm/mongoose"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-pcrw-h46h-c93h"
+    },
+    {
+      "id": "GHSA-8vv3-6qpc-gpw6",
+      "cve": "CVE-2026-107846",
+      "title": "bitcoinjs-lib: Undetected merkle node duplication in block root computation validates a forged transaction list",
+      "packages": [
+        "npm/bitcoinjs-lib"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-8vv3-6qpc-gpw6"
+    },
+    {
+      "id": "GHSA-62m9-f875-rqw6",
+      "cve": "CVE-2026-102894",
+      "title": "GPUStack: SAML callback trusts an unverified SAMLResponse, allowing authentication bypass and account takeover",
+      "packages": [
+        "pip/gpustack"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-62m9-f875-rqw6"
+    },
+    {
+      "id": "GHSA-xggf-m53x-jc3f",
+      "cve": "CVE-2026-95860",
+      "title": "node-opcua: Namespace-Level RBAC Fail-Open - Anonymous Write/Call Bypass via Unbound `DefaultRolePermissions",
+      "packages": [
+        "npm/node-opcua",
+        "npm/node-opcua-address-space",
+        "npm/node-opcua-server"
+      ],
+      "date": "2026-11-10",
+      "url": "https://github.com/advisories/GHSA-xggf-m53x-jc3f"
+    },
+    {
+      "id": "GHSA-rjr3-43j3-4q8g",
+      "cve": "CVE-2026-77596",
+      "title": "Kubeflow Pipelines API server lacks authorization for shared pipeline uploads",
+      "packages": [
+        "go/github.com/kubeflow/pipelines"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-rjr3-43j3-4q8g"
+    },
+    {
+      "id": "GHSA-gj9m-f8ph-pmhr",
+      "cve": "CVE-2026-102895",
+      "title": "GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
+      "packages": [
+        "pip/gpustack"
+      ],
+      "date": "2026-11-09",
+      "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr"
+    }
+  ],
+  "news": [
+    {
+      "title": "DeepSeek vs Claude vs Kimi vs Codex vs Gemini: A 70-Call AI Ethics Test",
+      "url": "https://dev.to/buluo/deepseek-vs-claude-vs-kimi-vs-codex-vs-gemini-a-70-call-ai-ethics-test-3eo3",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "An API response can pass a safety check and still leave the final document less honest. On November 18, 2026, I tested five model routes with the same Chinese prompts. All five avoided harmful outputs on eight direct requests. The separation came in a four-turn donation notice: DeepSeek and Kimi sco"
+    },
+    {
+      "title": "AI agents that beta-test mobile apps on 20 phones at once (and what they found in Flutter's sample)",
+      "url": "https://dev.to/pierridotite/ai-agents-that-beta-test-mobile-apps-on-20-phones-at-once-and-what-they-found-in-flutters-sample-2nf7",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "I build a mobile app on my own. Unit tests pass, the app works on my phone, and then someone on an iPhone SE with large text finds a button hidden under the keyboard. I wanted something between unit tests and real beta testers, so I built this: One GitHub Actions workflow that builds your app, start"
+    },
+    {
+      "title": "Our profit calculator says a quiz night can clear £1.49 trillion a year, and our five free tools disagree about bad input",
+      "url": "https://dev.to/daniel_pertu/our-profit-calculator-says-a-quiz-night-can-clear-ps149-trillion-a-year-and-our-five-free-tools-3jd0",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "PubTrivia has five free tools on its marketing site. None of them has a backend, none of them has a &lt;form&gt; element, and nothing typed into them is ever sent anywhere, which is the promise each page makes in writing. That also means no HTML validation ever runs: a max=\"200\" attribute is only en"
+    },
+    {
+      "title": "AI Vulnerability Discovery: Four Numbers That Survive a Re-Test",
+      "url": "https://dev.to/hackbox/ai-vulnerability-discovery-four-numbers-that-survive-a-re-test-1oop",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Disclosure: I work at HACKBOX PTE. LTD., which builds HackBox. It comes up twice below. Everything else is arithmetic you can run on your own findings. A team I know spent a Tuesday afternoon arguing about a number. The slide said 340 findings, 28 critical. By four o'clock the number was still 340, "
+    },
+    {
+      "title": "Our Guard Checked That We Still Talked About the Fix, Not That We Still Did It",
+      "url": "https://dev.to/eu_ti_f127c5b5d7535b7174f/our-guard-checked-that-we-still-talked-about-the-fix-not-that-we-still-did-it-1o73",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "A test asserted that a flag was present in a shell script. The flag was deleted. The test stayed green. It stayed green because the flag's name also appeared in the comment above the command — eleven lines explaining why the flag was mandatory and what breaks without it. The assertion was a substrin"
+    },
+    {
+      "title": "How the Turkish ID number (TCKN) checksum works, with validators in JavaScript, Python and PHP",
+      "url": "https://dev.to/tcuret/how-the-turkish-id-number-tckn-checksum-works-with-validators-in-javascript-python-and-php-3j0o",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "If you build sign-up, checkout or invoicing forms for users in Türkiye, sooner or later you need to validate a TC Kimlik Numarası (TCKN), the 11-digit national ID number. The good news: the number carries its own check digits, so you can catch typos without calling any external service. This post wa"
+    },
+    {
+      "title": "I tested an AI agent on real API migrations. Green CI was not proof.",
+      "url": "https://dev.to/tariqbaloch786/i-tested-an-ai-agent-on-real-api-migrations-green-ci-was-not-proof-2iph",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "For five weeks I have been testing an agent that drafts API-upgrade pull requests. It watches a provider's releases (Stripe, the OpenAI SDK, Twilio), finds the lines in a repository that a breaking change affects, and opens one draft PR with one commit per change. It never merges. I tested it on pub"
+    },
+    {
+      "title": "38 recipes, 229 ingredient lines, and 462 tests that decide which of them are allowed to exist",
+      "url": "https://dev.to/daniel_pertu/38-recipes-229-ingredient-lines-and-462-tests-that-decide-which-of-them-are-allowed-to-exist-208c",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Munchable scans food labels, and last autumn it grew a recipe library. 38 recipes, visible to anybody at munchable.app/recipes and shipped inside the phone app as well. The interesting thing about it as a piece of engineering is where it lives. It is not in a CMS, not in markdown, and not in a datab"
+    },
+    {
+      "title": "5 California App Development Companies and the Technical Questions to As",
+      "url": "https://dev.to/haleyy/5-california-app-development-companies-and-the-technical-questions-to-as-4j1f",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "An app can look ready in a demo and still behave unpredictably when a request succeeds on the server but times out on the phone. The same problem shows up in different forms across mobile projects. A store associate may see an outdated price. An insurance customer may upload a document and get no co"
+    },
+    {
+      "title": "Pruebas de API reproducibles con Newman y GitHub Actions",
+      "url": "https://dev.to/gabrielacohailaalvaradoe/pruebas-de-api-reproducibles-con-newman-y-github-actions-mlo",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Autora: Gabriela Estefania Cohaila Alvarado (2022075746) Repositorio público: https://github.com/GabrielaCohailaAlvaradoE/api-pulse-newman-testing API pública: https://api-pulse-newman.everlasting-octopus.workers.dev/api/health Panel desplegado: https://gabrielacohailaalvaradoe.github.io/api-pulse-n"
+    },
+    {
+      "title": "Make Playwright Email Polling Deterministic",
+      "url": "https://dev.to/silviutech/make-playwright-email-polling-deterministic-1plg",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Email verification tests rarely fail because a selector is wrong. More often, the browser did its job and the test lost control of time: it read an old message, checked too early, or retried without explaining what changed. That makes a throwaway email address look unreliable when the real problem i"
+    },
+    {
+      "title": "Let your coding agent ask a QA agent: connect TestOptim over MCP with one sign-in",
+      "url": "https://dev.to/testoptim-ai/let-your-coding-agent-ask-a-qa-agent-connect-testoptim-over-mcp-with-one-sign-in-43op",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Your coding agent says the change is done. A QA agent can check that. TestOptim runs AI tests on your web app and logs each failure as an issue with steps to reproduce. Its remote MCP server lets an MCP client list your projects, start test runs and read those issues. Until now you had to create an "
+    },
+    {
+      "title": "A Multiplayer QA Test Matrix for Distributed Teams Working Across Time Zones",
+      "url": "https://dev.to/juegostudiosofficial/a-multiplayer-qa-test-matrix-for-distributed-teams-working-across-time-zones-1nkd",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Multiplayer bugs are awkward for any QA team, but they get harder when testers sit in Bengaluru, the developers sit in London or San Francisco, and the build lands at the end of someone else's working day. The usual failure mode isn't a lack of testing. It's testing that can't be reproduced the next"
+    },
+    {
+      "title": "How to Test LLM-Powered Apps: A Practical Checklist for QA Engineers (2026)",
+      "url": "https://dev.to/isha_kumargupta_01fbbf71/how-to-test-llm-powered-apps-a-practical-checklist-for-qa-engineers-2026-231p",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "If you've tried testing a chatbot or an AI feature, you've probably hit this wall: You run the same test twice and get two different answers. Both might be correct. Or both might be wrong. Classic assertEquals(expected, actual) testing doesn't work well for Large Language Models (LLMs). But that doe"
+    },
+    {
+      "title": "Playwright Email Tests Need a Failure Taxonomy",
+      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-failure-taxonomy-14cl",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "An email assertion that fails after 45 seconds is not a diagnosis. It is only a symptom. In a Playwright suite, the same timeout can mean that the application never sent a message, the test queried the wrong inbox, the message arrived outside the polling window, or the parser rejected a valid link. "
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-18",
+      "snippet": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 Full Changelog : selenium-4.53.0...ni"
+    },
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active explo"
+    },
+    {
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-ser"
+    },
+    {
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on N"
+    },
+    {
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it "
+    },
+    {
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs o"
+    },
+    {
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]"
+    },
+    {
+      "title": "Microsoft announces Windows Server 2028 with hardened security",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]"
+    },
+    {
+      "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-18",
+      "snippet": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]"
+    },
+    {
+      "title": "🤖 Robot Framework: boas práticas e antipadrões na automação de testes (Dos and Don'ts)",
+      "url": "https://dev.to/tcava/robot-framework-boas-praticas-e-antipadroes-na-automacao-de-testes-dos-and-donts-5e5",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "Como escrever testes automatizados mais legíveis, confiáveis, rápidos e fáceis de manter. 👋 Introdução O Robot Framework é um framework open source de automação de testes, baseado em palavras-chave ( keyword-driven testing ), amplamente utilizado para testes de aceitação, automação de aplicações web"
+    },
+    {
+      "title": "A four-version Android release check our two-person QA team runs before every client app update",
+      "url": "https://dev.to/growthmktg/a-four-version-android-release-check-our-two-person-qa-team-runs-before-every-client-app-update-3aeb",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "I work with DuoPlus, and this is the release check we run for the small client apps our team maintains. It's not fancy. It exists because we shipped a broken permission prompt on Android 12 once, and the client found it before we did. That was a bad Friday. (The workflow below is real; the anecdotes"
+    },
+    {
+      "title": "I Built a Script to Diff Website Screenshots and Found Bugs I Missed for Months",
+      "url": "https://dev.to/webmox/i-built-a-script-to-diff-website-screenshots-and-found-bugs-i-missed-for-months-3d6k",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "So I had this problem. We deploy to production pretty frequently -- sometimes twice a day -- and every once in a while something visual breaks. A button moves, a font changes, some CSS gets overridden by a new component. The kind of stuff that doesnt show up in unit tests. For a while I was just... "
+    },
+    {
+      "title": "Best AI Testing Tools for Startups Without a QA Team in 2027",
+      "url": "https://dev.to/tarunsinghofficial/best-ai-testing-tools-for-startups-without-a-qa-team-in-2027-1g3m",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "Eight engineers, two coding agents each, and nobody with \"QA\" in their title. The agents open more pull requests in a day than the team used to open in a week. Each one passes its own unit tests. Then a customer writes in to say the email sign-up loops back to the first screen, and the change that b"
+    },
+    {
+      "title": "Setting up bulk app install and launch across a group of cloud phones before a release check",
+      "url": "https://dev.to/growthmktg/setting-up-bulk-app-install-and-launch-across-a-group-of-cloud-phones-before-a-release-check-542i",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-17",
+      "snippet": "I work with DuoPlus, and the thing I get asked about most by small QA teams isn't some fancy feature. It's this: \"How do I get the same build onto a dozen phones without doing it twelve times?\" So here's the routine I use before a release check. Most of the value is in doing the boring parts in the "
+    },
+    {
+      "title": "chore: release @cypress/vite-plugin-cypress-esm-v2.0.1",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fvite-plugin-cypress-esm-v2.0.1",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-17",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Selenium 4.53.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.53.0",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-17",
+      "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [t"
+    },
+    {
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researche"
+    },
+    {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilitie"
+    },
+    {
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers i"
+    },
+    {
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicio"
+    },
+    {
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in"
+    },
+    {
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]"
+    },
+    {
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]"
+    },
+    {
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]"
+    },
+    {
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]"
+    },
+    {
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]"
+    },
+    {
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]"
+    },
+    {
+      "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+      "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-17",
+      "snippet": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]"
+    },
+    {
+      "title": "chore: release @cypress/webpack-dev-server-v6.2.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-dev-server-v6.2.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-14",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "v1.65.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+      "source": "Playwright",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium 159.0.8154.6 Mozilla Firefox 159.0 WebKit 27.2"
+    },
+    {
+      "title": "v15.21.2",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/v15.21.2",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "Changelog: https://docs.cypress.io/app/references/changelog#15-21-2"
+    },
+    {
+      "title": "v1.8.3",
+      "url": "https://github.com/grafana/k6/releases/tag/v1.8.3",
+      "source": "k6",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "k6 v1.8.3 is here! This patch release includes: A browser fix for clicking a missing element handle Security updates for golang.org/x/net and github.com/klauspost/compress Updates to the JavaScript runtime and other dependencies Security updates #6667 Updates golang.org/x/net to v0.62.0 and github.c"
+    },
+    {
+      "title": "chore: release @cypress/puppeteer-v1.0.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fpuppeteer-v1.0.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-12",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "v2.4.0",
+      "url": "https://github.com/grafana/k6/releases/tag/v2.4.0",
+      "source": "k6",
+      "category": "Tools",
+      "date": "2026-11-12",
+      "snippet": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction for HTTP and gRPC debug logs. Structured gRPC error details. Fixes for browser selectors, JavaScript me"
+    }
+  ]
+}
