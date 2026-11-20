@@ -1,0 +1,767 @@
+{
+  "generated_at": "2026-11-20T11:15:17+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "Test your Android app with Claude Code on a cloud phone",
+      "url": "https://dev.to/mobilebox/test-your-android-app-with-claude-code-on-a-cloud-phone-18pk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Disclosure: we build Mobilebox, one of the services in this post. Written with AI assistance from our own published data; every number carries its date and source, and corrections go to hello@mobilebox.dev . Claude Code can test an Android app once it has a phone it can see and touch. The shortest r",
+      "why": ""
+    },
+    {
+      "title": "Your Supabase signup hook returned 200. Did it create a user?",
+      "url": "https://dev.to/yogeshpandar/your-supabase-signup-hook-returned-200-did-it-create-a-user-4k2a",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "A green 200 in your webhook logs doesn't mean a signup passed. A Before User Created hook can return HTTP 200 with an error object in its body. Supabase Auth reads that object before deciding whether to insert the user. That gives you two things to test: the hook's response and whether a user actual",
+      "why": ""
+    },
+    {
+      "title": "A birth chart is a calculation. Here is how we check ours.",
+      "url": "https://dev.to/esotier/a-birth-chart-is-a-calculation-here-is-how-we-check-ours-45g",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "A language model can write a lovely paragraph about your Moon in Scorpio. It cannot tell you that the Moon was in Scorpio. Those are two separate jobs. One is describing a chart: choosing the words and the tradition to lean on. The other is placing the planets, and that one is plain astronomy. Where",
+      "why": ""
+    },
+    {
+      "title": "Why my mock API returns the same \"random\" data every time (and why your tests will thank you)",
+      "url": "https://dev.to/vipul_singh_755a9075cfbdd/why-my-mock-api-returns-the-same-random-data-every-time-and-why-your-tests-will-thank-you-44fm",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "I built a mock API tool because I was tired of frontend work blocking on a backend that didn't exist yet. The design choice that mattered most: the data is seeded, not random. Pick a dataset (say, users) and a seed, and you get exactly the same rows every time: same names, same emails, same IDs. Tha",
+      "why": ""
+    },
+    {
+      "title": "Our desktop app's whole test suite is three scripts you run by hand: 53 checks, two copies of the harness, and one that needs the internet",
+      "url": "https://dev.to/daniel_pertu/our-desktop-apps-whole-test-suite-is-three-scripts-you-run-by-hand-53-checks-two-copies-of-the-4c43",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Notifio is two codebases: a Next.js site that sells and supports the product, and an Electron app that does the work on your own machine. I measured the website's test suite a few days ago: five files on node:test , mostly about money and metadata. This post is the other half, and the other half doe",
+      "why": ""
+    },
+    {
+      "title": "Three checks for a retail POS when the network drops",
+      "url": "https://dev.to/programmings_360_091d4c5a/three-checks-for-a-retail-pos-when-the-network-drops-46ob",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "A cashier can lose connectivity after submitting a sale. At that point, the app may have no response even though the server recorded the transaction. When I worked on Devify POS, the Android checkout and receipt flows made this a practical design question. Offline synchronization is still being deve",
+      "why": ""
+    },
+    {
+      "title": "you can now test your ECS services without deploying each code change!",
+      "url": "https://dev.to/rinkiyakedad/you-can-now-test-your-ecs-services-without-deploying-each-code-change-5dfa",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Stop Deploying to ECS Just to See If Your Code Works Eyal Bukchin Eyal Bukchin Eyal Bukchin Follow for MetalBear Nov 20 Stop Deploying to ECS Just to See If Your Code Works # aws # devops # ai # testing 21 &nbsp;reactions Add&nbsp;Comment 4 min read",
+      "why": ""
+    },
+    {
+      "title": "The one sentence every result must carry exists in four wordings, and the only test on it is a four-word regex",
+      "url": "https://dev.to/daniel_pertu/the-one-sentence-every-result-must-carry-exists-in-four-wordings-and-the-only-test-on-it-is-a-5dk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Munchable reads food labels and tells you whether a product fits the gut conditions you manage. There is one sentence it is not allowed to leave out, anywhere, ever: go and check the actual pack. That obligation lives in one exported constant: /** Rendered on every scan result (PLAN.md §6, §7). */ e",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2024-10441",
+      "title": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "product": "Synology DiskStation Manager (DSM)",
+      "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
+    {
+      "id": "CVE-2026-40217",
+      "title": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "product": "BerriAI LiteLLM",
+      "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+    },
+    {
+      "id": "CVE-2026-90817",
+      "title": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "product": "Vanderbilt University Research Electronic Data Capture (REDCap)",
+      "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+    },
+    {
+      "id": "CVE-2026-90436",
+      "title": "Apache Axis Unsafe Reflection Vulnerability",
+      "product": "Apache Axis",
+      "description": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
+    },
+    {
+      "id": "CVE-2026-115731",
+      "title": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "product": "Perforce Puppet Enterprise",
+      "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.",
+      "date": "2026-11-17",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+    },
+    {
+      "id": "CVE-2026-114713",
+      "title": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "product": "UnrealIRCd UnrealIRCd",
+      "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+    },
+    {
+      "id": "CVE-2026-123039",
+      "title": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "product": "Check Point Multiple Products",
+      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+    },
+    {
+      "id": "CVE-2026-124194",
+      "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "product": "Microsoft Office",
+      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+    },
+    {
+      "id": "CVE-2026-111793",
+      "title": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "product": "Openwave Messaging Limited Webtop Media Transcoder",
+      "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+    },
+    {
+      "id": "CVE-2026-20320",
+      "title": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "product": "Cisco BroadWorks",
+      "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+    },
+    {
+      "id": "CVE-2026-111560",
+      "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "product": "Barracuda Networks Multiple Products",
+      "description": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+    },
+    {
+      "id": "CVE-2026-116606",
+      "title": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "product": "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "description": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-130778",
+      "description": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain cluster-level access, bypass authorization, modify trust store entries, and influence scriptlet-based authorizat",
+      "score": 10.0,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778"
+    },
+    {
+      "id": "CVE-2026-14492",
+      "description": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no is_string() guard, combined with unsanitized base64-decoded path construction in save_single_batch_file() lacking any d",
+      "score": 9.8,
+      "date": "2026-11-19",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14492"
+    },
+    {
+      "id": "CVE-2026-76536",
+      "description": "In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.17, an unauthenticated user could use an empty clustering shared secret to read and modify clustering configuration through the cluster configuration Representational State Transfer (REST) API endpoint on a standalone instance. This could expose clustering configuration, persist attacker-controlled clustering settings, and disrup",
+      "score": 9.4,
+      "date": "2026-11-19",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76536"
+    },
+    {
+      "id": "CVE-2026-130679",
+      "description": "SiYuan before 3.8.10 contains a stored cross-site scripting vulnerability in genAVValueHTML() that allows attackers who can store Attribute View asset values to inject script through an unescaped image src attribute. Attackers can store an image URL containing a double quote and onerror handler that executes OS commands via Node.js in the desktop app when victims open the bound note or row attribu",
+      "score": 9.4,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130679"
+    },
+    {
+      "id": "CVE-2026-130786",
+      "description": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs lxc.mount.entry fields to run commands as root on the host or bind-mount host paths, even from restricted ",
+      "score": 9.4,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
+    },
+    {
+      "id": "CVE-2026-133493",
+      "description": "A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacgi_main of the file gena.cgi of the component GENA Handler. Such manipulation leads to os command injection. The attack can be launched remotely. The exploit is publicly available and might be used.",
+      "score": 9.3,
+      "date": "2026-11-20",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493"
+    },
+    {
+      "id": "CVE-2026-130675",
+      "description": "Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in ImageTransforms::normalizeTransform() that allows attackers to instantiate arbitrary classes by supplying class:null with a __class key. Attackers can reach the method through Craft Commerce's payments/pay redirect template calling customer.photo.getUrl() with a crafted transform to instantiate classes like yii\\rb",
+      "score": 9.3,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130675"
+    },
+    {
+      "id": "CVE-2026-130733",
+      "description": "Grav from 2.0.0 before 2.2.18 contains an authorization bypass vulnerability that allows publishers to overwrite pages their per-page permissions deny by abusing FolderStorage key delimiter collisions and PageStorage folder reconstruction. Attackers can rename a folder like locked*** or save from a page with an unusual prefix width through a front-end Flex pages form, replacing protected content a",
+      "score": 9.3,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130733"
+    },
+    {
+      "id": "CVE-2012-20007",
+      "description": "ThinkPHP 2.0 through 2.2 and 3.0 Lite mode contains an eval injection vulnerability in the Dispatcher PATH_INFO parsing, which uses preg_replace with the /e modifier and a double-quoted replacement. Unauthenticated attackers can send crafted requests to index.php with a malicious 's' parameter containing PHP expressions to execute arbitrary code on the server. Exploitation evidence was first obser",
+      "score": 9.3,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-20007"
+    },
+    {
+      "id": "CVE-2026-130754",
+      "description": "All versions of LaraDashboard contain an authentication bypass in SocialAuthService::findOrCreateUser(), which links a social login to an existing account by email without checking that the OAuth provider verified that email. Unauthenticated attackers using an OAuth/OIDC provider that asserts a victim's email can log in as any user, including Superadmin, and keep persistent access through a linked",
+      "score": 9.3,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130754"
+    },
+    {
+      "id": "CVE-2026-115139",
+      "description": "Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion (component: Installation and Configuration).   The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion Infrastructure Technology.  Successful attacks require human interaction from a pe",
+      "score": 9.3,
+      "date": "2026-11-17",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115139"
+    },
+    {
+      "id": "CVE-2026-120681",
+      "description": "The Mang Board plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.4.7. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to delete any board post — including administrator-owned content — along with its associated comments and file links. A nonce suffi",
+      "score": 9.1,
+      "date": "2026-11-20",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120681"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-mc8w-wjhw-45x5",
+      "cve": "CVE-2026-114516",
+      "title": "Etherpad: Pre-auth arbitrary file read",
+      "packages": [
+        "npm/ep_etherpad-lite"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
+    },
+    {
+      "id": "GHSA-wj7x-58c2-5793",
+      "cve": "CVE-2026-77369",
+      "title": "Daptin: Broken Access Control (IDOR) in the generic YJS collaboration endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-wj7x-58c2-5793"
+    },
+    {
+      "id": "GHSA-hq2p-f2vj-v3cm",
+      "cve": "CVE-2026-77367",
+      "title": "Daptin: Unauthenticated SQL Injection via the `sort` query parameter on every entity list endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-hq2p-f2vj-v3cm"
+    },
+    {
+      "id": "GHSA-9x8x-crjq-g64h",
+      "cve": "CVE-2026-77359",
+      "title": "Jupyter MCP Server: Browser DNS rebinding can hijack the Jupyter backend through management routes",
+      "packages": [
+        "pip/jupyter-mcp-server"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-9x8x-crjq-g64h"
+    },
+    {
+      "id": "GHSA-p34x-fmph-9fjx",
+      "cve": "CVE-2026-77312",
+      "title": "Flyto2 Core: Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of CVE-2026-67429)",
+      "packages": [
+        "pip/flyto-core"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p34x-fmph-9fjx"
+    },
+    {
+      "id": "GHSA-p32v-8v8j-j534",
+      "cve": "CVE-2026-63344",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI content-type values",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p32v-8v8j-j534"
+    },
+    {
+      "id": "GHSA-58x9-vjvp-6mx8",
+      "cve": "CVE-2026-63346",
+      "title": "Refitter allows code execution through unescaped OpenAPI header parameter names",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-58x9-vjvp-6mx8"
+    },
+    {
+      "id": "GHSA-3fhm-p725-h3g3",
+      "cve": "CVE-2026-63345",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI paths",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-3fhm-p725-h3g3"
+    },
+    {
+      "id": "GHSA-x8q7-6c7m-52gw",
+      "cve": "CVE-2026-128138",
+      "title": "NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
+      "packages": [
+        "pip/nltk"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw"
+    },
+    {
+      "id": "GHSA-833v-v58w-294h",
+      "cve": "CVE-2026-76807",
+      "title": "Todoist MCP Server: Browser DNS rebinding lets websites write and delete Todoist data through local MCP server",
+      "packages": [
+        "npm/@doist/todoist-mcp"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-833v-v58w-294h"
+    },
+    {
+      "id": "GHSA-q8v2-3j4h-xg2p",
+      "cve": "CVE-2026-63412",
+      "title": "Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+      "packages": [
+        "composer/jane-php/open-api-3"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-q8v2-3j4h-xg2p"
+    },
+    {
+      "id": "GHSA-x9xr-53qx-9qcf",
+      "cve": "CVE-2026-63413",
+      "title": "Jane: Instantiation RCE via header parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+      "packages": [
+        "composer/jane-php/open-api-3"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-x9xr-53qx-9qcf"
+    }
+  ],
+  "news": [
+    {
+      "title": "Test your Android app with Claude Code on a cloud phone",
+      "url": "https://dev.to/mobilebox/test-your-android-app-with-claude-code-on-a-cloud-phone-18pk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Disclosure: we build Mobilebox, one of the services in this post. Written with AI assistance from our own published data; every number carries its date and source, and corrections go to hello@mobilebox.dev . Claude Code can test an Android app once it has a phone it can see and touch. The shortest r"
+    },
+    {
+      "title": "Your Supabase signup hook returned 200. Did it create a user?",
+      "url": "https://dev.to/yogeshpandar/your-supabase-signup-hook-returned-200-did-it-create-a-user-4k2a",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "A green 200 in your webhook logs doesn't mean a signup passed. A Before User Created hook can return HTTP 200 with an error object in its body. Supabase Auth reads that object before deciding whether to insert the user. That gives you two things to test: the hook's response and whether a user actual"
+    },
+    {
+      "title": "A birth chart is a calculation. Here is how we check ours.",
+      "url": "https://dev.to/esotier/a-birth-chart-is-a-calculation-here-is-how-we-check-ours-45g",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "A language model can write a lovely paragraph about your Moon in Scorpio. It cannot tell you that the Moon was in Scorpio. Those are two separate jobs. One is describing a chart: choosing the words and the tradition to lean on. The other is placing the planets, and that one is plain astronomy. Where"
+    },
+    {
+      "title": "Why my mock API returns the same \"random\" data every time (and why your tests will thank you)",
+      "url": "https://dev.to/vipul_singh_755a9075cfbdd/why-my-mock-api-returns-the-same-random-data-every-time-and-why-your-tests-will-thank-you-44fm",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "I built a mock API tool because I was tired of frontend work blocking on a backend that didn't exist yet. The design choice that mattered most: the data is seeded, not random. Pick a dataset (say, users) and a seed, and you get exactly the same rows every time: same names, same emails, same IDs. Tha"
+    },
+    {
+      "title": "Our desktop app's whole test suite is three scripts you run by hand: 53 checks, two copies of the harness, and one that needs the internet",
+      "url": "https://dev.to/daniel_pertu/our-desktop-apps-whole-test-suite-is-three-scripts-you-run-by-hand-53-checks-two-copies-of-the-4c43",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Notifio is two codebases: a Next.js site that sells and supports the product, and an Electron app that does the work on your own machine. I measured the website's test suite a few days ago: five files on node:test , mostly about money and metadata. This post is the other half, and the other half doe"
+    },
+    {
+      "title": "Three checks for a retail POS when the network drops",
+      "url": "https://dev.to/programmings_360_091d4c5a/three-checks-for-a-retail-pos-when-the-network-drops-46ob",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "A cashier can lose connectivity after submitting a sale. At that point, the app may have no response even though the server recorded the transaction. When I worked on Devify POS, the Android checkout and receipt flows made this a practical design question. Offline synchronization is still being deve"
+    },
+    {
+      "title": "you can now test your ECS services without deploying each code change!",
+      "url": "https://dev.to/rinkiyakedad/you-can-now-test-your-ecs-services-without-deploying-each-code-change-5dfa",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Stop Deploying to ECS Just to See If Your Code Works Eyal Bukchin Eyal Bukchin Eyal Bukchin Follow for MetalBear Nov 20 Stop Deploying to ECS Just to See If Your Code Works # aws # devops # ai # testing 21 &nbsp;reactions Add&nbsp;Comment 4 min read"
+    },
+    {
+      "title": "The one sentence every result must carry exists in four wordings, and the only test on it is a four-word regex",
+      "url": "https://dev.to/daniel_pertu/the-one-sentence-every-result-must-carry-exists-in-four-wordings-and-the-only-test-on-it-is-a-5dk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Munchable reads food labels and tells you whether a product fits the gut conditions you manage. There is one sentence it is not allowed to leave out, anywhere, ever: go and check the actual pack. That obligation lives in one exported constant: /** Rendered on every scan result (PLAN.md §6, §7). */ e"
+    },
+    {
+      "title": "“120 users” tells you very little about the workload",
+      "url": "https://dev.to/mrjonam-qa/120-users-tells-you-very-little-about-the-workload-181e",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "A release ticket says the portal must support 120 users. If those users are submitting forms, the first thing I’d ask is when the submissions arrive. A quiet average can hide a busy window Take a fictional portal. Over 15 minutes, 120 people each submit three requests. That’s 360 submissions in 900 "
+    },
+    {
+      "title": "The button stayed put. An animation made our Android automation reject the tap anyway.",
+      "url": "https://dev.to/zimu_liu_a50b02a6023ce320/the-button-stayed-put-an-animation-made-our-android-automation-reject-the-tap-anyway-5hb9",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Our Android test kept retrying a tap on a “More” button that hadn’t moved. Only the animation behind it had changed. I help maintain SoloPi, and we changed what it checks just before tapping: let the background move, but stop if the button moves or an overlay covers it. On a Pixel 8, median runtime "
+    },
+    {
+      "title": "Playwright Email Tests Need a Correlation ID",
+      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-correlation-id-1kc5",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Email tests often fail with an unhelpful sentence: “expected message to arrive, but it did not.” That is a timeout, not a diagnosis. The message might have been rejected, delivered to the wrong fixture, delayed by a queue, or found by the test but filtered out by a subject assertion. The most useful"
+    },
+    {
+      "title": "Why Android apps behave differently on x86 emulators: ARM translation and native libraries explained",
+      "url": "https://dev.to/ksu9999/why-android-apps-behave-differently-on-x86-emulators-arm-translation-and-native-libraries-explained-1jbo",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Updated November 2026 Android apps behave differently on x86 emulators because native code is compiled for one CPU architecture at a time. Kotlin and Java run on ART and don’t care. Native .so libraries do. An x86 emulator runs either the app’s x86 libraries, which ARM phones never use, or ARM libra"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-20",
+      "snippet": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when sta"
+    },
+    {
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices fas"
+    },
+    {
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerabili"
+    },
+    {
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authe"
+    },
+    {
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through sepa"
+    },
+    {
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher wh"
+    },
+    {
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]"
+    },
+    {
+      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]"
+    },
+    {
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]"
+    },
+    {
+      "title": "What makes a bug report actionable?",
+      "url": "https://dev.to/willmacpherson/what-makes-a-bug-report-actionable-4nnh",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-19",
+      "snippet": "Make the behaviour easy to find again An actionable bug report gives another person a clear starting point. It describes a specific observation, explains what was expected and provides enough context to follow the same path. Name the observed problem Prefer a title that describes the behaviour and i"
+    },
+    {
+      "title": "Requirement Traceability Matrix: Keeping Tests and Requirements in Sync",
+      "url": "https://dev.to/keyur_shah_f3f68b0d63db96/requirement-traceability-matrix-keeping-tests-and-requirements-in-sync-1383",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-19",
+      "snippet": "In any disciplined delivery process, the gap between what the product should do and what you actually verify can become a hidden source of risk. A Requirement Traceability Matrix (RTM) bridges that gap by making every requirement visible in the test suite and every defect traceable back to the requi"
+    },
+    {
+      "title": "A Green Signup Test Can Verify The Wrong Account",
+      "url": "https://dev.to/vipul_swarup_345897aa4854/a-green-signup-test-can-verify-the-wrong-account-574d",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-19",
+      "snippet": "Test A submits a signup form using qa@example.com . Its verification email is delayed, and the test times out. Test B starts with the same address, submits the same form, and waits for an email whose subject contains “Verify.” A's message arrives first. B reads it, follows the link, sees a success p"
+    },
+    {
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get peo"
+    },
+    {
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP "
+    },
+    {
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users "
+    },
+    {
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter i"
+    },
+    {
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon."
+    },
+    {
+      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]"
+    },
+    {
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]"
+    },
+    {
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]"
+    },
+    {
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]"
+    },
+    {
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. ["
+    },
+    {
+      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]"
+    },
+    {
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-19",
+      "snippet": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]"
+    },
+    {
+      "title": "How to Write a Bug Report That Actually Gets Fixed",
+      "url": "https://dev.to/priyanka_desai/how-to-write-a-bug-report-that-actually-gets-fixed-34dd",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Originally published at bughuntlab.hashnode.dev A defect report is not a complaint. It is a reproducible argument that a specific behaviour is wrong. Here is the structure that survives triage. Most bug reports die in triage. Not because the bug was fake, but because the report gave the developer no"
+    },
+    {
+      "title": "Kottayam QA Training: A Commute-Balanced Venue Shortlist for 8 July 2027",
+      "url": "https://dev.to/1ds22cs119_manish_274b7b2/kottayam-qa-training-a-commute-balanced-venue-shortlist-for-8-july-2027-42a",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Planning disclosure: Every venue name in this article is invented for shortlisting. OpenCage supplied coordinates for real locality or transport anchors; those coordinates do not identify bookable properties. No venue’s existence, availability, facilities or pricing has been verified. Prepared for M"
+    },
+    {
+      "title": "Your CI Pipeline Is Green. So Why Is Everyone Afraid to Release?",
+      "url": "https://dev.to/oleksoleks07/your-ci-pipeline-is-green-so-why-is-everyone-afraid-to-release-6kf",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "A green CI badge is supposed to mean the team can merge with confidence. But ask the people who maintain the test suite a different question: Would you trust this pipeline enough to release on a Friday afternoon? If the answer is “it depends,” your automation may be passing without actually providin"
+    },
+    {
+      "title": "How to Write Bug Reports Developers Can Reproduce on the First Try",
+      "url": "https://dev.to/deviqa-solutions/how-to-write-bug-reports-developers-can-reproduce-on-the-first-try-4l02",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "The ticket had bounced three times. The developer moved it to \"cannot reproduce,\" QA moved it back with \"still happens for me,\" and the bug sat live in production while everyone argued in the comments. I've watched this loop on more than one project, and the missing piece was almost never the steps."
+    },
+    {
+      "title": "Make Playwright Email Polling Deterministic",
+      "url": "https://dev.to/silviutech/make-playwright-email-polling-deterministic-1plg",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-18",
+      "snippet": "Email verification tests rarely fail because a selector is wrong. More often, the browser did its job and the test lost control of time: it read an old message, checked too early, or retried without explaining what changed. That makes a throwaway email address look unreliable when the real problem i"
+    },
+    {
+      "title": "chore: release @cypress/vite-plugin-cypress-esm-v2.0.1",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fvite-plugin-cypress-esm-v2.0.1",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-17",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Selenium 4.53.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.53.0",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-17",
+      "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [t"
+    },
+    {
+      "title": "chore: release @cypress/webpack-dev-server-v6.2.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-dev-server-v6.2.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-14",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "v1.65.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+      "source": "Playwright",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium 159.0.8154.6 Mozilla Firefox 159.0 WebKit 27.2"
+    },
+    {
+      "title": "v1.8.3",
+      "url": "https://github.com/grafana/k6/releases/tag/v1.8.3",
+      "source": "k6",
+      "category": "Tools",
+      "date": "2026-11-13",
+      "snippet": "k6 v1.8.3 is here! This patch release includes: A browser fix for clicking a missing element handle Security updates for golang.org/x/net and github.com/klauspost/compress Updates to the JavaScript runtime and other dependencies Security updates #6667 Updates golang.org/x/net to v0.62.0 and github.c"
+    }
+  ]
+}
