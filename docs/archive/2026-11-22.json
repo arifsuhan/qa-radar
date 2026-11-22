@@ -1,0 +1,722 @@
+{
+  "generated_at": "2026-11-22T10:59:19+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "Agents ship PRs that pass their own tests — the verification receipt that proves otherwise",
+      "url": "https://dev.to/nexusfoundry/agents-ship-prs-that-pass-their-own-tests-the-verification-receipt-that-proves-otherwise-29l9",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Agents are great at one thing: making the checks pass. The uncomfortable part is that the checks are usually files in the same repo the agent can edit. \"Tests pass\" from an agent is a claim, not evidence. A verification gate that actually means something produces receipts , not vibes. Three rules I ",
+      "why": ""
+    },
+    {
+      "title": "We tried to break an AI-built barber booking site: two phones, one 12:00 slot",
+      "url": "https://dev.to/trynocoder/we-tried-to-break-an-ai-built-barber-booking-site-two-phones-one-1200-slot-4bgi",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "The bug that matters most in a booking site for a barber shop is the same one that matters in any booking site: two people getting the same chair at the same time. A demo with one user never shows it, so we built one and tried to break it. The build One paragraph, typed into NoCoder (full-stack mode",
+      "why": ""
+    },
+    {
+      "title": "How can I verify my AI agent actually did the work?",
+      "url": "https://dev.to/rambozambo/how-can-i-verify-my-ai-agent-actually-did-the-work-554b",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "The short answer Ask for the receipts, then recompute them. For every step the agent claims, there should be a record minted when the step ran: the tool, the time, the saved result as canonical bytes, and a SHA-256 output_hash over those bytes. Recompute the hash and compare. A match means the saved",
+      "why": ""
+    },
+    {
+      "title": "Catch a leftover noindex before it ships: a small check for CI",
+      "url": "https://dev.to/fixguider/catch-a-leftover-noindex-before-it-ships-a-small-check-for-ci-268e",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Add a smoke test to your deploy that fetches your key URLs and fails if any of them says \"do not index\". It takes about 40 lines, and it catches the most expensive small mistake in a site launch: a noindex that was right on staging and stayed on in production. The mistake is common after a redesign.",
+      "why": ""
+    },
+    {
+      "title": "Can CI check whether an AI agent actually ran the tests it claims?",
+      "url": "https://dev.to/rambozambo/can-ci-check-whether-an-ai-agent-actually-ran-the-tests-it-claims-den",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "The short answer Yes, with one correction to the question. CI cannot check whether something happened in the past. Nothing can, directly. What CI can check, mechanically and in seconds, is a record minted when the test run happened: the saved test output as canonical bytes, committed to by a SHA-256",
+      "why": ""
+    },
+    {
+      "title": "5 checks before you trust a coding agent's diff (and the one that catches most bad merges)",
+      "url": "https://dev.to/nexusfoundry/5-checks-before-you-trust-a-coding-agents-diff-and-the-one-that-catches-most-bad-merges-2a3e",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "This week on Product Hunt the theme was unmistakable: TestSprite, Appxiom, Currents, tensorViz — every launch was about making coding agents observable . The digest line said it plainly: \"agents are now an assumption; the shift is from building agents to making them observable and trustworthy.\" I ru",
+      "why": ""
+    },
+    {
+      "title": "A six-digit code in the inbox does not mean email verification works",
+      "url": "https://dev.to/vipul_swarup_345897aa4854/a-six-digit-code-in-the-inbox-does-not-mean-email-verification-works-2cd",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "An end-to-end test requests an email code, finds six digits in a message, enters them, and sees a green checkmark. It proves that one code can complete one path. It says nothing about whether an expired code still works, a resend leaves two valid codes behind, or the same code can be replayed. That ",
+      "why": ""
+    },
+    {
+      "title": "AI in Mathematics",
+      "url": "https://dev.to/tracygjg/ai-in-mathematics-1pp9",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Observers of developments in the fields of Mathematics and AI will no-doubt be aware of recent announcements from OpenAI and Anthropic. According to reports three of the seven The Clay Mathematics Institute Millennium Prize Problems (Navier–Stokes, Riemann hypothesis and, Yang–Mills) have been prove",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2026-129448",
+      "title": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "product": "Apache Roller",
+      "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+    },
+    {
+      "id": "CVE-2026-123890",
+      "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "product": "Broadcom VMware vCenter",
+      "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+    },
+    {
+      "id": "CVE-2025-42884",
+      "title": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "product": "SAP NetWeaver",
+      "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    },
+    {
+      "id": "CVE-2026-76466",
+      "title": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "product": "Cisco Expressway Series",
+      "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+    },
+    {
+      "id": "CVE-2024-10441",
+      "title": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "product": "Synology DiskStation Manager (DSM)",
+      "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
+    {
+      "id": "CVE-2026-40217",
+      "title": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "product": "BerriAI LiteLLM",
+      "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+    },
+    {
+      "id": "CVE-2026-90817",
+      "title": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "product": "Vanderbilt University Research Electronic Data Capture (REDCap)",
+      "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+    },
+    {
+      "id": "CVE-2026-90436",
+      "title": "Apache Axis Unsafe Reflection Vulnerability",
+      "product": "Apache Axis",
+      "description": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
+    },
+    {
+      "id": "CVE-2026-115731",
+      "title": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "product": "Perforce Puppet Enterprise",
+      "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT request. If the certificate authority automatically signs requests without strong verification, an unauthenticated network attacker can obtain a valid certificate and exploit the vulnerability.",
+      "date": "2026-11-17",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+    },
+    {
+      "id": "CVE-2026-114713",
+      "title": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "product": "UnrealIRCd UnrealIRCd",
+      "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+    },
+    {
+      "id": "CVE-2026-123039",
+      "title": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "product": "Check Point Multiple Products",
+      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+      "date": "2026-11-13",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+    },
+    {
+      "id": "CVE-2026-124194",
+      "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "product": "Microsoft Office",
+      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "date": "2026-11-10",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-130778",
+      "description": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain cluster-level access, bypass authorization, modify trust store entries, and influence scriptlet-based authorizat",
+      "score": 10.0,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778"
+    },
+    {
+      "id": "CVE-2026-120539",
+      "description": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it with eval(). Because PHP interpolates double-quoted strings, a payload of the form {${...}} in the URL path is executed dur",
+      "score": 9.8,
+      "date": "2026-11-21",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539"
+    },
+    {
+      "id": "CVE-2026-125294",
+      "description": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike characters — such as U+1E87 and U+00E7 in a key like `ẇp_çapabilities` — whose UTF-8 byte sequences ",
+      "score": 9.8,
+      "date": "2026-11-21",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294"
+    },
+    {
+      "id": "CVE-2026-130786",
+      "description": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs lxc.mount.entry fields to run commands as root on the host or bind-mount host paths, even from restricted ",
+      "score": 9.4,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
+    },
+    {
+      "id": "CVE-2026-134292",
+      "description": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated users denied access to built-in functions in SurrealQL can execute them by calling them through surrealdb.functions from",
+      "score": 9.3,
+      "date": "2026-11-21",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
+    },
+    {
+      "id": "CVE-2026-133993",
+      "description": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks.",
+      "score": 9.3,
+      "date": "2026-11-21",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
+    },
+    {
+      "id": "CVE-2026-133680",
+      "description": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used.",
+      "score": 8.6,
+      "date": "2026-11-20",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133680"
+    },
+    {
+      "id": "CVE-2026-133500",
+      "description": "A vulnerability was identified in Gladys Assistant up to 4.71.0. This affects an unknown function of the file gateway.downloadBackup.js of the component Backup Restore Endpoint. The manipulation of the argument file_url leads to os command injection. The attack can be initiated remotely. The exploit is publicly available and might be used. Upgrading to version 4.72.0 mitigates this issue. Upgradin",
+      "score": 8.5,
+      "date": "2026-11-20",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133500"
+    },
+    {
+      "id": "CVE-2026-132142",
+      "description": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function dataflowstatus of the file /cgi-bin/mainfunction.cgi of the component CGI Process. This manipulation of the argument option causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been published and may be used. Upgrading to version 1.5.1.7 is able to mitigate this issue. You shoul",
+      "score": 8.5,
+      "date": "2026-11-18",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132142"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-4hrh-34w3-5ww8",
+      "cve": "CVE-2026-104099",
+      "title": "Fabio: Access-control bypass through unnormalized request paths",
+      "packages": [
+        "go/github.com/fabiolb/fabio"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-4hrh-34w3-5ww8"
+    },
+    {
+      "id": "GHSA-mc8w-wjhw-45x5",
+      "cve": "CVE-2026-114516",
+      "title": "Etherpad: Pre-auth arbitrary file read",
+      "packages": [
+        "npm/ep_etherpad-lite"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
+    },
+    {
+      "id": "GHSA-wj7x-58c2-5793",
+      "cve": "CVE-2026-77369",
+      "title": "Daptin: Broken Access Control (IDOR) in the generic YJS collaboration endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-wj7x-58c2-5793"
+    },
+    {
+      "id": "GHSA-hq2p-f2vj-v3cm",
+      "cve": "CVE-2026-77367",
+      "title": "Daptin: Unauthenticated SQL Injection via the `sort` query parameter on every entity list endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-hq2p-f2vj-v3cm"
+    },
+    {
+      "id": "GHSA-9x8x-crjq-g64h",
+      "cve": "CVE-2026-77359",
+      "title": "Jupyter MCP Server: Browser DNS rebinding can hijack the Jupyter backend through management routes",
+      "packages": [
+        "pip/jupyter-mcp-server"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-9x8x-crjq-g64h"
+    },
+    {
+      "id": "GHSA-p34x-fmph-9fjx",
+      "cve": "CVE-2026-77312",
+      "title": "Flyto2 Core: Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of CVE-2026-67429)",
+      "packages": [
+        "pip/flyto-core"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p34x-fmph-9fjx"
+    },
+    {
+      "id": "GHSA-p32v-8v8j-j534",
+      "cve": "CVE-2026-63344",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI content-type values",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p32v-8v8j-j534"
+    },
+    {
+      "id": "GHSA-58x9-vjvp-6mx8",
+      "cve": "CVE-2026-63346",
+      "title": "Refitter allows code execution through unescaped OpenAPI header parameter names",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-58x9-vjvp-6mx8"
+    },
+    {
+      "id": "GHSA-3fhm-p725-h3g3",
+      "cve": "CVE-2026-63345",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI paths",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-3fhm-p725-h3g3"
+    },
+    {
+      "id": "GHSA-x8q7-6c7m-52gw",
+      "cve": "CVE-2026-128138",
+      "title": "NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
+      "packages": [
+        "pip/nltk"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw"
+    },
+    {
+      "id": "GHSA-833v-v58w-294h",
+      "cve": "CVE-2026-76807",
+      "title": "Todoist MCP Server: Browser DNS rebinding lets websites write and delete Todoist data through local MCP server",
+      "packages": [
+        "npm/@doist/todoist-mcp"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-833v-v58w-294h"
+    },
+    {
+      "id": "GHSA-q8v2-3j4h-xg2p",
+      "cve": "CVE-2026-63412",
+      "title": "Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
+      "packages": [
+        "composer/jane-php/open-api-3"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-q8v2-3j4h-xg2p"
+    }
+  ],
+  "news": [
+    {
+      "title": "Agents ship PRs that pass their own tests — the verification receipt that proves otherwise",
+      "url": "https://dev.to/nexusfoundry/agents-ship-prs-that-pass-their-own-tests-the-verification-receipt-that-proves-otherwise-29l9",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Agents are great at one thing: making the checks pass. The uncomfortable part is that the checks are usually files in the same repo the agent can edit. \"Tests pass\" from an agent is a claim, not evidence. A verification gate that actually means something produces receipts , not vibes. Three rules I "
+    },
+    {
+      "title": "We tried to break an AI-built barber booking site: two phones, one 12:00 slot",
+      "url": "https://dev.to/trynocoder/we-tried-to-break-an-ai-built-barber-booking-site-two-phones-one-1200-slot-4bgi",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "The bug that matters most in a booking site for a barber shop is the same one that matters in any booking site: two people getting the same chair at the same time. A demo with one user never shows it, so we built one and tried to break it. The build One paragraph, typed into NoCoder (full-stack mode"
+    },
+    {
+      "title": "How can I verify my AI agent actually did the work?",
+      "url": "https://dev.to/rambozambo/how-can-i-verify-my-ai-agent-actually-did-the-work-554b",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "The short answer Ask for the receipts, then recompute them. For every step the agent claims, there should be a record minted when the step ran: the tool, the time, the saved result as canonical bytes, and a SHA-256 output_hash over those bytes. Recompute the hash and compare. A match means the saved"
+    },
+    {
+      "title": "Catch a leftover noindex before it ships: a small check for CI",
+      "url": "https://dev.to/fixguider/catch-a-leftover-noindex-before-it-ships-a-small-check-for-ci-268e",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Add a smoke test to your deploy that fetches your key URLs and fails if any of them says \"do not index\". It takes about 40 lines, and it catches the most expensive small mistake in a site launch: a noindex that was right on staging and stayed on in production. The mistake is common after a redesign."
+    },
+    {
+      "title": "Can CI check whether an AI agent actually ran the tests it claims?",
+      "url": "https://dev.to/rambozambo/can-ci-check-whether-an-ai-agent-actually-ran-the-tests-it-claims-den",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "The short answer Yes, with one correction to the question. CI cannot check whether something happened in the past. Nothing can, directly. What CI can check, mechanically and in seconds, is a record minted when the test run happened: the saved test output as canonical bytes, committed to by a SHA-256"
+    },
+    {
+      "title": "5 checks before you trust a coding agent's diff (and the one that catches most bad merges)",
+      "url": "https://dev.to/nexusfoundry/5-checks-before-you-trust-a-coding-agents-diff-and-the-one-that-catches-most-bad-merges-2a3e",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "This week on Product Hunt the theme was unmistakable: TestSprite, Appxiom, Currents, tensorViz — every launch was about making coding agents observable . The digest line said it plainly: \"agents are now an assumption; the shift is from building agents to making them observable and trustworthy.\" I ru"
+    },
+    {
+      "title": "A six-digit code in the inbox does not mean email verification works",
+      "url": "https://dev.to/vipul_swarup_345897aa4854/a-six-digit-code-in-the-inbox-does-not-mean-email-verification-works-2cd",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "An end-to-end test requests an email code, finds six digits in a message, enters them, and sees a green checkmark. It proves that one code can complete one path. It says nothing about whether an expired code still works, a resend leaves two valid codes behind, or the same code can be replayed. That "
+    },
+    {
+      "title": "AI in Mathematics",
+      "url": "https://dev.to/tracygjg/ai-in-mathematics-1pp9",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Observers of developments in the fields of Mathematics and AI will no-doubt be aware of recent announcements from OpenAI and Anthropic. According to reports three of the seven The Clay Mathematics Institute Millennium Prize Problems (Navier–Stokes, Riemann hypothesis and, Yang–Mills) have been prove"
+    },
+    {
+      "title": "How to check every link in your HTML email templates before they're sent (a Python script for CI)",
+      "url": "https://dev.to/linkbruno/how-to-check-every-link-in-your-html-email-templates-before-theyre-sent-a-python-script-for-ci-4eek",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Scheduled broken-link and redirect checks that tell you the moment a link breaks — linkbruno.com Websites get second chances. You find a broken link, fix it, deploy, and everyone who visits from then on sees the fix. Emails don't. Once a password reset, a receipt, an onboarding sequence or a newslet"
+    },
+    {
+      "title": "FunkyMEDIA pokazuje, jak sprawdzić pamięć podręczną w systemie odpowiedzi o marce",
+      "url": "https://dev.to/funkymedia/funkymedia-pokazuje-jak-sprawdzic-pamiec-podreczna-w-systemie-odpowiedzi-o-marce-1n67",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Dlaczego system AI podaje starą ofertę mimo aktualizacji strony? Jedną z możliwych przyczyn jest ponowne użycie wcześniejszej treści, fragmentów dokumentów lub gotowej odpowiedzi. W proponowanej procedurze FunkyMEDIA sprawdzamy kolejne warstwy własnego systemu: stronę, pobrany dokument, wyszukiwanie"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-22",
+      "snippet": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when sta"
+    },
+    {
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-22",
+      "snippet": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt"
+    },
+    {
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-22",
+      "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a"
+    },
+    {
+      "title": "What Is an AI QA Architect? Role, System, and Skills",
+      "url": "https://dev.to/aiwithanton/what-is-an-ai-qa-architect-role-system-and-skills-548h",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "Originally published on anton.qa . Last updated: 2026-05-25 An AI QA Architect designs the test system AI agents run on. They connect requirements, test generation, browser execution, evidence, and human review. The job keeps QA engineers in control. It gives agents a safe place to create, run, fix,"
+    },
+    {
+      "title": "Playwright Email Tests Need a Cleanup Contract",
+      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-cleanup-contract-2n90",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "Email assertions often look simple: submit a signup form, wait for a verification message, click the link, and confirm the account is active. The hard part starts after the assertion. Who owns the inbox? When is it safe to delete the message? What happens when a retry sees the email from the first a"
+    },
+    {
+      "title": "Is QA Dead in the Age of AI Coding?",
+      "url": "https://dev.to/samaythakkar/is-qa-dead-in-the-age-of-ai-coding-397o",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "No, QA isn't dead. What's ending is manual checking at the end of a sprint. When AI writes much of the code, someone still has to prove each change works. The job moves from finding bugs by hand to designing the tests, review gates, security checks and release evidence that every change must pass be"
+    },
+    {
+      "title": "How to track test data across dev, staging and UAT (without a spreadsheet nobody trusts)",
+      "url": "https://dev.to/mapkari/how-to-track-test-data-across-dev-staging-and-uat-without-a-spreadsheet-nobody-trusts-3pc8",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "Disclosure up front: I build a Jira app for this problem, mentioned near the end. Everything before that works whatever tool you use. The problem nobody owns Most teams have solved generating test data. Factories, seed scripts and fixtures handle the easy part. What still eats time is the data that "
+    },
+    {
+      "title": "How to Test Sign-Up and Password-Reset Emails Without Polluting Your Inbox",
+      "url": "https://dev.to/cloakmails/how-to-test-sign-up-and-password-reset-emails-without-polluting-your-inbox-45p6",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "Every product with accounts sends the same critical emails: verification, password reset, magic links, receipts. They're easy to break and annoying to test, especially when every test run lands in your personal or work inbox. Here's a cleaner workflow. Why your own inbox is a bad test target You run"
+    },
+    {
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a l"
+    },
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The b"
+    },
+    {
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside"
+    },
+    {
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions wher"
+    },
+    {
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below"
+    },
+    {
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]"
+    },
+    {
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]"
+    },
+    {
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]"
+    },
+    {
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]"
+    },
+    {
+      "title": "Your End-to-End Tests Are Green. So Why Are Users Still Losing Data?",
+      "url": "https://dev.to/orbitpickle307/your-end-to-end-tests-are-green-so-why-are-users-still-losing-data-hmn",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Imagine this scenario. A user opens a web application, edits a document, clicks Save, and sees a reassuring green checkmark. Everything looks fine. They close the tab, come back ten minutes later, and discover that their changes are gone. The QA team investigates. The automated test for saving docum"
+    },
+    {
+      "title": "We built a practice API where every response is 200 OK and 10 bugs hide inside",
+      "url": "https://dev.to/checkcraft/we-built-a-practice-api-where-every-response-is-200-ok-and-10-bugs-hide-inside-1cc1",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Disclosure first: this post is from the Checkcraft team (we make an API-checking desktop app), and the practice API below lives on our site. It is free, needs no sign-up and doesn't require our app. Postman, curl or the browser are enough. Why another practice API? JSONPlaceholder, Reqres and Restfu"
+    },
+    {
+      "title": "Artificial Intelligence in Test Automation You Can Audit",
+      "url": "https://dev.to/arjunsh54473598/artificial-intelligence-in-test-automation-you-can-audit-4mca",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "An auditor asks why the checkout test passed on March 3 when it failed on March 2. Nobody on your team touched it. The answer sits in a tool setting. Overnight, the suite repaired a selector and carried on. That's the new shape of artificial intelligence in test automation . The suite makes small de"
+    },
+    {
+      "title": "Playwright Email Tests Need a Correlation ID",
+      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-correlation-id-1kc5",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Email tests often fail with an unhelpful sentence: “expected message to arrive, but it did not.” That is a timeout, not a diagnosis. The message might have been rejected, delivered to the wrong fixture, delayed by a queue, or found by the test but filtered out by a subject assertion. The most useful"
+    },
+    {
+      "title": "Why Android apps behave differently on x86 emulators: ARM translation and native libraries explained",
+      "url": "https://dev.to/ksu9999/why-android-apps-behave-differently-on-x86-emulators-arm-translation-and-native-libraries-explained-1jbo",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-20",
+      "snippet": "Updated November 2026 Android apps behave differently on x86 emulators because native code is compiled for one CPU architecture at a time. Kotlin and Java run on ART and don’t care. Native .so libraries do. An x86 emulator runs either the app’s x86 libraries, which ARM phones never use, or ARM libra"
+    },
+    {
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of exte"
+    },
+    {
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 202"
+    },
+    {
+      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+      "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affe"
+    },
+    {
+      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]"
+    },
+    {
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]"
+    },
+    {
+      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]"
+    },
+    {
+      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure"
+    },
+    {
+      "title": "N-able says recent security breach led to major service outage",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]"
+    },
+    {
+      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-20",
+      "snippet": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]"
+    },
+    {
+      "title": "chore: release @cypress/vite-plugin-cypress-esm-v2.0.1",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fvite-plugin-cypress-esm-v2.0.1",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-17",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Selenium 4.53.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.53.0",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-17",
+      "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [t"
+    }
+  ]
+}

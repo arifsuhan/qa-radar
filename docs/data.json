@@ -1,78 +1,78 @@
 {
-  "generated_at": "2026-11-21T10:51:06+00:00",
+  "generated_at": "2026-11-22T10:59:19+00:00",
   "model": "gemini-2.5-flash",
   "brief": [],
   "top_news": [
     {
-      "title": "A record that checks its form and never claims it is true: 111 concerns and four stall checks",
-      "url": "https://dev.to/miguel_shinyenyi_e2291c8c/a-record-that-checks-its-form-and-never-claims-it-is-true-111-concerns-and-four-stall-checks-165n",
+      "title": "Agents ship PRs that pass their own tests — the verification receipt that proves otherwise",
+      "url": "https://dev.to/nexusfoundry/agents-ship-prs-that-pass-their-own-tests-the-verification-receipt-that-proves-otherwise-29l9",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Engineering concerns you skip without noticing A project needs rate limits, timeouts, backups, caching rules, postmortems and about a hundred other things. Most of them are never decided. They are skipped because nobody looked at them, and the project finds out in an outage. I keep a list of 111 eng",
+      "date": "2026-11-22",
+      "snippet": "Agents are great at one thing: making the checks pass. The uncomfortable part is that the checks are usually files in the same repo the agent can edit. \"Tests pass\" from an agent is a claim, not evidence. A verification gate that actually means something produces receipts , not vibes. Three rules I ",
       "why": ""
     },
     {
-      "title": "A flaky test showed me a real bug in my AI helper hub",
-      "url": "https://dev.to/miguel_shinyenyi_e2291c8c/a-flaky-test-showed-me-a-real-bug-in-my-ai-helper-hub-2lhh",
+      "title": "We tried to break an AI-built barber booking site: two phones, one 12:00 slot",
+      "url": "https://dev.to/trynocoder/we-tried-to-break-an-ai-built-barber-booking-site-two-phones-one-1200-slot-4bgi",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "On Sep 16 I started a notebook. It held a journal, a list of projects and one master context file. Seven weeks later it holds rules, a queue of decisions, an archive, and a logbook of every change. I call it the Umwayi hub. It is pre-release, and one backend engineer in Nairobi builds it. This week ",
+      "date": "2026-11-22",
+      "snippet": "The bug that matters most in a booking site for a barber shop is the same one that matters in any booking site: two people getting the same chair at the same time. A demo with one user never shows it, so we built one and tried to break it. The build One paragraph, typed into NoCoder (full-stack mode",
       "why": ""
     },
     {
-      "title": "Your API test passed. Did it read the right workspace?",
-      "url": "https://dev.to/appstruct_support_4d5c05b/your-api-test-passed-did-it-read-the-right-workspace-9m2",
+      "title": "How can I verify my AI agent actually did the work?",
+      "url": "https://dev.to/rambozambo/how-can-i-verify-my-ai-agent-actually-did-the-work-554b",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "A read request can return HTTP 200 and valid JSON while showing a different workspace from the one you intended to inspect. Before adding automation, separate three checks: the request succeeded, the response has the documented shape, and a deliberately chosen resource is present. I maintain AppStru",
+      "date": "2026-11-22",
+      "snippet": "The short answer Ask for the receipts, then recompute them. For every step the agent claims, there should be a record minted when the step ran: the tool, the time, the saved result as canonical bytes, and a SHA-256 output_hash over those bytes. Recompute the hash and compare. A match means the saved",
       "why": ""
     },
     {
-      "title": "Lazarus: Proving a COBOL port is right, one penny at a time",
-      "url": "https://dev.to/gtogbes/lazarus-proving-a-cobol-port-is-right-one-penny-at-a-time-5cf",
+      "title": "Catch a leftover noindex before it ships: a small check for CI",
+      "url": "https://dev.to/fixguider/catch-a-leftover-noindex-before-it-ships-a-small-check-for-ci-268e",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "How I used Kiro specs, hooks, and property-based tests to check TypeScript ports against real GnuCOBOL, 2,000 cases at a time. I built this for the Kiroween 2026 hackathon. The project is called Lazarus. It ports COBOL batch programs to TypeScript and then proves, case by case, that each port gives ",
+      "date": "2026-11-22",
+      "snippet": "Add a smoke test to your deploy that fetches your key URLs and fails if any of them says \"do not index\". It takes about 40 lines, and it catches the most expensive small mistake in a site launch: a noindex that was right on staging and stayed on in production. The mistake is common after a redesign.",
       "why": ""
     },
     {
-      "title": "How we test free trading calculators: 3,123 vectors and exact cents",
-      "url": "https://dev.to/headroomdeskadmin/how-we-test-free-trading-calculators-3123-vectors-and-exact-cents-560a",
+      "title": "Can CI check whether an AI agent actually ran the tests it claims?",
+      "url": "https://dev.to/rambozambo/can-ci-check-whether-an-ai-agent-actually-ran-the-tests-it-claims-den",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Calculators look simple until two of them disagree by a cent. We publish free options and stock calculators at headroomdesk.com, and the rule we hold ourselves to is that every number on the page can be reproduced by an independent implementation. Two implementations, one set of answers The browser ",
+      "date": "2026-11-22",
+      "snippet": "The short answer Yes, with one correction to the question. CI cannot check whether something happened in the past. Nothing can, directly. What CI can check, mechanically and in seconds, is a record minted when the test run happened: the saved test output as canonical bytes, committed to by a SHA-256",
       "why": ""
     },
     {
-      "title": "Should We Delete All Our Unit Tests? I Asked, and the Thread Hit 201 Comments",
-      "url": "https://dev.to/kate_astrid/should-we-delete-all-our-unit-tests-i-asked-and-the-thread-hit-201-comments-gm6",
+      "title": "5 checks before you trust a coding agent's diff (and the one that catches most bad merges)",
+      "url": "https://dev.to/nexusfoundry/5-checks-before-you-trust-a-coding-agents-diff-and-the-one-that-catches-most-bad-merges-2a3e",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Last week, a pull request went around my feed with the scariest diff I have ever seen: +166 lines, −811,883 lines . A startup had deleted all of its unit tests in one go, and the replies cheered like it was a product launch. I got shivers and asked LinkedIn one question: would we remove all the unit",
+      "date": "2026-11-22",
+      "snippet": "This week on Product Hunt the theme was unmistakable: TestSprite, Appxiom, Currents, tensorViz — every launch was about making coding agents observable . The digest line said it plainly: \"agents are now an assumption; the shift is from building agents to making them observable and trustworthy.\" I ru",
       "why": ""
     },
     {
-      "title": "What to Check Before You Sign Off a Website Migration",
-      "url": "https://dev.to/branding_experts_43f7a311/what-to-check-before-you-sign-off-a-website-migration-2196",
+      "title": "A six-digit code in the inbox does not mean email verification works",
+      "url": "https://dev.to/vipul_swarup_345897aa4854/a-six-digit-code-in-the-inbox-does-not-mean-email-verification-works-2cd",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "A redesigned homepage loading correctly is not enough to sign off a website migration. Customers may still enter through old service links, and a form can show a confirmation without an enquiry reaching the right person. Agree evidence for both before giving the go-ahead. Check the old routes that m",
+      "date": "2026-11-22",
+      "snippet": "An end-to-end test requests an email code, finds six digits in a message, enters them, and sees a green checkmark. It proves that one code can complete one path. It says nothing about whether an expired code still works, a resend leaves two valid codes behind, or the same code can be replayed. That ",
       "why": ""
     },
     {
-      "title": "ESP32-P4 boot loop (CHIP_LP_WDT_RESET): building a homelab watchdog in ESPHome",
-      "url": "https://dev.to/iam-tech/esp32-p4-boot-loop-chiplpwdtreset-building-a-homelab-watchdog-in-esphome-3359",
+      "title": "AI in Mathematics",
+      "url": "https://dev.to/tracygjg/ai-in-mathematics-1pp9",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "My homelab's monitoring has a daft weak spot. Uptime Kuma runs on my NAS. So if the NAS goes down, the thing that's meant to tell me the NAS is down goes with it. I've got a script on another box that restarts Kuma if it dies, but that's still the homelab watching itself. So I bought a Waveshare ESP",
+      "date": "2026-11-22",
+      "snippet": "Observers of developments in the fields of Mathematics and AI will no-doubt be aware of recent announcements from OpenAI and Anthropic. According to reports three of the seven The Clay Mathematics Institute Millennium Prize Problems (Navier–Stokes, Riemann hypothesis and, Yang–Mills) have been prove",
       "why": ""
     }
   ],
@@ -202,11 +202,32 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539"
     },
     {
+      "id": "CVE-2026-125294",
+      "description": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike characters — such as U+1E87 and U+00E7 in a key like `ẇp_çapabilities` — whose UTF-8 byte sequences ",
+      "score": 9.8,
+      "date": "2026-11-21",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294"
+    },
+    {
       "id": "CVE-2026-130786",
       "description": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs lxc.mount.entry fields to run commands as root on the host or bind-mount host paths, even from restricted ",
       "score": 9.4,
       "date": "2026-11-18",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
+    },
+    {
+      "id": "CVE-2026-134292",
+      "description": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated users denied access to built-in functions in SurrealQL can execute them by calling them through surrealdb.functions from",
+      "score": 9.3,
+      "date": "2026-11-21",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
+    },
+    {
+      "id": "CVE-2026-133993",
+      "description": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks.",
+      "score": 9.3,
+      "date": "2026-11-21",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
     },
     {
       "id": "CVE-2026-133680",
@@ -354,84 +375,140 @@
   ],
   "news": [
     {
-      "title": "A record that checks its form and never claims it is true: 111 concerns and four stall checks",
-      "url": "https://dev.to/miguel_shinyenyi_e2291c8c/a-record-that-checks-its-form-and-never-claims-it-is-true-111-concerns-and-four-stall-checks-165n",
+      "title": "Agents ship PRs that pass their own tests — the verification receipt that proves otherwise",
+      "url": "https://dev.to/nexusfoundry/agents-ship-prs-that-pass-their-own-tests-the-verification-receipt-that-proves-otherwise-29l9",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Engineering concerns you skip without noticing A project needs rate limits, timeouts, backups, caching rules, postmortems and about a hundred other things. Most of them are never decided. They are skipped because nobody looked at them, and the project finds out in an outage. I keep a list of 111 eng"
+      "date": "2026-11-22",
+      "snippet": "Agents are great at one thing: making the checks pass. The uncomfortable part is that the checks are usually files in the same repo the agent can edit. \"Tests pass\" from an agent is a claim, not evidence. A verification gate that actually means something produces receipts , not vibes. Three rules I "
     },
     {
-      "title": "A flaky test showed me a real bug in my AI helper hub",
-      "url": "https://dev.to/miguel_shinyenyi_e2291c8c/a-flaky-test-showed-me-a-real-bug-in-my-ai-helper-hub-2lhh",
+      "title": "We tried to break an AI-built barber booking site: two phones, one 12:00 slot",
+      "url": "https://dev.to/trynocoder/we-tried-to-break-an-ai-built-barber-booking-site-two-phones-one-1200-slot-4bgi",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "On Sep 16 I started a notebook. It held a journal, a list of projects and one master context file. Seven weeks later it holds rules, a queue of decisions, an archive, and a logbook of every change. I call it the Umwayi hub. It is pre-release, and one backend engineer in Nairobi builds it. This week "
+      "date": "2026-11-22",
+      "snippet": "The bug that matters most in a booking site for a barber shop is the same one that matters in any booking site: two people getting the same chair at the same time. A demo with one user never shows it, so we built one and tried to break it. The build One paragraph, typed into NoCoder (full-stack mode"
     },
     {
-      "title": "Your API test passed. Did it read the right workspace?",
-      "url": "https://dev.to/appstruct_support_4d5c05b/your-api-test-passed-did-it-read-the-right-workspace-9m2",
+      "title": "How can I verify my AI agent actually did the work?",
+      "url": "https://dev.to/rambozambo/how-can-i-verify-my-ai-agent-actually-did-the-work-554b",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "A read request can return HTTP 200 and valid JSON while showing a different workspace from the one you intended to inspect. Before adding automation, separate three checks: the request succeeded, the response has the documented shape, and a deliberately chosen resource is present. I maintain AppStru"
+      "date": "2026-11-22",
+      "snippet": "The short answer Ask for the receipts, then recompute them. For every step the agent claims, there should be a record minted when the step ran: the tool, the time, the saved result as canonical bytes, and a SHA-256 output_hash over those bytes. Recompute the hash and compare. A match means the saved"
     },
     {
-      "title": "Lazarus: Proving a COBOL port is right, one penny at a time",
-      "url": "https://dev.to/gtogbes/lazarus-proving-a-cobol-port-is-right-one-penny-at-a-time-5cf",
+      "title": "Catch a leftover noindex before it ships: a small check for CI",
+      "url": "https://dev.to/fixguider/catch-a-leftover-noindex-before-it-ships-a-small-check-for-ci-268e",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "How I used Kiro specs, hooks, and property-based tests to check TypeScript ports against real GnuCOBOL, 2,000 cases at a time. I built this for the Kiroween 2026 hackathon. The project is called Lazarus. It ports COBOL batch programs to TypeScript and then proves, case by case, that each port gives "
+      "date": "2026-11-22",
+      "snippet": "Add a smoke test to your deploy that fetches your key URLs and fails if any of them says \"do not index\". It takes about 40 lines, and it catches the most expensive small mistake in a site launch: a noindex that was right on staging and stayed on in production. The mistake is common after a redesign."
     },
     {
-      "title": "How we test free trading calculators: 3,123 vectors and exact cents",
-      "url": "https://dev.to/headroomdeskadmin/how-we-test-free-trading-calculators-3123-vectors-and-exact-cents-560a",
+      "title": "Can CI check whether an AI agent actually ran the tests it claims?",
+      "url": "https://dev.to/rambozambo/can-ci-check-whether-an-ai-agent-actually-ran-the-tests-it-claims-den",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Calculators look simple until two of them disagree by a cent. We publish free options and stock calculators at headroomdesk.com, and the rule we hold ourselves to is that every number on the page can be reproduced by an independent implementation. Two implementations, one set of answers The browser "
+      "date": "2026-11-22",
+      "snippet": "The short answer Yes, with one correction to the question. CI cannot check whether something happened in the past. Nothing can, directly. What CI can check, mechanically and in seconds, is a record minted when the test run happened: the saved test output as canonical bytes, committed to by a SHA-256"
     },
     {
-      "title": "Should We Delete All Our Unit Tests? I Asked, and the Thread Hit 201 Comments",
-      "url": "https://dev.to/kate_astrid/should-we-delete-all-our-unit-tests-i-asked-and-the-thread-hit-201-comments-gm6",
+      "title": "5 checks before you trust a coding agent's diff (and the one that catches most bad merges)",
+      "url": "https://dev.to/nexusfoundry/5-checks-before-you-trust-a-coding-agents-diff-and-the-one-that-catches-most-bad-merges-2a3e",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Last week, a pull request went around my feed with the scariest diff I have ever seen: +166 lines, −811,883 lines . A startup had deleted all of its unit tests in one go, and the replies cheered like it was a product launch. I got shivers and asked LinkedIn one question: would we remove all the unit"
+      "date": "2026-11-22",
+      "snippet": "This week on Product Hunt the theme was unmistakable: TestSprite, Appxiom, Currents, tensorViz — every launch was about making coding agents observable . The digest line said it plainly: \"agents are now an assumption; the shift is from building agents to making them observable and trustworthy.\" I ru"
     },
     {
-      "title": "What to Check Before You Sign Off a Website Migration",
-      "url": "https://dev.to/branding_experts_43f7a311/what-to-check-before-you-sign-off-a-website-migration-2196",
+      "title": "A six-digit code in the inbox does not mean email verification works",
+      "url": "https://dev.to/vipul_swarup_345897aa4854/a-six-digit-code-in-the-inbox-does-not-mean-email-verification-works-2cd",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "A redesigned homepage loading correctly is not enough to sign off a website migration. Customers may still enter through old service links, and a form can show a confirmation without an enquiry reaching the right person. Agree evidence for both before giving the go-ahead. Check the old routes that m"
+      "date": "2026-11-22",
+      "snippet": "An end-to-end test requests an email code, finds six digits in a message, enters them, and sees a green checkmark. It proves that one code can complete one path. It says nothing about whether an expired code still works, a resend leaves two valid codes behind, or the same code can be replayed. That "
     },
     {
-      "title": "ESP32-P4 boot loop (CHIP_LP_WDT_RESET): building a homelab watchdog in ESPHome",
-      "url": "https://dev.to/iam-tech/esp32-p4-boot-loop-chiplpwdtreset-building-a-homelab-watchdog-in-esphome-3359",
+      "title": "AI in Mathematics",
+      "url": "https://dev.to/tracygjg/ai-in-mathematics-1pp9",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "My homelab's monitoring has a daft weak spot. Uptime Kuma runs on my NAS. So if the NAS goes down, the thing that's meant to tell me the NAS is down goes with it. I've got a script on another box that restarts Kuma if it dies, but that's still the homelab watching itself. So I bought a Waveshare ESP"
+      "date": "2026-11-22",
+      "snippet": "Observers of developments in the fields of Mathematics and AI will no-doubt be aware of recent announcements from OpenAI and Anthropic. According to reports three of the seven The Clay Mathematics Institute Millennium Prize Problems (Navier–Stokes, Riemann hypothesis and, Yang–Mills) have been prove"
     },
     {
-      "title": "FunkyMEDIA pokazuje, jak zachować formatowanie długiego artykułu przy publikacji przez harmonogram",
-      "url": "https://dev.to/funkymedia/funkymedia-pokazuje-jak-zachowac-formatowanie-dlugiego-artykulu-przy-publikacji-przez-harmonogram-36n8",
+      "title": "How to check every link in your HTML email templates before they're sent (a Python script for CI)",
+      "url": "https://dev.to/linkbruno/how-to-check-every-link-in-your-html-email-templates-before-theyre-sent-a-python-script-for-ci-4eek",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Jak zachować formatowanie długiego artykułu wysyłanego przez narzędzie do planowania publikacji? Ustal format wejściowy i docelowy, zachowaj zatwierdzoną wersję źródłową oraz sprawdź wynik po każdym przekształceniu. W proponowanej procedurze FunkyMEDIA kontrola obejmuje strukturę tekstu, kod, tabele"
+      "date": "2026-11-22",
+      "snippet": "Scheduled broken-link and redirect checks that tell you the moment a link breaks — linkbruno.com Websites get second chances. You find a broken link, fix it, deploy, and everyone who visits from then on sees the fix. Emails don't. Once a password reset, a receipt, an onboarding sequence or a newslet"
     },
     {
-      "title": "Why Both Tests Passed: Testing a Mocked HTTP Client in Ballerina",
-      "url": "https://dev.to/thisulherath/why-both-tests-passed-testing-a-mocked-http-client-in-ballerina-31kk",
+      "title": "FunkyMEDIA pokazuje, jak sprawdzić pamięć podręczną w systemie odpowiedzi o marce",
+      "url": "https://dev.to/funkymedia/funkymedia-pokazuje-jak-sprawdzic-pamiec-podreczna-w-systemie-odpowiedzi-o-marce-1n67",
       "source": "DEV #testing",
       "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Dlaczego system AI podaje starą ofertę mimo aktualizacji strony? Jedną z możliwych przyczyn jest ponowne użycie wcześniejszej treści, fragmentów dokumentów lub gotowej odpowiedzi. W proponowanej procedurze FunkyMEDIA sprawdzamy kolejne warstwy własnego systemu: stronę, pobrany dokument, wyszukiwanie"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-22",
+      "snippet": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when sta"
+    },
+    {
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-22",
+      "snippet": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt"
+    },
+    {
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-22",
+      "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a"
+    },
+    {
+      "title": "What Is an AI QA Architect? Role, System, and Skills",
+      "url": "https://dev.to/aiwithanton/what-is-an-ai-qa-architect-role-system-and-skills-548h",
+      "source": "DEV #qa",
+      "category": "Testing",
       "date": "2026-11-21",
-      "snippet": "I ran bal test and got one passing test. Then I changed the test, ran it again, and got exactly the same result. If both versions passed, what had I improved? I found the answer by changing one line in the function and watching what happened. What the first test checked I was working through Balleri"
+      "snippet": "Originally published on anton.qa . Last updated: 2026-05-25 An AI QA Architect designs the test system AI agents run on. They connect requirements, test generation, browser execution, evidence, and human review. The job keeps QA engineers in control. It gives agents a safe place to create, run, fix,"
+    },
+    {
+      "title": "Playwright Email Tests Need a Cleanup Contract",
+      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-cleanup-contract-2n90",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "Email assertions often look simple: submit a signup form, wait for a verification message, click the link, and confirm the account is active. The hard part starts after the assertion. Who owns the inbox? When is it safe to delete the message? What happens when a retry sees the email from the first a"
+    },
+    {
+      "title": "Is QA Dead in the Age of AI Coding?",
+      "url": "https://dev.to/samaythakkar/is-qa-dead-in-the-age-of-ai-coding-397o",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "No, QA isn't dead. What's ending is manual checking at the end of a sprint. When AI writes much of the code, someone still has to prove each change works. The job moves from finding bugs by hand to designing the tests, review gates, security checks and release evidence that every change must pass be"
+    },
+    {
+      "title": "How to track test data across dev, staging and UAT (without a spreadsheet nobody trusts)",
+      "url": "https://dev.to/mapkari/how-to-track-test-data-across-dev-staging-and-uat-without-a-spreadsheet-nobody-trusts-3pc8",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-21",
+      "snippet": "Disclosure up front: I build a Jira app for this problem, mentioned near the end. Everything before that works whatever tool you use. The problem nobody owns Most teams have solved generating test data. Factories, seed scripts and fixtures handle the easy part. What still eats time is the data that "
     },
     {
       "title": "How to Test Sign-Up and Password-Reset Emails Without Polluting Your Inbox",
@@ -442,12 +519,28 @@
       "snippet": "Every product with accounts sends the same critical emails: verification, password reset, magic links, receipts. They're easy to break and annoying to test, especially when every test run lands in your personal or work inbox. Here's a cleaner workflow. Why your own inbox is a bad test target You run"
     },
     {
-      "title": "Nightly",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium",
-      "category": "Tools",
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
       "date": "2026-11-21",
-      "snippet": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when sta"
+      "snippet": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a l"
+    },
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The b"
+    },
+    {
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside"
     },
     {
       "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
@@ -464,6 +557,38 @@
       "category": "Security",
       "date": "2026-11-21",
       "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below"
+    },
+    {
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]"
+    },
+    {
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]"
+    },
+    {
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]"
+    },
+    {
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-21",
+      "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]"
     },
     {
       "title": "Your End-to-End Tests Are Green. So Why Are Users Still Losing Data?",
@@ -530,46 +655,6 @@
       "snippet": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affe"
     },
     {
-      "title": "The Path to AI Autonomy in the SOC",
-      "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortabl"
-    },
-    {
-      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-      "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices fas"
-    },
-    {
-      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerabili"
-    },
-    {
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authe"
-    },
-    {
-      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-      "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through sepa"
-    },
-    {
       "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
       "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
       "source": "BleepingComputer",
@@ -616,70 +701,6 @@
       "category": "Security",
       "date": "2026-11-20",
       "snippet": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]"
-    },
-    {
-      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]"
-    },
-    {
-      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]"
-    },
-    {
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]"
-    },
-    {
-      "title": "What makes a bug report actionable?",
-      "url": "https://dev.to/willmacpherson/what-makes-a-bug-report-actionable-4nnh",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-19",
-      "snippet": "Make the behaviour easy to find again An actionable bug report gives another person a clear starting point. It describes a specific observation, explains what was expected and provides enough context to follow the same path. Name the observed problem Prefer a title that describes the behaviour and i"
-    },
-    {
-      "title": "Requirement Traceability Matrix: Keeping Tests and Requirements in Sync",
-      "url": "https://dev.to/keyur_shah_f3f68b0d63db96/requirement-traceability-matrix-keeping-tests-and-requirements-in-sync-1383",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-19",
-      "snippet": "In any disciplined delivery process, the gap between what the product should do and what you actually verify can become a hidden source of risk. A Requirement Traceability Matrix (RTM) bridges that gap by making every requirement visible in the test suite and every defect traceable back to the requi"
-    },
-    {
-      "title": "A Green Signup Test Can Verify The Wrong Account",
-      "url": "https://dev.to/vipul_swarup_345897aa4854/a-green-signup-test-can-verify-the-wrong-account-574d",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-19",
-      "snippet": "Test A submits a signup form using qa@example.com . Its verification email is delayed, and the test times out. Test B starts with the same address, submits the same form, and waits for an email whose subject contains “Verify.” A's message arrives first. B reads it, follows the link, sees a success p"
-    },
-    {
-      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-19",
-      "snippet": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]"
-    },
-    {
-      "title": "How to Write a Bug Report That Actually Gets Fixed",
-      "url": "https://dev.to/priyanka_desai/how-to-write-a-bug-report-that-actually-gets-fixed-34dd",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-18",
-      "snippet": "Originally published at bughuntlab.hashnode.dev A defect report is not a complaint. It is a reproducible argument that a specific behaviour is wrong. Here is the structure that survives triage. Most bug reports die in triage. Not because the bug was fake, but because the report gave the developer no"
     },
     {
       "title": "chore: release @cypress/vite-plugin-cypress-esm-v2.0.1",
