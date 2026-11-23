@@ -1,78 +1,78 @@
 {
-  "generated_at": "2026-11-22T10:59:19+00:00",
+  "generated_at": "2026-11-23T12:08:25+00:00",
   "model": "gemini-2.5-flash",
   "brief": [],
   "top_news": [
     {
-      "title": "Agents ship PRs that pass their own tests — the verification receipt that proves otherwise",
-      "url": "https://dev.to/nexusfoundry/agents-ship-prs-that-pass-their-own-tests-the-verification-receipt-that-proves-otherwise-29l9",
+      "title": "How to Test AI Agents Against Real-World Chaos Before Shipping",
+      "url": "https://dev.to/tanmay2627/how-to-test-ai-agents-against-real-world-chaos-before-shipping-4l1d",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Agents are great at one thing: making the checks pass. The uncomfortable part is that the checks are usually files in the same repo the agent can edit. \"Tests pass\" from an agent is a claim, not evidence. A verification gate that actually means something produces receipts , not vibes. Three rules I ",
+      "date": "2026-11-23",
+      "snippet": "Most AI agents fail not in staging, but within minutes of hitting production. When an agent breaks in the wild, the underlying cause is almost always the same: it was tested against predictable, \"clean\" inputs. In developer environments, we tend to test happily path queries like \"Book a flight to NY",
       "why": ""
     },
     {
-      "title": "We tried to break an AI-built barber booking site: two phones, one 12:00 slot",
-      "url": "https://dev.to/trynocoder/we-tried-to-break-an-ai-built-barber-booking-site-two-phones-one-1200-slot-4bgi",
+      "title": "The tests passed on all 107 wrong AI changes. Here is what caught 86 of them",
+      "url": "https://dev.to/amit_spitzer/the-tests-passed-on-all-107-wrong-ai-changes-here-is-what-caught-86-of-them-145c",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "The bug that matters most in a booking site for a barber shop is the same one that matters in any booking site: two people getting the same chair at the same time. A demo with one user never shows it, so we built one and tried to break it. The build One paragraph, typed into NoCoder (full-stack mode",
+      "date": "2026-11-23",
+      "snippet": "An AI agent fixes a slug function. The project's own test passes. It says \"done\". It isn't: slugify(\"Hello, World!\") comes back as hello-world! , and the task said \"a clean URL slug\". I'm the maintainer of Apex verify , a small open-source tool for exactly this gap. You give it the change an AI made",
       "why": ""
     },
     {
-      "title": "How can I verify my AI agent actually did the work?",
-      "url": "https://dev.to/rambozambo/how-can-i-verify-my-ai-agent-actually-did-the-work-554b",
+      "title": "Two kinds of defect, one trial format: validating reasoning specs blind",
+      "url": "https://dev.to/bala_paranj_059d338e44e7e/two-kinds-of-defect-one-trial-format-validating-reasoning-specs-blind-2li9",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "The short answer Ask for the receipts, then recompute them. For every step the agent claims, there should be a record minted when the step ran: the tool, the time, the saved result as canonical bytes, and a SHA-256 output_hash over those bytes. Recompute the hash and compare. A match means the saved",
+      "date": "2026-11-23",
+      "snippet": "✓ Human-authored analysis; AI used for formatting and proofreading. You have a security tool that exports facts. Five different reasoning engines consume those facts and produce different shapes of answer. Z3 produces SAT/UNSAT, Soufflé counts reachable tuples, Clingo enumerates violation atoms, Pro",
       "why": ""
     },
     {
-      "title": "Catch a leftover noindex before it ships: a small check for CI",
-      "url": "https://dev.to/fixguider/catch-a-leftover-noindex-before-it-ships-a-small-check-for-ci-268e",
+      "title": "Crowdtesting Service or In-House QA? Where Real Users Fit, and What AI Response Evaluation Jobs Involve for Testers",
+      "url": "https://dev.to/testlancer/crowdtesting-service-or-in-house-qa-where-real-users-fit-and-what-ai-response-evaluation-jobs-2eme",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Add a smoke test to your deploy that fetches your key URLs and fails if any of them says \"do not index\". It takes about 40 lines, and it catches the most expensive small mistake in a site launch: a noindex that was right on staging and stayed on in production. The mistake is common after a redesign.",
+      "date": "2026-11-23",
+      "snippet": "There's a question that comes up in almost every team that ships software: \"We already have QA. Why would we pay outside testers?\" It's a fair challenge. A good in-house QA team knows the product, writes systematic test cases and catches regressions before every release. But that same depth of knowl",
       "why": ""
     },
     {
-      "title": "Can CI check whether an AI agent actually ran the tests it claims?",
-      "url": "https://dev.to/rambozambo/can-ci-check-whether-an-ai-agent-actually-ran-the-tests-it-claims-den",
+      "title": "AWS Emulator: Test Against AWS on Your Laptop With No Account (What to Check First)",
+      "url": "https://dev.to/damogallagher/aws-emulator-test-against-aws-on-your-laptop-with-no-account-what-to-check-first-5ddd",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "The short answer Yes, with one correction to the question. CI cannot check whether something happened in the past. Nothing can, directly. What CI can check, mechanically and in seconds, is a record minted when the test run happened: the saved test output as canonical bytes, committed to by a SHA-256",
+      "date": "2026-11-23",
+      "snippet": "AWS just shipped its own local emulator. Yes, really. It's called AWS Emulator , it's open source, it's written in Rust, and it runs on your machine with no AWS account. I'm going off the launch post and the docs here. I haven't pushed it through a real project yet, so treat the \"how it behaves\" par",
       "why": ""
     },
     {
-      "title": "5 checks before you trust a coding agent's diff (and the one that catches most bad merges)",
-      "url": "https://dev.to/nexusfoundry/5-checks-before-you-trust-a-coding-agents-diff-and-the-one-that-catches-most-bad-merges-2a3e",
+      "title": "Versioned Scoring Rules for a Reproducible Published Index",
+      "url": "https://dev.to/jeremy_longshore/versioned-scoring-rules-for-a-reproducible-published-index-2ngm",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "This week on Product Hunt the theme was unmistakable: TestSprite, Appxiom, Currents, tensorViz — every launch was about making coding agents observable . The digest line said it plainly: \"agents are now an assumption; the shift is from building agents to making them observable and trustworthy.\" I ru",
+      "date": "2026-11-23",
+      "snippet": "If you publish a scored dataset every day, the scoring rule will change, and the first rerun after that change can quietly rewrite every date you already published. This is how I restructured a daily token price index so rules can change without touching history: keep the raw facts (facets, the attr",
       "why": ""
     },
     {
-      "title": "A six-digit code in the inbox does not mean email verification works",
-      "url": "https://dev.to/vipul_swarup_345897aa4854/a-six-digit-code-in-the-inbox-does-not-mean-email-verification-works-2cd",
+      "title": "Math.sumPrecise: Stop Letting reduce() Round Your Totals",
+      "url": "https://dev.to/grimicorn/mathsumprecise-stop-letting-reduce-round-your-totals-1kmn",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "An end-to-end test requests an email code, finds six digits in a message, enters them, and sees a green checkmark. It proves that one code can complete one path. It says nothing about whether an expired code still works, a resend leaves two valid codes behind, or the same code can be replayed. That ",
+      "date": "2026-11-23",
+      "snippet": "Every JavaScript codebase has this line somewhere: const total = values . reduce ( ( sum , n ) =&gt; sum + n , 0 ) ; It looks too simple to be wrong, and most of the time it is close enough. But it has a property most of us never think about: the answer depends on the order of the array. Sort the sa",
       "why": ""
     },
     {
-      "title": "AI in Mathematics",
-      "url": "https://dev.to/tracygjg/ai-in-mathematics-1pp9",
+      "title": "Debugging a Black-Box AI Research Failure: Completed Runs With 0 Searches and 0 Citations",
+      "url": "https://dev.to/ma_waqas_sharif/debugging-a-black-box-ai-research-failure-completed-runs-with-0-searches-and-0-citations-29k3",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Observers of developments in the fields of Mathematics and AI will no-doubt be aware of recent announcements from OpenAI and Anthropic. According to reports three of the seven The Clay Mathematics Institute Millennium Prize Problems (Navier–Stokes, Riemann hypothesis and, Yang–Mills) have been prove",
+      "date": "2026-11-23",
+      "snippet": "I was using ChatGPT Deep Research for a real research task when its behaviour changed. My earlier runs had looked normal: the interface showed heavy search activity, the reports carried citations, and the exported files contained citation markers. Then a new group of runs started finishing as \"Resea",
       "why": ""
     }
   ],
@@ -188,11 +188,25 @@
   ],
   "nvd": [
     {
+      "id": "CVE-2026-134882",
+      "description": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out remotely.",
+      "score": 10.0,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
+    },
+    {
       "id": "CVE-2026-130778",
       "description": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain cluster-level access, bypass authorization, modify trust store entries, and influence scriptlet-based authorizat",
       "score": 10.0,
       "date": "2026-11-18",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778"
+    },
+    {
+      "id": "CVE-2026-120382",
+      "description": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and conduct denial-of-service attacks.",
+      "score": 9.8,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
     },
     {
       "id": "CVE-2026-120539",
@@ -214,6 +228,13 @@
       "score": 9.4,
       "date": "2026-11-18",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
+    },
+    {
+      "id": "CVE-2026-121613",
+      "description": "Missing authentication and authorization on an exposed interface allows an unauthenticated remote attacker to send arbitrary commands to the affected component, which can force a device reboot or let the attacker upload malicious firmware.",
+      "score": 9.3,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121613"
     },
     {
       "id": "CVE-2026-134292",
@@ -375,92 +396,204 @@
   ],
   "news": [
     {
-      "title": "Agents ship PRs that pass their own tests — the verification receipt that proves otherwise",
-      "url": "https://dev.to/nexusfoundry/agents-ship-prs-that-pass-their-own-tests-the-verification-receipt-that-proves-otherwise-29l9",
+      "title": "How to Test AI Agents Against Real-World Chaos Before Shipping",
+      "url": "https://dev.to/tanmay2627/how-to-test-ai-agents-against-real-world-chaos-before-shipping-4l1d",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Agents are great at one thing: making the checks pass. The uncomfortable part is that the checks are usually files in the same repo the agent can edit. \"Tests pass\" from an agent is a claim, not evidence. A verification gate that actually means something produces receipts , not vibes. Three rules I "
+      "date": "2026-11-23",
+      "snippet": "Most AI agents fail not in staging, but within minutes of hitting production. When an agent breaks in the wild, the underlying cause is almost always the same: it was tested against predictable, \"clean\" inputs. In developer environments, we tend to test happily path queries like \"Book a flight to NY"
     },
     {
-      "title": "We tried to break an AI-built barber booking site: two phones, one 12:00 slot",
-      "url": "https://dev.to/trynocoder/we-tried-to-break-an-ai-built-barber-booking-site-two-phones-one-1200-slot-4bgi",
+      "title": "The tests passed on all 107 wrong AI changes. Here is what caught 86 of them",
+      "url": "https://dev.to/amit_spitzer/the-tests-passed-on-all-107-wrong-ai-changes-here-is-what-caught-86-of-them-145c",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "The bug that matters most in a booking site for a barber shop is the same one that matters in any booking site: two people getting the same chair at the same time. A demo with one user never shows it, so we built one and tried to break it. The build One paragraph, typed into NoCoder (full-stack mode"
+      "date": "2026-11-23",
+      "snippet": "An AI agent fixes a slug function. The project's own test passes. It says \"done\". It isn't: slugify(\"Hello, World!\") comes back as hello-world! , and the task said \"a clean URL slug\". I'm the maintainer of Apex verify , a small open-source tool for exactly this gap. You give it the change an AI made"
     },
     {
-      "title": "How can I verify my AI agent actually did the work?",
-      "url": "https://dev.to/rambozambo/how-can-i-verify-my-ai-agent-actually-did-the-work-554b",
+      "title": "Two kinds of defect, one trial format: validating reasoning specs blind",
+      "url": "https://dev.to/bala_paranj_059d338e44e7e/two-kinds-of-defect-one-trial-format-validating-reasoning-specs-blind-2li9",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "The short answer Ask for the receipts, then recompute them. For every step the agent claims, there should be a record minted when the step ran: the tool, the time, the saved result as canonical bytes, and a SHA-256 output_hash over those bytes. Recompute the hash and compare. A match means the saved"
+      "date": "2026-11-23",
+      "snippet": "✓ Human-authored analysis; AI used for formatting and proofreading. You have a security tool that exports facts. Five different reasoning engines consume those facts and produce different shapes of answer. Z3 produces SAT/UNSAT, Soufflé counts reachable tuples, Clingo enumerates violation atoms, Pro"
     },
     {
-      "title": "Catch a leftover noindex before it ships: a small check for CI",
-      "url": "https://dev.to/fixguider/catch-a-leftover-noindex-before-it-ships-a-small-check-for-ci-268e",
+      "title": "Crowdtesting Service or In-House QA? Where Real Users Fit, and What AI Response Evaluation Jobs Involve for Testers",
+      "url": "https://dev.to/testlancer/crowdtesting-service-or-in-house-qa-where-real-users-fit-and-what-ai-response-evaluation-jobs-2eme",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Add a smoke test to your deploy that fetches your key URLs and fails if any of them says \"do not index\". It takes about 40 lines, and it catches the most expensive small mistake in a site launch: a noindex that was right on staging and stayed on in production. The mistake is common after a redesign."
+      "date": "2026-11-23",
+      "snippet": "There's a question that comes up in almost every team that ships software: \"We already have QA. Why would we pay outside testers?\" It's a fair challenge. A good in-house QA team knows the product, writes systematic test cases and catches regressions before every release. But that same depth of knowl"
     },
     {
-      "title": "Can CI check whether an AI agent actually ran the tests it claims?",
-      "url": "https://dev.to/rambozambo/can-ci-check-whether-an-ai-agent-actually-ran-the-tests-it-claims-den",
+      "title": "AWS Emulator: Test Against AWS on Your Laptop With No Account (What to Check First)",
+      "url": "https://dev.to/damogallagher/aws-emulator-test-against-aws-on-your-laptop-with-no-account-what-to-check-first-5ddd",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "The short answer Yes, with one correction to the question. CI cannot check whether something happened in the past. Nothing can, directly. What CI can check, mechanically and in seconds, is a record minted when the test run happened: the saved test output as canonical bytes, committed to by a SHA-256"
+      "date": "2026-11-23",
+      "snippet": "AWS just shipped its own local emulator. Yes, really. It's called AWS Emulator , it's open source, it's written in Rust, and it runs on your machine with no AWS account. I'm going off the launch post and the docs here. I haven't pushed it through a real project yet, so treat the \"how it behaves\" par"
     },
     {
-      "title": "5 checks before you trust a coding agent's diff (and the one that catches most bad merges)",
-      "url": "https://dev.to/nexusfoundry/5-checks-before-you-trust-a-coding-agents-diff-and-the-one-that-catches-most-bad-merges-2a3e",
+      "title": "Versioned Scoring Rules for a Reproducible Published Index",
+      "url": "https://dev.to/jeremy_longshore/versioned-scoring-rules-for-a-reproducible-published-index-2ngm",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "This week on Product Hunt the theme was unmistakable: TestSprite, Appxiom, Currents, tensorViz — every launch was about making coding agents observable . The digest line said it plainly: \"agents are now an assumption; the shift is from building agents to making them observable and trustworthy.\" I ru"
+      "date": "2026-11-23",
+      "snippet": "If you publish a scored dataset every day, the scoring rule will change, and the first rerun after that change can quietly rewrite every date you already published. This is how I restructured a daily token price index so rules can change without touching history: keep the raw facts (facets, the attr"
     },
     {
-      "title": "A six-digit code in the inbox does not mean email verification works",
-      "url": "https://dev.to/vipul_swarup_345897aa4854/a-six-digit-code-in-the-inbox-does-not-mean-email-verification-works-2cd",
+      "title": "Math.sumPrecise: Stop Letting reduce() Round Your Totals",
+      "url": "https://dev.to/grimicorn/mathsumprecise-stop-letting-reduce-round-your-totals-1kmn",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "An end-to-end test requests an email code, finds six digits in a message, enters them, and sees a green checkmark. It proves that one code can complete one path. It says nothing about whether an expired code still works, a resend leaves two valid codes behind, or the same code can be replayed. That "
+      "date": "2026-11-23",
+      "snippet": "Every JavaScript codebase has this line somewhere: const total = values . reduce ( ( sum , n ) =&gt; sum + n , 0 ) ; It looks too simple to be wrong, and most of the time it is close enough. But it has a property most of us never think about: the answer depends on the order of the array. Sort the sa"
     },
     {
-      "title": "AI in Mathematics",
-      "url": "https://dev.to/tracygjg/ai-in-mathematics-1pp9",
+      "title": "Debugging a Black-Box AI Research Failure: Completed Runs With 0 Searches and 0 Citations",
+      "url": "https://dev.to/ma_waqas_sharif/debugging-a-black-box-ai-research-failure-completed-runs-with-0-searches-and-0-citations-29k3",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Observers of developments in the fields of Mathematics and AI will no-doubt be aware of recent announcements from OpenAI and Anthropic. According to reports three of the seven The Clay Mathematics Institute Millennium Prize Problems (Navier–Stokes, Riemann hypothesis and, Yang–Mills) have been prove"
+      "date": "2026-11-23",
+      "snippet": "I was using ChatGPT Deep Research for a real research task when its behaviour changed. My earlier runs had looked normal: the interface showed heavy search activity, the reports carried citations, and the exported files contained citation markers. Then a new group of runs started finishing as \"Resea"
     },
     {
-      "title": "How to check every link in your HTML email templates before they're sent (a Python script for CI)",
-      "url": "https://dev.to/linkbruno/how-to-check-every-link-in-your-html-email-templates-before-theyre-sent-a-python-script-for-ci-4eek",
+      "title": "Writing a Custom Playwright Reporter: 8 Failures From 2 Failing Tests",
+      "url": "https://dev.to/garyparker/writing-a-custom-playwright-reporter-8-failures-from-2-failing-tests-3bf2",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Scheduled broken-link and redirect checks that tell you the moment a link breaks — linkbruno.com Websites get second chances. You find a broken link, fix it, deploy, and everyone who visits from then on sees the fix. Emails don't. Once a password reset, a receipt, an onboarding sequence or a newslet"
+      "date": "2026-11-23",
+      "snippet": "A custom Playwright reporter takes about 26 lines, but the obvious way to count failures in it is wrong. On a 13-test suite with 2 failing tests, a reporter that counted failed results in onTestEnd reported 8 failures, in 5 of 5 runs. I wrote a minimal reporter, then measured four places where the r"
     },
     {
-      "title": "FunkyMEDIA pokazuje, jak sprawdzić pamięć podręczną w systemie odpowiedzi o marce",
-      "url": "https://dev.to/funkymedia/funkymedia-pokazuje-jak-sprawdzic-pamiec-podreczna-w-systemie-odpowiedzi-o-marce-1n67",
+      "title": "How to Audit API Documentation Quality and Webhook Reliability",
+      "url": "https://dev.to/holly_ai/how-to-audit-api-documentation-quality-and-webhook-reliability-i4i",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Dlaczego system AI podaje starą ofertę mimo aktualizacji strony? Jedną z możliwych przyczyn jest ponowne użycie wcześniejszej treści, fragmentów dokumentów lub gotowej odpowiedzi. W proponowanej procedurze FunkyMEDIA sprawdzamy kolejne warstwy własnego systemu: stronę, pobrany dokument, wyszukiwanie"
+      "date": "2026-11-23",
+      "snippet": "Most API audits fail because developers trust marketing copy instead of checking the error logs. You need a repeatable method to verify if a platform’s API documentation matches its actual behavior. The gap between what a vendor promises and what their code delivers is where automation breaks. This "
+    },
+    {
+      "title": "Persistent vs disposable Android environments: when test and app state should survive between runs",
+      "url": "https://dev.to/ksu9999/persistent-vs-disposable-android-environments-when-test-and-app-state-should-survive-between-runs-m7b",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-23",
+      "snippet": "Updated November 2026 A persistent Android environment for testing keeps app data, logins and device state between runs. A disposable one starts clean every time. Clean state gives you repeatable results and isolates failures. Persistent state lets you test what real users carry: sessions, caches, u"
+    },
+    {
+      "title": "AI writes your API tests in minutes. Here is how to tell if they test anything",
+      "url": "https://dev.to/checkcraft/ai-writes-your-api-tests-in-minutes-here-is-how-to-tell-if-they-test-anything-l5o",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-23",
+      "snippet": "We make Checkcraft, an API testing tool, so we read a lot of AI-written tests. This is what we keep seeing, and none of it needs our tool. Where AI really helps Give a model the docs, an OpenAPI spec or a curl example and you get a decent set of test cases in minutes. It is also good at the boring p"
+    },
+    {
+      "title": "How to detect eval-set contamination (data leakage) in your LLM tests",
+      "url": "https://dev.to/nikolay_chernev_a67479931/how-to-detect-eval-set-contamination-data-leakage-in-your-llm-tests-10p",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-23",
+      "snippet": "Short answer: If your eval examples came from public benchmarks, known documentation, or were AI-generated from a dataset the model was fine-tuned on, the model may have seen the answers during training. Detect contamination with n-gram overlap checks and performance comparisons on post-cutoff data;"
+    },
+    {
+      "title": "Selenium 4.54.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.54.0",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for "
     },
     {
       "title": "Nightly",
       "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
       "source": "Selenium",
       "category": "Tools",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "snippet": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when sta"
+    },
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS scor"
+    },
+    {
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and "
+    },
+    {
+      "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial t"
+    },
+    {
+      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+      "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "A Peruvian call center operator was sentenced to eight years in prison for stealing millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]"
+    },
+    {
+      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]"
+    },
+    {
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]"
+    },
+    {
+      "title": "HIPAA Compliance Testing: A QA Checklist for Healthcare Apps",
+      "url": "https://dev.to/test-squad/hipaa-compliance-testing-a-qa-checklist-for-healthcare-apps-4n97",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Most HIPAA problems in software don't look like hacks. Nobody breaks in. A billing clerk opens a record they never needed, a lab result travels to an analytics vendor in a page URL, or a chart stays open on a clinic computer while the nurse walks away. Each of these is a normal feature doing somethi"
+    },
+    {
+      "title": "Generating Realistic Test Data in the Browser: Names, Phone Numbers and Addresses Without a Backend Library",
+      "url": "https://dev.to/binothehencode10/generating-realistic-test-data-in-the-browser-names-phone-numbers-and-addresses-without-a-backend-27hm",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Every form, signup flow, and checkout needs test data. Using real customer data in staging is risky, and typing \"asdf\" into every field hides real bugs — validation that never gets exercised, formatting that breaks on real input, and text that overflows its container. What good test data needs Good "
+    },
+    {
+      "title": "Payment Testing Checklist: Cards, Refunds, Webhooks",
+      "url": "https://dev.to/test-squad/payment-testing-checklist-cards-refunds-webhooks-2heg",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "Most payment bugs don't look like bugs. The checkout works, the demo card goes through, and the release ships. Then a customer is charged twice, a refund never reaches their bank, or an order stays \"pending\" because one webhook arrived before another. These failures cost more than a broken button. T"
+    },
+    {
+      "title": "Your First Junior QA Portfolio: 3 Things That Prove You Can Actually Test",
+      "url": "https://dev.to/miroslawqa/your-first-junior-qa-portfolio-3-things-that-prove-you-can-actually-test-m5b",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-22",
+      "snippet": "You know what a test case is. You've read about boundary value analysis. Maybe you've even completed an ISTQB course. But when someone asks, \"Can you show me how you test software?\", what do you actually show them? If you're learning manual QA and don't have commercial experience yet, your portfolio"
     },
     {
       "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
@@ -479,6 +612,30 @@
       "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a"
     },
     {
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-22",
+      "snippet": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]"
+    },
+    {
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-22",
+      "snippet": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]"
+    },
+    {
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-22",
+      "snippet": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]"
+    },
+    {
       "title": "What Is an AI QA Architect? Role, System, and Skills",
       "url": "https://dev.to/aiwithanton/what-is-an-ai-qa-architect-role-system-and-skills-548h",
       "source": "DEV #qa",
@@ -493,30 +650,6 @@
       "category": "Testing",
       "date": "2026-11-21",
       "snippet": "Email assertions often look simple: submit a signup form, wait for a verification message, click the link, and confirm the account is active. The hard part starts after the assertion. Who owns the inbox? When is it safe to delete the message? What happens when a retry sees the email from the first a"
-    },
-    {
-      "title": "Is QA Dead in the Age of AI Coding?",
-      "url": "https://dev.to/samaythakkar/is-qa-dead-in-the-age-of-ai-coding-397o",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "No, QA isn't dead. What's ending is manual checking at the end of a sprint. When AI writes much of the code, someone still has to prove each change works. The job moves from finding bugs by hand to designing the tests, review gates, security checks and release evidence that every change must pass be"
-    },
-    {
-      "title": "How to track test data across dev, staging and UAT (without a spreadsheet nobody trusts)",
-      "url": "https://dev.to/mapkari/how-to-track-test-data-across-dev-staging-and-uat-without-a-spreadsheet-nobody-trusts-3pc8",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Disclosure up front: I build a Jira app for this problem, mentioned near the end. Everything before that works whatever tool you use. The problem nobody owns Most teams have solved generating test data. Factories, seed scripts and fixtures handle the easy part. What still eats time is the data that "
-    },
-    {
-      "title": "How to Test Sign-Up and Password-Reset Emails Without Polluting Your Inbox",
-      "url": "https://dev.to/cloakmails/how-to-test-sign-up-and-password-reset-emails-without-polluting-your-inbox-45p6",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Every product with accounts sends the same critical emails: verification, password reset, magic links, receipts. They're easy to break and annoying to test, especially when every test run lands in your personal or work inbox. Here's a cleaner workflow. Why your own inbox is a bad test target You run"
     },
     {
       "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
@@ -589,118 +722,6 @@
       "category": "Security",
       "date": "2026-11-21",
       "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]"
-    },
-    {
-      "title": "Your End-to-End Tests Are Green. So Why Are Users Still Losing Data?",
-      "url": "https://dev.to/orbitpickle307/your-end-to-end-tests-are-green-so-why-are-users-still-losing-data-hmn",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-20",
-      "snippet": "Imagine this scenario. A user opens a web application, edits a document, clicks Save, and sees a reassuring green checkmark. Everything looks fine. They close the tab, come back ten minutes later, and discover that their changes are gone. The QA team investigates. The automated test for saving docum"
-    },
-    {
-      "title": "We built a practice API where every response is 200 OK and 10 bugs hide inside",
-      "url": "https://dev.to/checkcraft/we-built-a-practice-api-where-every-response-is-200-ok-and-10-bugs-hide-inside-1cc1",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-20",
-      "snippet": "Disclosure first: this post is from the Checkcraft team (we make an API-checking desktop app), and the practice API below lives on our site. It is free, needs no sign-up and doesn't require our app. Postman, curl or the browser are enough. Why another practice API? JSONPlaceholder, Reqres and Restfu"
-    },
-    {
-      "title": "Artificial Intelligence in Test Automation You Can Audit",
-      "url": "https://dev.to/arjunsh54473598/artificial-intelligence-in-test-automation-you-can-audit-4mca",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-20",
-      "snippet": "An auditor asks why the checkout test passed on March 3 when it failed on March 2. Nobody on your team touched it. The answer sits in a tool setting. Overnight, the suite repaired a selector and carried on. That's the new shape of artificial intelligence in test automation . The suite makes small de"
-    },
-    {
-      "title": "Playwright Email Tests Need a Correlation ID",
-      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-correlation-id-1kc5",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-20",
-      "snippet": "Email tests often fail with an unhelpful sentence: “expected message to arrive, but it did not.” That is a timeout, not a diagnosis. The message might have been rejected, delivered to the wrong fixture, delayed by a queue, or found by the test but filtered out by a subject assertion. The most useful"
-    },
-    {
-      "title": "Why Android apps behave differently on x86 emulators: ARM translation and native libraries explained",
-      "url": "https://dev.to/ksu9999/why-android-apps-behave-differently-on-x86-emulators-arm-translation-and-native-libraries-explained-1jbo",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-20",
-      "snippet": "Updated November 2026 Android apps behave differently on x86 emulators because native code is compiled for one CPU architecture at a time. Kotlin and Java run on ART and don’t care. Native .so libraries do. An x86 emulator runs either the app’s x86 libraries, which ARM phones never use, or ARM libra"
-    },
-    {
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of exte"
-    },
-    {
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 202"
-    },
-    {
-      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-      "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affe"
-    },
-    {
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]"
-    },
-    {
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]"
-    },
-    {
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]"
-    },
-    {
-      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure"
-    },
-    {
-      "title": "N-able says recent security breach led to major service outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]"
-    },
-    {
-      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-20",
-      "snippet": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]"
     },
     {
       "title": "chore: release @cypress/vite-plugin-cypress-esm-v2.0.1",
