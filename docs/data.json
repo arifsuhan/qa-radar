@@ -1,82 +1,100 @@
 {
-  "generated_at": "2026-11-23T12:08:25+00:00",
+  "generated_at": "2026-11-24T13:30:12+00:00",
   "model": "gemini-2.5-flash",
   "brief": [],
   "top_news": [
     {
-      "title": "How to Test AI Agents Against Real-World Chaos Before Shipping",
-      "url": "https://dev.to/tanmay2627/how-to-test-ai-agents-against-real-world-chaos-before-shipping-4l1d",
+      "title": "How to test password reset end to end",
+      "url": "https://dev.to/rfoel/how-to-test-password-reset-end-to-end-4jel",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "Most AI agents fail not in staging, but within minutes of hitting production. When an agent breaks in the wild, the underlying cause is almost always the same: it was tested against predictable, \"clean\" inputs. In developer environments, we tend to test happily path queries like \"Book a flight to NY",
+      "date": "2026-11-24",
+      "snippet": "Password reset is one of the most important flows in an app and one of the least tested. When it breaks, users get locked out and only find out when they need it. It usually goes untested for one reason: the middle step happens in an inbox. With a real inbox your test can read, the whole flow become",
       "why": ""
     },
     {
-      "title": "The tests passed on all 107 wrong AI changes. Here is what caught 86 of them",
-      "url": "https://dev.to/amit_spitzer/the-tests-passed-on-all-107-wrong-ai-changes-here-is-what-caught-86-of-them-145c",
+      "title": "CareShield Life payouts in Python: one rule reproduces all 111 cells of CPF's table",
+      "url": "https://dev.to/jeremiah_say/careshield-life-payouts-in-python-one-rule-reproduces-all-111-cells-of-cpfs-table-3k25",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "An AI agent fixes a slug function. The project's own test passes. It says \"done\". It isn't: slugify(\"Hello, World!\") comes back as hello-world! , and the task said \"a clean URL slug\". I'm the maintainer of Apex verify , a small open-source tool for exactly this gap. You give it the change an AI made",
+      "date": "2026-11-24",
+      "snippet": "CareShield Life is Singapore's long-term care insurance. If you become severely disabled (you can't do 3 of 6 daily activities, such as washing or dressing), it pays a monthly sum for as long as the disability lasts. For a claim made in 2026, that's S$689 a month. CPF Board publishes the payouts as ",
       "why": ""
     },
     {
-      "title": "Two kinds of defect, one trial format: validating reasoning specs blind",
-      "url": "https://dev.to/bala_paranj_059d338e44e7e/two-kinds-of-defect-one-trial-format-validating-reasoning-specs-blind-2li9",
+      "title": "Building DataTeller #1: Scaffolding the Engine, a Dummy App and pgvector",
+      "url": "https://dev.to/seryllns_/building-datateller-1-scaffolding-the-engine-a-dummy-app-and-pgvector-1n92",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "✓ Human-authored analysis; AI used for formatting and proofreading. You have a security tool that exports facts. Five different reasoning engines consume those facts and produce different shapes of answer. Z3 produces SAT/UNSAT, Soufflé counts reachable tuples, Clingo enumerates violation atoms, Pro",
+      "date": "2026-11-24",
+      "snippet": "Before any AI: a mountable engine, a dummy app with several tenants and fake data, and Postgres with pgvector. Boring on purpose, because everything after depends on it. Context In part 0 I pitched DataTeller: a Rails engine where an LLM fills a structured query that the engine validates and compile",
       "why": ""
     },
     {
-      "title": "Crowdtesting Service or In-House QA? Where Real Users Fit, and What AI Response Evaluation Jobs Involve for Testers",
-      "url": "https://dev.to/testlancer/crowdtesting-service-or-in-house-qa-where-real-users-fit-and-what-ai-response-evaluation-jobs-2eme",
+      "title": "hadome: a ratchet that stops AI coding agents from weakening your tests",
+      "url": "https://dev.to/rerorets/hadome-a-ratchet-that-stops-ai-coding-agents-from-weakening-your-tests-g7n",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "There's a question that comes up in almost every team that ships software: \"We already have QA. Why would we pay outside testers?\" It's a fair challenge. A good in-house QA team knows the product, writes systematic test cases and catches regressions before every release. But that same depth of knowl",
+      "date": "2026-11-24",
+      "snippet": "I built hadome , a checker for repositories where AI agents write most of the code. It compares a change with main and reports only what the change makes worse: the violations it adds and the tests it weakens. GitHub: rerorets/hadome Why I built it When agents write the code, the test suite keeps gr",
       "why": ""
     },
     {
-      "title": "AWS Emulator: Test Against AWS on Your Laptop With No Account (What to Check First)",
-      "url": "https://dev.to/damogallagher/aws-emulator-test-against-aws-on-your-laptop-with-no-account-what-to-check-first-5ddd",
+      "title": "Terraform contra o AWS Emulator: o que o apply emulado pega e o que só a conta real revela",
+      "url": "https://dev.to/gonzalogjuka/terraform-contra-o-aws-emulator-o-que-o-apply-emulado-pega-e-o-que-so-a-conta-real-revela-45pp",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "AWS just shipped its own local emulator. Yes, really. It's called AWS Emulator , it's open source, it's written in Rust, and it runs on your machine with no AWS account. I'm going off the launch post and the docs here. I haven't pushed it through a real project yet, so treat the \"how it behaves\" par",
+      "date": "2026-11-24",
+      "snippet": "A resposta curta: um emulador valida a forma do request. Ele não vê cotas, capacidade, nomes que já existem, IAM nem o estado anterior da conta, porque nada disso vive na API; vive na sua conta. Um terraform apply contra o AWS Emulator pega o parâmetro mal escrito que o plan deixa passar, e só isso ",
       "why": ""
     },
     {
-      "title": "Versioned Scoring Rules for a Reproducible Published Index",
-      "url": "https://dev.to/jeremy_longshore/versioned-scoring-rules-for-a-reproducible-published-index-2ngm",
+      "title": "AWS Emulator con Terraform: qué atrapa el apply emulado y qué sigue fallando en la cuenta real",
+      "url": "https://dev.to/gonzalogjuka/aws-emulator-con-terraform-que-atrapa-el-apply-emulado-y-que-sigue-fallando-en-la-cuenta-real-2138",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "If you publish a scored dataset every day, the scoring rule will change, and the first rerun after that change can quietly rewrite every date you already published. This is how I restructured a daily token price index so rules can change without touching history: keep the raw facts (facets, the attr",
+      "date": "2026-11-24",
+      "snippet": "La respuesta corta: un emulador valida la forma del request. No ve cuotas, capacidad, nombres que ya existen, IAM ni el estado previo de la cuenta, porque nada de eso vive en la API; vive en tu cuenta. Un terraform apply contra AWS Emulator atrapa el parámetro mal escrito que plan deja pasar, y eso ",
       "why": ""
     },
     {
-      "title": "Math.sumPrecise: Stop Letting reduce() Round Your Totals",
-      "url": "https://dev.to/grimicorn/mathsumprecise-stop-letting-reduce-round-your-totals-1kmn",
+      "title": "GLM-5.4 Evaluation Plan: Acceptance Tests for Vision and Coding",
+      "url": "https://dev.to/buluo/glm-54-evaluation-plan-acceptance-tests-for-vision-and-coding-23lk",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "Every JavaScript codebase has this line somewhere: const total = values . reduce ( ( sum , n ) =&gt; sum + n , 0 ) ; It looks too simple to be wrong, and most of the time it is close enough. But it has a property most of us never think about: the answer depends on the order of the array. Sort the sa",
+      "date": "2026-11-24",
+      "snippet": "Before trying GLM-5.4 on a development task, write down what would make the result usable. For a screenshot-to-page job, that might mean every label is preserved, the page works at a narrow width, and the controls respond. A model can produce an impressive screenshot while missing any of those condi",
       "why": ""
     },
     {
-      "title": "Debugging a Black-Box AI Research Failure: Completed Runs With 0 Searches and 0 Citations",
-      "url": "https://dev.to/ma_waqas_sharif/debugging-a-black-box-ai-research-failure-completed-runs-with-0-searches-and-0-citations-29k3",
+      "title": "Four Shell Commands That Make AI Coding Easier to Audit",
+      "url": "https://dev.to/caminhosolo/four-shell-commands-that-make-ai-coding-easier-to-audit-2k7j",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "I was using ChatGPT Deep Research for a real research task when its behaviour changed. My earlier runs had looked normal: the interface showed heavy search activity, the reports carried citations, and the exported files contained citation markers. Then a new group of runs started finishing as \"Resea",
+      "date": "2026-11-24",
+      "snippet": "When an agent says 'fixed', inspect its file changes and tests rather than relying on its summary. Caminho Solo context: This practical exercise complements The AI ran rg, git and npm: how to read the commands behind coding agents , with the original research and fuller walkthrough. Why this questio",
       "why": ""
     }
   ],
   "kev": [
+    {
+      "id": "CVE-2026-133968",
+      "title": "Project MONAI MONAI Label Path Traversal Vulnerability",
+      "product": "Project MONAI MONAI Label",
+      "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+      "date": "2026-11-23",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+    },
+    {
+      "id": "CVE-2026-134624",
+      "title": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "product": "N-able MailAssure",
+      "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+      "date": "2026-11-23",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+    },
     {
       "id": "CVE-2026-129448",
       "title": "Apache Roller Deserialization of Untrusted Data Vulnerability",
@@ -119,7 +137,7 @@
       "product": "Synology DiskStation Manager (DSM)",
       "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
       "date": "2026-11-18",
-      "ransomware": false,
+      "ransomware": true,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     },
     {
@@ -166,24 +184,6 @@
       "date": "2026-11-13",
       "ransomware": false,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
-    },
-    {
-      "id": "CVE-2026-123039",
-      "title": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-      "product": "Check Point Multiple Products",
-      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-      "date": "2026-11-13",
-      "ransomware": false,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
-    },
-    {
-      "id": "CVE-2026-124194",
-      "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-      "product": "Microsoft Office",
-      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-      "date": "2026-11-10",
-      "ransomware": false,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
     }
   ],
   "nvd": [
@@ -195,11 +195,39 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
     },
     {
-      "id": "CVE-2026-130778",
-      "description": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate to gain cluster-level access, bypass authorization, modify trust store entries, and influence scriptlet-based authorizat",
+      "id": "CVE-2026-62841",
+      "description": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
       "score": 10.0,
-      "date": "2026-11-18",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778"
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841"
+    },
+    {
+      "id": "CVE-2026-50691",
+      "description": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
+      "score": 9.9,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691"
+    },
+    {
+      "id": "CVE-2026-70193",
+      "description": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+      "score": 9.9,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193"
+    },
+    {
+      "id": "CVE-2026-135202",
+      "description": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion – Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync – Airtable to WordPress) contain embedded malicious code (a backdoor) in the versions listed. The affected releases unconditionally load a",
+      "score": 9.8,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202"
+    },
+    {
+      "id": "CVE-2026-119582",
+      "description": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
+      "score": 9.8,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
     },
     {
       "id": "CVE-2026-120382",
@@ -209,70 +237,52 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382"
     },
     {
-      "id": "CVE-2026-120539",
-      "description": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it with eval(). Because PHP interpolates double-quoted strings, a payload of the form {${...}} in the URL path is executed dur",
-      "score": 9.8,
-      "date": "2026-11-21",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539"
+      "id": "CVE-2026-109480",
+      "description": "Server-side request forgery in Profile Data Roaming Service (PDRS) allows an authorized attacker to elevate privileges over a network.",
+      "score": 9.6,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109480"
     },
     {
-      "id": "CVE-2026-125294",
-      "description": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block Unicode look-alike characters — such as U+1E87 and U+00E7 in a key like `ẇp_çapabilities` — whose UTF-8 byte sequences ",
-      "score": 9.8,
-      "date": "2026-11-21",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294"
+      "id": "CVE-2026-118285",
+      "description": "Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.",
+      "score": 9.6,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285"
     },
     {
-      "id": "CVE-2026-130786",
-      "description": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or crafted tmpfs lxc.mount.entry fields to run commands as root on the host or bind-mount host paths, even from restricted ",
-      "score": 9.4,
-      "date": "2026-11-18",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786"
+      "id": "CVE-2026-70305",
+      "description": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over a network.",
+      "score": 9.6,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305"
     },
     {
-      "id": "CVE-2026-121613",
-      "description": "Missing authentication and authorization on an exposed interface allows an unauthenticated remote attacker to send arbitrary commands to the affected component, which can force a device reboot or let the attacker upload malicious firmware.",
+      "id": "CVE-2026-135208",
+      "description": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens because JWTMiddleWare() falls back to the hard-coded key TOBECHANGED. Attackers can sign HS256 tokens with arbitrary username and role claims to access /api and /config routes, exposing RTSP, ONVIF, Hub and encryption keys, rewriting configuration, and st",
       "score": 9.3,
       "date": "2026-11-23",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121613"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208"
     },
     {
-      "id": "CVE-2026-134292",
-      "description": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated users denied access to built-in functions in SurrealQL can execute them by calling them through surrealdb.functions from",
+      "id": "CVE-2026-109490",
+      "description": "Improper neutralization of input during web page generation ('cross-site scripting') in Authentication Methods Portal Extension allows an unauthorized attacker to elevate privileges over a network.",
       "score": 9.3,
-      "date": "2026-11-21",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
-    },
-    {
-      "id": "CVE-2026-133993",
-      "description": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks.",
-      "score": 9.3,
-      "date": "2026-11-21",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
-    },
-    {
-      "id": "CVE-2026-133680",
-      "description": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used.",
-      "score": 8.6,
-      "date": "2026-11-20",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133680"
-    },
-    {
-      "id": "CVE-2026-133500",
-      "description": "A vulnerability was identified in Gladys Assistant up to 4.71.0. This affects an unknown function of the file gateway.downloadBackup.js of the component Backup Restore Endpoint. The manipulation of the argument file_url leads to os command injection. The attack can be initiated remotely. The exploit is publicly available and might be used. Upgrading to version 4.72.0 mitigates this issue. Upgradin",
-      "score": 8.5,
-      "date": "2026-11-20",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133500"
-    },
-    {
-      "id": "CVE-2026-132142",
-      "description": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function dataflowstatus of the file /cgi-bin/mainfunction.cgi of the component CGI Process. This manipulation of the argument option causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been published and may be used. Upgrading to version 1.5.1.7 is able to mitigate this issue. You shoul",
-      "score": 8.5,
-      "date": "2026-11-18",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132142"
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109490"
     }
   ],
   "ghsa": [
+    {
+      "id": "GHSA-2r3w-c2vx-fv5g",
+      "cve": "CVE-2026-133469",
+      "title": "Xen Orchestra: Empty-object login token",
+      "packages": [
+        "npm/xo-server"
+      ],
+      "date": "2026-11-23",
+      "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g"
+    },
     {
       "id": "GHSA-4hrh-34w3-5ww8",
       "cve": "CVE-2026-104099",
@@ -382,98 +392,208 @@
       ],
       "date": "2026-11-19",
       "url": "https://github.com/advisories/GHSA-833v-v58w-294h"
-    },
-    {
-      "id": "GHSA-q8v2-3j4h-xg2p",
-      "cve": "CVE-2026-63412",
-      "title": "Jane: Instantiation RCE via query parameter name -> raw PHPDoc */ breakout (jane-php/open-api-3)",
-      "packages": [
-        "composer/jane-php/open-api-3"
-      ],
-      "date": "2026-11-19",
-      "url": "https://github.com/advisories/GHSA-q8v2-3j4h-xg2p"
     }
   ],
   "news": [
     {
-      "title": "How to Test AI Agents Against Real-World Chaos Before Shipping",
-      "url": "https://dev.to/tanmay2627/how-to-test-ai-agents-against-real-world-chaos-before-shipping-4l1d",
+      "title": "How to test password reset end to end",
+      "url": "https://dev.to/rfoel/how-to-test-password-reset-end-to-end-4jel",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "Most AI agents fail not in staging, but within minutes of hitting production. When an agent breaks in the wild, the underlying cause is almost always the same: it was tested against predictable, \"clean\" inputs. In developer environments, we tend to test happily path queries like \"Book a flight to NY"
+      "date": "2026-11-24",
+      "snippet": "Password reset is one of the most important flows in an app and one of the least tested. When it breaks, users get locked out and only find out when they need it. It usually goes untested for one reason: the middle step happens in an inbox. With a real inbox your test can read, the whole flow become"
     },
     {
-      "title": "The tests passed on all 107 wrong AI changes. Here is what caught 86 of them",
-      "url": "https://dev.to/amit_spitzer/the-tests-passed-on-all-107-wrong-ai-changes-here-is-what-caught-86-of-them-145c",
+      "title": "CareShield Life payouts in Python: one rule reproduces all 111 cells of CPF's table",
+      "url": "https://dev.to/jeremiah_say/careshield-life-payouts-in-python-one-rule-reproduces-all-111-cells-of-cpfs-table-3k25",
       "source": "DEV #testing",
       "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "An AI agent fixes a slug function. The project's own test passes. It says \"done\". It isn't: slugify(\"Hello, World!\") comes back as hello-world! , and the task said \"a clean URL slug\". I'm the maintainer of Apex verify , a small open-source tool for exactly this gap. You give it the change an AI made"
+      "date": "2026-11-24",
+      "snippet": "CareShield Life is Singapore's long-term care insurance. If you become severely disabled (you can't do 3 of 6 daily activities, such as washing or dressing), it pays a monthly sum for as long as the disability lasts. For a claim made in 2026, that's S$689 a month. CPF Board publishes the payouts as "
     },
     {
-      "title": "Two kinds of defect, one trial format: validating reasoning specs blind",
-      "url": "https://dev.to/bala_paranj_059d338e44e7e/two-kinds-of-defect-one-trial-format-validating-reasoning-specs-blind-2li9",
+      "title": "Building DataTeller #1: Scaffolding the Engine, a Dummy App and pgvector",
+      "url": "https://dev.to/seryllns_/building-datateller-1-scaffolding-the-engine-a-dummy-app-and-pgvector-1n92",
       "source": "DEV #testing",
       "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "Before any AI: a mountable engine, a dummy app with several tenants and fake data, and Postgres with pgvector. Boring on purpose, because everything after depends on it. Context In part 0 I pitched DataTeller: a Rails engine where an LLM fills a structured query that the engine validates and compile"
+    },
+    {
+      "title": "hadome: a ratchet that stops AI coding agents from weakening your tests",
+      "url": "https://dev.to/rerorets/hadome-a-ratchet-that-stops-ai-coding-agents-from-weakening-your-tests-g7n",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "I built hadome , a checker for repositories where AI agents write most of the code. It compares a change with main and reports only what the change makes worse: the violations it adds and the tests it weakens. GitHub: rerorets/hadome Why I built it When agents write the code, the test suite keeps gr"
+    },
+    {
+      "title": "Terraform contra o AWS Emulator: o que o apply emulado pega e o que só a conta real revela",
+      "url": "https://dev.to/gonzalogjuka/terraform-contra-o-aws-emulator-o-que-o-apply-emulado-pega-e-o-que-so-a-conta-real-revela-45pp",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "A resposta curta: um emulador valida a forma do request. Ele não vê cotas, capacidade, nomes que já existem, IAM nem o estado anterior da conta, porque nada disso vive na API; vive na sua conta. Um terraform apply contra o AWS Emulator pega o parâmetro mal escrito que o plan deixa passar, e só isso "
+    },
+    {
+      "title": "AWS Emulator con Terraform: qué atrapa el apply emulado y qué sigue fallando en la cuenta real",
+      "url": "https://dev.to/gonzalogjuka/aws-emulator-con-terraform-que-atrapa-el-apply-emulado-y-que-sigue-fallando-en-la-cuenta-real-2138",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "La respuesta corta: un emulador valida la forma del request. No ve cuotas, capacidad, nombres que ya existen, IAM ni el estado previo de la cuenta, porque nada de eso vive en la API; vive en tu cuenta. Un terraform apply contra AWS Emulator atrapa el parámetro mal escrito que plan deja pasar, y eso "
+    },
+    {
+      "title": "GLM-5.4 Evaluation Plan: Acceptance Tests for Vision and Coding",
+      "url": "https://dev.to/buluo/glm-54-evaluation-plan-acceptance-tests-for-vision-and-coding-23lk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "Before trying GLM-5.4 on a development task, write down what would make the result usable. For a screenshot-to-page job, that might mean every label is preserved, the page works at a narrow width, and the controls respond. A model can produce an impressive screenshot while missing any of those condi"
+    },
+    {
+      "title": "Four Shell Commands That Make AI Coding Easier to Audit",
+      "url": "https://dev.to/caminhosolo/four-shell-commands-that-make-ai-coding-easier-to-audit-2k7j",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "When an agent says 'fixed', inspect its file changes and tests rather than relying on its summary. Caminho Solo context: This practical exercise complements The AI ran rg, git and npm: how to read the commands behind coding agents , with the original research and fuller walkthrough. Why this questio"
+    },
+    {
+      "title": "The Smallest SaaS Feature That Survives an App Restart",
+      "url": "https://dev.to/caminhosolo/the-smallest-saas-feature-that-survives-an-app-restart-1ph0",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "Before designing pricing tiers, prove that a proposal can be created and found after restarting your program. Caminho Solo context: This practical exercise complements Build your first Micro-SaaS feature: a working local lab , with the original research and fuller walkthrough. Why this question matt"
+    },
+    {
+      "title": "Write a Given-When-Then Contract Before Asking AI to Build an MVP",
+      "url": "https://dev.to/caminhosolo/write-a-given-when-then-contract-before-asking-ai-to-build-an-mvp-4e99",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "A beautiful CRM mockup does not tell you whether it can preserve a proposal status. Caminho Solo context: This practical exercise complements Design a SaaS before coding: MVP, workflow and acceptance criteria , with the original research and fuller walkthrough. Why this question matters You tell a c"
+    },
+    {
+      "title": "What Does App Testing Cost in India? A Scoping Guide for Developers, Plus What Mystery Shopping Jobs Involve for Testers",
+      "url": "https://dev.to/testlancer/what-does-app-testing-cost-in-india-a-scoping-guide-for-developers-plus-what-mystery-shopping-1geh",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "\"How much does it cost to test my app?\" is one of the first questions developers ask, and one of the hardest to answer honestly in a single line. Any number quoted without knowing your scope is a guess, and usually a wrong one. TestLancer ( https://testlancer.com/ ) is a human-powered marketplace wh"
+    },
+    {
+      "title": "Five AI testers, one planted bug: what each verdict rested on",
+      "url": "https://dev.to/testsy/five-ai-testers-one-planted-bug-what-each-verdict-rested-on-596e",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "Read this first Testsy publishes this post, and Testsy is one of the tools in it. Treat it accordingly. We ran these tests ourselves in October and November 2026, on free trials of the hosted tools, so coverage is uneven: one tool ran 14 of the cases, another only 5, because that is where its free r"
+    },
+    {
+      "title": "Does QA require coding? Not at first, but it comes by Week 5",
+      "url": "https://dev.to/saarathi_academy/does-qa-require-coding-not-at-first-but-it-comes-by-week-5-5g81",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "Does QA require coding? Manual testing does not, but automation does, and most testers meet their first real code about a month into learning. You can start with none, and you should still plan for it. Saarathi Academy in Old Baneshwor, Kathmandu, teaches QA in that order, so this is how the code ar"
+    },
+    {
+      "title": "chore: release @cypress/webpack-dev-server-v6.2.1",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-dev-server-v6.2.1",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-24",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-24",
+      "snippet": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 Full Changelog : selenium-4.54.0...nightly"
+    },
+    {
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicio"
+    },
+    {
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's pro"
+    },
+    {
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual "
+    },
+    {
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively looki"
+    },
+    {
+      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed. The company disclosed th"
+    },
+    {
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time t"
+    },
+    {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS s"
+    },
+    {
+      "title": "Best tools for testing your own app's SMS and OTP flows (2026): cloud numbers, test numbers and SMS inboxes",
+      "url": "https://dev.to/growthmktg/best-tools-for-testing-your-own-apps-sms-and-otp-flows-2026-cloud-numbers-test-numbers-and-sms-3hce",
+      "source": "DEV #qa",
+      "category": "Testing",
       "date": "2026-11-23",
-      "snippet": "✓ Human-authored analysis; AI used for formatting and proofreading. You have a security tool that exports facts. Five different reasoning engines consume those facts and produce different shapes of answer. Z3 produces SAT/UNSAT, Soufflé counts reachable tuples, Clingo enumerates violation atoms, Pro"
+      "snippet": "I work with DuoPlus, on the growth marketing side, so it's on this list and it sits near the top. Keep that in mind. Everything I say about the other five tools comes from their own websites and docs, which I opened again on 24 November 2026. I've left prices out. Pricing pages change too often to c"
+    },
+    {
+      "title": "The hour before a test run that nobody plans for",
+      "url": "https://dev.to/mapkari/the-hour-before-a-test-run-that-nobody-plans-for-2m96",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-23",
+      "snippet": "It's 10 minutes before you start testing the new checkout flow in UAT. You open the shared spreadsheet of test logins. The UAT row says checkout_user_02 . The note next to it says \"maybe expired?\". It was last updated four months ago by someone who has since left. You try it. Locked. You ask in the "
     },
     {
       "title": "Crowdtesting Service or In-House QA? Where Real Users Fit, and What AI Response Evaluation Jobs Involve for Testers",
       "url": "https://dev.to/testlancer/crowdtesting-service-or-in-house-qa-where-real-users-fit-and-what-ai-response-evaluation-jobs-2eme",
-      "source": "DEV #testing",
+      "source": "DEV #qa",
       "category": "Testing",
       "date": "2026-11-23",
       "snippet": "There's a question that comes up in almost every team that ships software: \"We already have QA. Why would we pay outside testers?\" It's a fair challenge. A good in-house QA team knows the product, writes systematic test cases and catches regressions before every release. But that same depth of knowl"
-    },
-    {
-      "title": "AWS Emulator: Test Against AWS on Your Laptop With No Account (What to Check First)",
-      "url": "https://dev.to/damogallagher/aws-emulator-test-against-aws-on-your-laptop-with-no-account-what-to-check-first-5ddd",
-      "source": "DEV #testing",
-      "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "AWS just shipped its own local emulator. Yes, really. It's called AWS Emulator , it's open source, it's written in Rust, and it runs on your machine with no AWS account. I'm going off the launch post and the docs here. I haven't pushed it through a real project yet, so treat the \"how it behaves\" par"
-    },
-    {
-      "title": "Versioned Scoring Rules for a Reproducible Published Index",
-      "url": "https://dev.to/jeremy_longshore/versioned-scoring-rules-for-a-reproducible-published-index-2ngm",
-      "source": "DEV #testing",
-      "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "If you publish a scored dataset every day, the scoring rule will change, and the first rerun after that change can quietly rewrite every date you already published. This is how I restructured a daily token price index so rules can change without touching history: keep the raw facts (facets, the attr"
-    },
-    {
-      "title": "Math.sumPrecise: Stop Letting reduce() Round Your Totals",
-      "url": "https://dev.to/grimicorn/mathsumprecise-stop-letting-reduce-round-your-totals-1kmn",
-      "source": "DEV #testing",
-      "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "Every JavaScript codebase has this line somewhere: const total = values . reduce ( ( sum , n ) =&gt; sum + n , 0 ) ; It looks too simple to be wrong, and most of the time it is close enough. But it has a property most of us never think about: the answer depends on the order of the array. Sort the sa"
-    },
-    {
-      "title": "Debugging a Black-Box AI Research Failure: Completed Runs With 0 Searches and 0 Citations",
-      "url": "https://dev.to/ma_waqas_sharif/debugging-a-black-box-ai-research-failure-completed-runs-with-0-searches-and-0-citations-29k3",
-      "source": "DEV #testing",
-      "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "I was using ChatGPT Deep Research for a real research task when its behaviour changed. My earlier runs had looked normal: the interface showed heavy search activity, the reports carried citations, and the exported files contained citation markers. Then a new group of runs started finishing as \"Resea"
-    },
-    {
-      "title": "Writing a Custom Playwright Reporter: 8 Failures From 2 Failing Tests",
-      "url": "https://dev.to/garyparker/writing-a-custom-playwright-reporter-8-failures-from-2-failing-tests-3bf2",
-      "source": "DEV #testing",
-      "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "A custom Playwright reporter takes about 26 lines, but the obvious way to count failures in it is wrong. On a 13-test suite with 2 failing tests, a reporter that counted failed results in onTestEnd reported 8 failures, in 5 of 5 runs. I wrote a minimal reporter, then measured four places where the r"
-    },
-    {
-      "title": "How to Audit API Documentation Quality and Webhook Reliability",
-      "url": "https://dev.to/holly_ai/how-to-audit-api-documentation-quality-and-webhook-reliability-i4i",
-      "source": "DEV #testing",
-      "category": "Testing",
-      "date": "2026-11-23",
-      "snippet": "Most API audits fail because developers trust marketing copy instead of checking the error logs. You need a repeatable method to verify if a platform’s API documentation matches its actual behavior. The gap between what a vendor promises and what their code delivers is where automation breaks. This "
     },
     {
       "title": "Persistent vs disposable Android environments: when test and app state should survive between runs",
@@ -500,6 +620,14 @@
       "snippet": "Short answer: If your eval examples came from public benchmarks, known documentation, or were AI-generated from a dataset the model was fine-tuned on, the model may have seen the answers during training. Detect contamination with n-gram overlap checks and performance comparisons on post-cutoff data;"
     },
     {
+      "title": "chore: release @cypress/puppeteer-v2.0.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fpuppeteer-v2.0.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "[skip ci]"
+    },
+    {
       "title": "Selenium 4.54.0",
       "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.54.0",
       "source": "Selenium",
@@ -508,36 +636,84 @@
       "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for "
     },
     {
-      "title": "Nightly",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium",
-      "category": "Tools",
-      "date": "2026-11-23",
-      "snippet": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when sta"
-    },
-    {
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+      "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
       "source": "The Hacker News",
       "category": "Security",
       "date": "2026-11-23",
-      "snippet": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS scor"
+      "snippet": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised netw"
     },
     {
-      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
       "source": "The Hacker News",
       "category": "Security",
       "date": "2026-11-23",
-      "snippet": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and "
+      "snippet": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can "
     },
     {
-      "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
       "source": "The Hacker News",
       "category": "Security",
       "date": "2026-11-23",
-      "snippet": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial t"
+      "snippet": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions"
+    },
+    {
+      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]"
+    },
+    {
+      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]"
+    },
+    {
+      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]"
+    },
+    {
+      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]"
+    },
+    {
+      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]"
+    },
+    {
+      "title": "AI Agents Are Creating a Shared Responsibility Gap",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]"
+    },
+    {
+      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-23",
+      "snippet": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]"
     },
     {
       "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
@@ -545,7 +721,7 @@
       "source": "BleepingComputer",
       "category": "Security",
       "date": "2026-11-23",
-      "snippet": "A Peruvian call center operator was sentenced to eight years in prison for stealing millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]"
+      "snippet": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]"
     },
     {
       "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
@@ -570,158 +746,6 @@
       "category": "Testing",
       "date": "2026-11-22",
       "snippet": "Most HIPAA problems in software don't look like hacks. Nobody breaks in. A billing clerk opens a record they never needed, a lab result travels to an analytics vendor in a page URL, or a chart stays open on a clinic computer while the nurse walks away. Each of these is a normal feature doing somethi"
-    },
-    {
-      "title": "Generating Realistic Test Data in the Browser: Names, Phone Numbers and Addresses Without a Backend Library",
-      "url": "https://dev.to/binothehencode10/generating-realistic-test-data-in-the-browser-names-phone-numbers-and-addresses-without-a-backend-27hm",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Every form, signup flow, and checkout needs test data. Using real customer data in staging is risky, and typing \"asdf\" into every field hides real bugs — validation that never gets exercised, formatting that breaks on real input, and text that overflows its container. What good test data needs Good "
-    },
-    {
-      "title": "Payment Testing Checklist: Cards, Refunds, Webhooks",
-      "url": "https://dev.to/test-squad/payment-testing-checklist-cards-refunds-webhooks-2heg",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "Most payment bugs don't look like bugs. The checkout works, the demo card goes through, and the release ships. Then a customer is charged twice, a refund never reaches their bank, or an order stays \"pending\" because one webhook arrived before another. These failures cost more than a broken button. T"
-    },
-    {
-      "title": "Your First Junior QA Portfolio: 3 Things That Prove You Can Actually Test",
-      "url": "https://dev.to/miroslawqa/your-first-junior-qa-portfolio-3-things-that-prove-you-can-actually-test-m5b",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-22",
-      "snippet": "You know what a test case is. You've read about boundary value analysis. Maybe you've even completed an ISTQB course. But when someone asks, \"Can you show me how you test software?\", what do you actually show them? If you're learning manual QA and don't have commercial experience yet, your portfolio"
-    },
-    {
-      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-22",
-      "snippet": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt"
-    },
-    {
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-22",
-      "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a"
-    },
-    {
-      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-22",
-      "snippet": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]"
-    },
-    {
-      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-22",
-      "snippet": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]"
-    },
-    {
-      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-22",
-      "snippet": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]"
-    },
-    {
-      "title": "What Is an AI QA Architect? Role, System, and Skills",
-      "url": "https://dev.to/aiwithanton/what-is-an-ai-qa-architect-role-system-and-skills-548h",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Originally published on anton.qa . Last updated: 2026-05-25 An AI QA Architect designs the test system AI agents run on. They connect requirements, test generation, browser execution, evidence, and human review. The job keeps QA engineers in control. It gives agents a safe place to create, run, fix,"
-    },
-    {
-      "title": "Playwright Email Tests Need a Cleanup Contract",
-      "url": "https://dev.to/silviutech/playwright-email-tests-need-a-cleanup-contract-2n90",
-      "source": "DEV #qa",
-      "category": "Testing",
-      "date": "2026-11-21",
-      "snippet": "Email assertions often look simple: submit a signup form, wait for a verification message, click the link, and confirm the account is active. The hard part starts after the assertion. Who owns the inbox? When is it safe to delete the message? What happens when a retry sees the email from the first a"
-    },
-    {
-      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a l"
-    },
-    {
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The b"
-    },
-    {
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside"
-    },
-    {
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions wher"
-    },
-    {
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "source": "The Hacker News",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below"
-    },
-    {
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]"
-    },
-    {
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]"
-    },
-    {
-      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]"
-    },
-    {
-      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-      "source": "BleepingComputer",
-      "category": "Security",
-      "date": "2026-11-21",
-      "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]"
     },
     {
       "title": "chore: release @cypress/vite-plugin-cypress-esm-v2.0.1",
