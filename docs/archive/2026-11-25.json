@@ -1,0 +1,735 @@
+{
+  "generated_at": "2026-11-25T12:30:04+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "Building Self-Healing UI Tests From State Machine Specs",
+      "url": "https://dev.to/shinoj_cm_6b559b3ab51bf47/building-self-healing-ui-tests-from-state-machine-specs-494p",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Writing end-to-end tests for every modal and dropdown state is tedious—unless the state machine already knows them. The Problem With Static Mockups Manual E2E tests rot whenever a UI flow changes. Auto Layout approximations vs. real browser Flexbox &amp; Grid. Code-Native Execution in ExodeUI ExodeU",
+      "why": ""
+    },
+    {
+      "title": "\"The agent says it works\" is not evidence",
+      "url": "https://dev.to/camaan_ai_team/the-agent-says-it-works-is-not-evidence-3ja7",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Coding agents have changed the economics of software. Writing a change used to be the slow part. Now it is the fast part, and the queue has moved to the people who have to decide whether the change is right. An agent will tell you its work is done and that the tests pass. Often that is true, but the",
+      "why": ""
+    },
+    {
+      "title": "Stop Running Unrelated Monorepo Test Suites on Every Agent Edit: Full-Suite Runs vs. AST Dependency-Scoped Incremental Tests (-95.7% Input Tokens)",
+      "url": "https://dev.to/tappers_/stop-running-unrelated-monorepo-test-suites-on-every-agent-edit-full-suite-runs-vs-ast-1o56",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "💡 AI Labo Benchmark Series — Experiment E30 (Feedback Sensors &amp; Incremental Verification) This post is part of our empirical benchmark series testing AI coding agent harness patterns inside network-isolated Proxmox VMs against a hidden 20-case grading suite. 🚀 View All 41 Benchmark Results &amp;",
+      "why": ""
+    },
+    {
+      "title": "The Agent Knows. It Just Doesn’t Always Do It",
+      "url": "https://dev.to/testingil/the-agent-knows-it-just-doesnt-always-do-it-2hcl",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "The more I work with agents, the more I understand how big the task of making sure they work is. Like, Jupiter big. And how much of our practices need to change in order to at least have some idea of what we ship to production. Here’s an example straight from my TDD agent. I taught it well. It knows",
+      "why": ""
+    },
+    {
+      "title": "Deterministic Replay: Reproducing Any UI Animation Frame-by-Frame",
+      "url": "https://dev.to/shinoj_cm_6b559b3ab51bf47/deterministic-replay-reproducing-any-ui-animation-frame-by-frame-3c5n",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "If an animation depends on wall-clock Date.now() , you can't reliably scrub or screenshot-test it. The Problem With Static Mockups Non-deterministic timers cause flaky CI visual tests and inconsistent frame captures. Auto Layout approximations vs. real browser Flexbox &amp; Grid. Code-Native Executi",
+      "why": ""
+    },
+    {
+      "title": "How a reader's one comment destroyed my AI reviewer's 10/10 benchmark",
+      "url": "https://dev.to/revhive/how-a-readers-one-comment-destroyed-my-ai-reviewers-1010-benchmark-1ipg",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "A few weeks ago I published a benchmark for the AI code reviewer I build. Take ten commits that fixed real CVEs, revert each one, run the reviewer on the diff, see whether it names the right bug. It found all ten, and I wrote four paragraphs explaining why that number was close to worthless. Then a ",
+      "why": ""
+    },
+    {
+      "title": "Testing PDF Tool Performance Under Slow Internet and Unstable Network Conditions",
+      "url": "https://dev.to/ananya_gupta_1997/testing-pdf-tool-performance-under-slow-internet-and-unstable-network-conditions-3bjb",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "The performance of online PDF tools is often evaluated under stable broadband conditions. However, users do not always have access to reliable internet connections. Students, remote employees, small businesses, administrative professionals, and organizations operating in areas with inconsistent conn",
+      "why": ""
+    },
+    {
+      "title": "The App Launch Testing Checklist Developers Skip, and How to Write a Bug Report That Gets Fixed",
+      "url": "https://dev.to/testlancer/the-app-launch-testing-checklist-developers-skip-and-how-to-write-a-bug-report-that-gets-fixed-44j1",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Before you launch an app, test seven areas: install and first launch, signup and login, your core user flows, a spread of devices and OS versions, network and permission behaviour, payments and data, and your store and policy details. Do it with real users on real devices, not only emulators. And wh",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2026-132224",
+      "title": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "product": "Optimizely Web Experimentation",
+      "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
+      "date": "2026-11-24",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+    },
+    {
+      "id": "CVE-2026-131914",
+      "title": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "product": "Idunno AntiCsrf",
+      "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "date": "2026-11-24",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+    },
+    {
+      "id": "CVE-2026-132165",
+      "title": "Drupal Core Remote Code Execution Vulnerability",
+      "product": "Drupal Core",
+      "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on the site.",
+      "date": "2026-11-24",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+    },
+    {
+      "id": "CVE-2026-133968",
+      "title": "Project MONAI MONAI Label Path Traversal Vulnerability",
+      "product": "Project MONAI MONAI Label",
+      "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+      "date": "2026-11-23",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+    },
+    {
+      "id": "CVE-2026-134624",
+      "title": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "product": "N-able MailAssure",
+      "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+      "date": "2026-11-23",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+    },
+    {
+      "id": "CVE-2026-129448",
+      "title": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "product": "Apache Roller",
+      "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+    },
+    {
+      "id": "CVE-2026-123890",
+      "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "product": "Broadcom VMware vCenter",
+      "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+    },
+    {
+      "id": "CVE-2025-42884",
+      "title": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "product": "SAP NetWeaver",
+      "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    },
+    {
+      "id": "CVE-2026-76466",
+      "title": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "product": "Cisco Expressway Series",
+      "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "date": "2026-11-20",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+    },
+    {
+      "id": "CVE-2024-10441",
+      "title": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "product": "Synology DiskStation Manager (DSM)",
+      "description": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+      "date": "2026-11-18",
+      "ransomware": true,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
+    {
+      "id": "CVE-2026-40217",
+      "title": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "product": "BerriAI LiteLLM",
+      "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
+    },
+    {
+      "id": "CVE-2026-90817",
+      "title": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "product": "Vanderbilt University Research Electronic Data Capture (REDCap)",
+      "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
+      "date": "2026-11-18",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-134882",
+      "description": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out remotely.",
+      "score": 10.0,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
+    },
+    {
+      "id": "CVE-2026-123342",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342"
+    },
+    {
+      "id": "CVE-2026-123723",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723"
+    },
+    {
+      "id": "CVE-2026-123986",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986"
+    },
+    {
+      "id": "CVE-2026-123987",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
+    },
+    {
+      "id": "CVE-2026-119582",
+      "description": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
+      "score": 9.8,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
+    },
+    {
+      "id": "CVE-2026-125717",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensitive data or functionality. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.6,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717"
+    },
+    {
+      "id": "CVE-2026-136184",
+      "description": "compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site request forgery vulnerability because its unauthenticated web UI performs no Origin validation. Malicious websites visited by users can open /ws/shell/{host} or /ws/exec sockets, or abuse unquoted service parameters and PUT /api/console/file, to execute commands on all managed hosts.",
+      "score": 9.4,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136184"
+    },
+    {
+      "id": "CVE-2026-136136",
+      "description": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/new_pwd_confirm/passwd_set/mode_name/wl_link leads to improper authentication. The attack may be initiated remotely. The exploit is publicly available and might be used. Th",
+      "score": 9.3,
+      "date": "2026-11-25",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136136"
+    },
+    {
+      "id": "CVE-2026-136547",
+      "description": "A vulnerability was determined in Tenda RX3 16.03.13.11_multi. Impacted is the function R7WebsSecurityHandler of the component httpd. Executing a manipulation can lead to improper authentication. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "score": 9.3,
+      "date": "2026-11-25",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136547"
+    },
+    {
+      "id": "CVE-2026-136548",
+      "description": "A vulnerability was identified in Tenda RX3 16.03.13.11. The affected element is an unknown function of the file /bin/auto_discover of the component GBK-to-UTF-8 Conversion. The manipulation of the argument Hostname leads to stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit is publicly available and might be used.",
+      "score": 9.3,
+      "date": "2026-11-25",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136548"
+    },
+    {
+      "id": "CVE-2026-136549",
+      "description": "A security flaw has been discovered in Tenda RX3 16.03.13.11_multi. The impacted element is the function formSetSafeWanWebMan of the file /goform/SetRemoteWebCfg. The manipulation of the argument remoteIp results in command injection. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
+      "score": 9.3,
+      "date": "2026-11-25",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136549"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-c4hm-4h84-2cf3",
+      "cve": "CVE-2026-59726",
+      "title": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+      "packages": [
+        "npm/ruflo"
+      ],
+      "date": "2026-11-24",
+      "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3"
+    },
+    {
+      "id": "GHSA-2r3w-c2vx-fv5g",
+      "cve": "CVE-2026-133469",
+      "title": "Xen Orchestra: Empty-object login token",
+      "packages": [
+        "npm/xo-server"
+      ],
+      "date": "2026-11-23",
+      "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g"
+    },
+    {
+      "id": "GHSA-4hrh-34w3-5ww8",
+      "cve": "CVE-2026-104099",
+      "title": "Fabio: Access-control bypass through unnormalized request paths",
+      "packages": [
+        "go/github.com/fabiolb/fabio"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-4hrh-34w3-5ww8"
+    },
+    {
+      "id": "GHSA-mc8w-wjhw-45x5",
+      "cve": "CVE-2026-114516",
+      "title": "Etherpad: Pre-auth arbitrary file read",
+      "packages": [
+        "npm/ep_etherpad-lite"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
+    },
+    {
+      "id": "GHSA-wj7x-58c2-5793",
+      "cve": "CVE-2026-77369",
+      "title": "Daptin: Broken Access Control (IDOR) in the generic YJS collaboration endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-wj7x-58c2-5793"
+    },
+    {
+      "id": "GHSA-hq2p-f2vj-v3cm",
+      "cve": "CVE-2026-77367",
+      "title": "Daptin: Unauthenticated SQL Injection via the `sort` query parameter on every entity list endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-hq2p-f2vj-v3cm"
+    },
+    {
+      "id": "GHSA-9x8x-crjq-g64h",
+      "cve": "CVE-2026-77359",
+      "title": "Jupyter MCP Server: Browser DNS rebinding can hijack the Jupyter backend through management routes",
+      "packages": [
+        "pip/jupyter-mcp-server"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-9x8x-crjq-g64h"
+    },
+    {
+      "id": "GHSA-p34x-fmph-9fjx",
+      "cve": "CVE-2026-77312",
+      "title": "Flyto2 Core: Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of CVE-2026-67429)",
+      "packages": [
+        "pip/flyto-core"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p34x-fmph-9fjx"
+    },
+    {
+      "id": "GHSA-p32v-8v8j-j534",
+      "cve": "CVE-2026-63344",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI content-type values",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p32v-8v8j-j534"
+    },
+    {
+      "id": "GHSA-58x9-vjvp-6mx8",
+      "cve": "CVE-2026-63346",
+      "title": "Refitter allows code execution through unescaped OpenAPI header parameter names",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-58x9-vjvp-6mx8"
+    },
+    {
+      "id": "GHSA-3fhm-p725-h3g3",
+      "cve": "CVE-2026-63345",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI paths",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-3fhm-p725-h3g3"
+    },
+    {
+      "id": "GHSA-x8q7-6c7m-52gw",
+      "cve": "CVE-2026-128138",
+      "title": "NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
+      "packages": [
+        "pip/nltk"
+      ],
+      "date": "2026-11-19",
+      "url": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw"
+    }
+  ],
+  "news": [
+    {
+      "title": "Building Self-Healing UI Tests From State Machine Specs",
+      "url": "https://dev.to/shinoj_cm_6b559b3ab51bf47/building-self-healing-ui-tests-from-state-machine-specs-494p",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Writing end-to-end tests for every modal and dropdown state is tedious—unless the state machine already knows them. The Problem With Static Mockups Manual E2E tests rot whenever a UI flow changes. Auto Layout approximations vs. real browser Flexbox &amp; Grid. Code-Native Execution in ExodeUI ExodeU"
+    },
+    {
+      "title": "\"The agent says it works\" is not evidence",
+      "url": "https://dev.to/camaan_ai_team/the-agent-says-it-works-is-not-evidence-3ja7",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Coding agents have changed the economics of software. Writing a change used to be the slow part. Now it is the fast part, and the queue has moved to the people who have to decide whether the change is right. An agent will tell you its work is done and that the tests pass. Often that is true, but the"
+    },
+    {
+      "title": "Stop Running Unrelated Monorepo Test Suites on Every Agent Edit: Full-Suite Runs vs. AST Dependency-Scoped Incremental Tests (-95.7% Input Tokens)",
+      "url": "https://dev.to/tappers_/stop-running-unrelated-monorepo-test-suites-on-every-agent-edit-full-suite-runs-vs-ast-1o56",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "💡 AI Labo Benchmark Series — Experiment E30 (Feedback Sensors &amp; Incremental Verification) This post is part of our empirical benchmark series testing AI coding agent harness patterns inside network-isolated Proxmox VMs against a hidden 20-case grading suite. 🚀 View All 41 Benchmark Results &amp;"
+    },
+    {
+      "title": "The Agent Knows. It Just Doesn’t Always Do It",
+      "url": "https://dev.to/testingil/the-agent-knows-it-just-doesnt-always-do-it-2hcl",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "The more I work with agents, the more I understand how big the task of making sure they work is. Like, Jupiter big. And how much of our practices need to change in order to at least have some idea of what we ship to production. Here’s an example straight from my TDD agent. I taught it well. It knows"
+    },
+    {
+      "title": "Deterministic Replay: Reproducing Any UI Animation Frame-by-Frame",
+      "url": "https://dev.to/shinoj_cm_6b559b3ab51bf47/deterministic-replay-reproducing-any-ui-animation-frame-by-frame-3c5n",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "If an animation depends on wall-clock Date.now() , you can't reliably scrub or screenshot-test it. The Problem With Static Mockups Non-deterministic timers cause flaky CI visual tests and inconsistent frame captures. Auto Layout approximations vs. real browser Flexbox &amp; Grid. Code-Native Executi"
+    },
+    {
+      "title": "How a reader's one comment destroyed my AI reviewer's 10/10 benchmark",
+      "url": "https://dev.to/revhive/how-a-readers-one-comment-destroyed-my-ai-reviewers-1010-benchmark-1ipg",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "A few weeks ago I published a benchmark for the AI code reviewer I build. Take ten commits that fixed real CVEs, revert each one, run the reviewer on the diff, see whether it names the right bug. It found all ten, and I wrote four paragraphs explaining why that number was close to worthless. Then a "
+    },
+    {
+      "title": "Testing PDF Tool Performance Under Slow Internet and Unstable Network Conditions",
+      "url": "https://dev.to/ananya_gupta_1997/testing-pdf-tool-performance-under-slow-internet-and-unstable-network-conditions-3bjb",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "The performance of online PDF tools is often evaluated under stable broadband conditions. However, users do not always have access to reliable internet connections. Students, remote employees, small businesses, administrative professionals, and organizations operating in areas with inconsistent conn"
+    },
+    {
+      "title": "The App Launch Testing Checklist Developers Skip, and How to Write a Bug Report That Gets Fixed",
+      "url": "https://dev.to/testlancer/the-app-launch-testing-checklist-developers-skip-and-how-to-write-a-bug-report-that-gets-fixed-44j1",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Before you launch an app, test seven areas: install and first launch, signup and login, your core user flows, a spread of devices and OS versions, network and permission behaviour, payments and data, and your store and policy details. Do it with real users on real devices, not only emulators. And wh"
+    },
+    {
+      "title": "Duplicate email or retry? Two different bugs in a Python intake workflow",
+      "url": "https://dev.to/digitalnerve/duplicate-email-or-retry-two-different-bugs-in-a-python-intake-workflow-4ml0",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Two form entries arrive with the same email address. One is a second delivery of the same submission. The other is a different request from the same person. If your automation treats both as duplicates, it throws away real work. If it treats every delivery as new, a retry creates the work twice. A u"
+    },
+    {
+      "title": "Load Testing Before Launch: How to Find Your System's Breaking Point",
+      "url": "https://dev.to/tanmay2627/load-testing-before-launch-how-to-find-your-systems-breaking-point-46be",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Your API responds in 200ms on your local environment. The unit tests pass, integration tests look green, and the staging environment feels fast. Then 500 concurrent real users hit the service on launch day, and your latency degrades to 8 seconds before the server drops connections. That latency spik"
+    },
+    {
+      "title": "Ending the 'It Looks Different in Staging' Slack Thread",
+      "url": "https://dev.to/shinoj_cm_6b559b3ab51bf47/ending-the-it-looks-different-in-staging-slack-thread-1eh",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Every team knows the Friday afternoon Slack thread: 14 screenshots comparing Figma to staging. The Problem With Static Mockups Two different rendering engines will always disagree on shadows, borders, and font wrapping. Auto Layout approximations vs. real browser Flexbox &amp; Grid. Code-Native Exec"
+    },
+    {
+      "title": "A Failure Taxonomy for Playwright Email Tests",
+      "url": "https://dev.to/silviutech/a-failure-taxonomy-for-playwright-email-tests-b9g",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "An email test that ends with Timeout 30000ms exceeded has reported a symptom, not a diagnosis. The application might not have sent a message, the inbox could be shared with another worker, or the assertion may have found the wrong message. Increasing the timeout treats all three cases as if they wer"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-25",
+      "snippet": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include them in the bridge by @titusfortner in #18376 [rb] move the BiDi command overrides out of BiDiBridge in"
+    },
+    {
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact inste"
+    },
+    {
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install "
+    },
+    {
+      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October"
+    },
+    {
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had "
+    },
+    {
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13"
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and legal "
+    },
+    {
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has proactively detected "
+    },
+    {
+      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]"
+    },
+    {
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]"
+    },
+    {
+      "title": "Microsoft confirms authentication issues after November updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]"
+    },
+    {
+      "title": "Hackers reportedly breached CIA intelligence analysis system",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-25",
+      "snippet": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]"
+    },
+    {
+      "title": "Make Playwright Email Failures Explainable",
+      "url": "https://dev.to/silviutech/make-playwright-email-failures-explainable-2a2h",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "An email test can fail even when the application did the right thing. The message may arrive after the assertion timeout, a retry may read the first attempt's inbox, or the test report may hide the only useful clue: which message was actually observed. In QA automation, the goal is not only to make "
+    },
+    {
+      "title": "Keeping track of 100+ Android test devices: 8 practices for naming, tagging and access",
+      "url": "https://dev.to/aleena_khan_b2f4d6c5df6c4/keeping-track-of-100-android-test-devices-8-practices-for-naming-tagging-and-access-584p",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "To manage 100+ Android test devices, give each one a role-based name and key its record by the one identifier that doesn't drift. Tag it from a short shared vocabulary, assign one owning team, and keep its state in a note. Then build the inventory from adb output on a schedule instead of a hand-kept"
+    },
+    {
+      "title": "Web Application Testing with AI: A Step-by-Step Guide",
+      "url": "https://dev.to/wuweiweiwu/web-application-testing-with-ai-a-step-by-step-guide-4h4i",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "What’s involved with AI-driven web application testing, practically speaking? You might be relieved to hear that the fundamental approach to web app testing probably doesn’t differ all that much from what you’re doing currently. Code, test, correct, repeat. What AI does affect is the efficiency and "
+    },
+    {
+      "title": "How we track test data across DEV, QA and UAT in Jira",
+      "url": "https://dev.to/mapkari/how-we-track-test-data-across-dev-qa-and-uat-in-jira-1p7j",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "\"Does anyone have a working login for UAT?\" If you work on a team with more than one test environment, you've seen this message. It shows up in Slack the day testing starts, and it costs someone an hour. The data exists somewhere. A tester created an account with a valid card on QA last sprint. A BA"
+    },
+    {
+      "title": "What Does App Testing Cost in India? A Scoping Guide for Developers, Plus What Mystery Shopping Jobs Involve for Testers",
+      "url": "https://dev.to/testlancer/what-does-app-testing-cost-in-india-a-scoping-guide-for-developers-plus-what-mystery-shopping-1geh",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "\"How much does it cost to test my app?\" is one of the first questions developers ask, and one of the hardest to answer honestly in a single line. Any number quoted without knowing your scope is a guess, and usually a wrong one. TestLancer ( https://testlancer.com/ ) is a human-powered marketplace wh"
+    },
+    {
+      "title": "Five AI testers, one planted bug: what each verdict rested on",
+      "url": "https://dev.to/testsy/five-ai-testers-one-planted-bug-what-each-verdict-rested-on-596e",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-24",
+      "snippet": "Read this first Testsy publishes this post, and Testsy is one of the tools in it. Treat it accordingly. We ran these tests ourselves in October and November 2026, on free trials of the hosted tools, so coverage is uneven: one tool ran 14 of the cases, another only 5, because that is where its free r"
+    },
+    {
+      "title": "chore: release @cypress/webpack-dev-server-v6.2.1",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-dev-server-v6.2.1",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-24",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for comman"
+    },
+    {
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS"
+    },
+    {
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vi"
+    },
+    {
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]"
+    },
+    {
+      "title": "New Inception extortion gang launches large-scale vishing campaign",
+      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]"
+    },
+    {
+      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]"
+    },
+    {
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]"
+    },
+    {
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]"
+    },
+    {
+      "title": "European Commission confirms data theft in EU Academy breach",
+      "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-24",
+      "snippet": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]"
+    },
+    {
+      "title": "chore: release @cypress/puppeteer-v2.0.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fpuppeteer-v2.0.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Selenium 4.54.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.54.0",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for "
+    }
+  ]
+}
