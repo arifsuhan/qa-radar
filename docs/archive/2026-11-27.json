@@ -1,0 +1,759 @@
+{
+  "generated_at": "2026-11-27T11:58:06+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "The accessibility tree of our 38 pages has 1,091 named links, 151 pictures with no name, and one live region that never says a word",
+      "url": "https://dev.to/daniel_pertu/the-accessibility-tree-of-our-38-pages-has-1091-named-links-151-pictures-with-no-name-and-one-5040",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "I have measured the accessibility of Notifio 's website twice before, and both times with the wrong instrument. First by grepping the served HTML , which finds what we wrote. Then by pressing Tab 1,224 times , which finds what a keyboard does. Neither of those is what a screen reader reads. What a s",
+      "why": ""
+    },
+    {
+      "title": "Internal Testing vs Closed Testing on Google Play: Which Track Counts, Which Doesn't (Plus How Web Research Jobs Work for Testers)",
+      "url": "https://dev.to/testlancer/internal-testing-vs-closed-testing-on-google-play-which-track-counts-which-doesnt-plus-how-web-4kei",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Here is the answer most new Android developers need: internal testing is for a small, trusted group and gets builds to them fastest, but it does not count toward Google Play's 12-tester requirement. Closed testing is a private test for people you invite by email list or Google Group, and it is the t",
+      "why": ""
+    },
+    {
+      "title": "Google Play's 12-Tester Rule: A Field Guide for Solo Android Devs",
+      "url": "https://dev.to/testershub/google-plays-12-tester-rule-a-field-guide-for-solo-android-devs-2jgc",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "If you created a personal Google Play developer account after November 13, 2023, you already know the wall: before you can apply for production access, your app must run a closed test with 12 testers who have been opted in for the last 14 days . ( Google's own help page states the requirement.) For ",
+      "why": ""
+    },
+    {
+      "title": "Our newest hub lends eight of its nine links to an older cluster, and four of them are invisible to the link tests",
+      "url": "https://dev.to/daniel_pertu/our-newest-hub-lends-eight-of-its-nine-links-to-an-older-cluster-and-four-of-them-are-invisible-to-2ej2",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Every public page on this site is a node in one TypeScript array. The sitemap, the canonicals, the breadcrumbs, the navigation and the related links are all derived from it, and 21 tests in one file assert things about that array and the graph it produces: no orphans, no self-links, every hub links ",
+      "why": ""
+    },
+    {
+      "title": "Fifty email templates on our site are rows in an array, a unit test proofreads them, and not one contains an exclamation mark",
+      "url": "https://dev.to/daniel_pertu/fifty-email-templates-on-our-site-are-rows-in-an-array-a-unit-test-proofreads-them-and-not-one-4bca",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Nakodo's public pages are typed objects rather than MDX, which means a page is an array of blocks and a block is a member of a union: export type Block = | { type : \"p\" ; text : Rich } | { type : \"list\" ; items : Rich [ ] ; ordered ?: boolean } | { type : \"steps\" ; items : { title : string ; text : ",
+      "why": ""
+    },
+    {
+      "title": "Test a temporary website closure as an end-to-end enquiry workflow",
+      "url": "https://dev.to/branding_experts_43f7a311/test-a-temporary-website-closure-as-an-end-to-end-enquiry-workflow-4le0",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "A site can accept a form while a team is away and still fail the customer. The submit button returning success only tests the web response. It does not prove anyone can see, triage or answer the enquiry. Write the closure contract Record the start and end in one explicit time zone. List which intake",
+      "why": ""
+    },
+    {
+      "title": "I added 27 pages in one commit, 108 tests appeared on their own, and the only rule that bent was for a company's name",
+      "url": "https://dev.to/daniel_pertu/i-added-27-pages-in-one-commit-108-tests-appeared-on-their-own-and-the-only-rule-that-bent-was-409p",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Nakodo's public side is 106 URLs, of which 90 are typed objects in one registry: slug, title, description, keywords, summary, sections, FAQs, related pages. Every one of them generates four tests, so the suite grows when the content grows and nobody has to remember to test a page. Last week I added ",
+      "why": ""
+    },
+    {
+      "title": "Two new kinds of page meant edits in ten places, and only two of them were compile errors",
+      "url": "https://dev.to/daniel_pertu/two-new-kinds-of-page-meant-edits-in-ten-places-and-only-two-of-them-were-compile-errors-15c",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Every public page on nakodo.app that is not hand-built is a typed object in one registry. 90 of them, in ten families, rendered by one component and listed in one sitemap of 106 URLs. Last week I added two families: features and templates . Each needed a hub page, a dynamic route, a social card, a s",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2026-103406",
+      "title": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+      "product": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
+      "description": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+    },
+    {
+      "id": "CVE-2026-133469",
+      "title": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+      "product": "Vates Xen Orchestra",
+      "description": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
+    },
+    {
+      "id": "CVE-2025-41450",
+      "title": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+      "product": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450"
+    },
+    {
+      "id": "CVE-2023-25914",
+      "title": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "product": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914"
+    },
+    {
+      "id": "CVE-2023-25915",
+      "title": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+      "product": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915"
+    },
+    {
+      "id": "CVE-2026-133324",
+      "title": "Mitel MiCollab Not Failing Securely Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324"
+    },
+    {
+      "id": "CVE-2026-133275",
+      "title": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275"
+    },
+    {
+      "id": "CVE-2026-133311",
+      "title": "Mitel MiCollab Weak Authentication Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311"
+    },
+    {
+      "id": "CVE-2026-133303",
+      "title": "Mitel MiCollab XML Injection Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
+    },
+    {
+      "id": "CVE-2026-133323",
+      "title": "Mitel MiCollab OS Command Injection Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
+    },
+    {
+      "id": "CVE-2026-132224",
+      "title": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "product": "Optimizely Web Experimentation",
+      "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
+      "date": "2026-11-24",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+    },
+    {
+      "id": "CVE-2026-131914",
+      "title": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "product": "Idunno AntiCsrf",
+      "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "date": "2026-11-24",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-134882",
+      "description": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out remotely.",
+      "score": 10.0,
+      "date": "2026-11-23",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
+    },
+    {
+      "id": "CVE-2026-137498",
+      "description": "Budibase Server from 3.39.18 before 4.0.0 contains a prototype pollution vulnerability that allows unauthenticated attackers to erase MongoDB query filters by supplying __proto__ as a dynamic JSON key in PUBLIC queries. Attackers can send a single request to the query execution endpoint, reducing the filter to {} to read, update, or delete every document in the collection.",
+      "score": 9.9,
+      "date": "2026-11-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137498"
+    },
+    {
+      "id": "CVE-2026-123342",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342"
+    },
+    {
+      "id": "CVE-2026-123986",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986"
+    },
+    {
+      "id": "CVE-2026-123987",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
+    },
+    {
+      "id": "CVE-2026-106125",
+      "description": "The Sneeit Framework plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 8.7 via the 'callback' parameter of the sneeit_compact_menu_mega_content AJAX action. The handler sneeit_compact_menu_mega_content_callback() is registered on the wp_ajax_nopriv_ hook and passes the attacker-supplied 'callback' value directly into call_user_func() after only a functio",
+      "score": 9.8,
+      "date": "2026-11-27",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106125"
+    },
+    {
+      "id": "CVE-2026-115867",
+      "description": "The Database for Contact Form 7, WPforms, Elementor forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.5.5 via the copy_files function. This is due to missing file extension validation in the copy_files function, which accepts attacker-controlled stream wrapper URIs as the file source and derives the destination filename without restricting ex",
+      "score": 9.8,
+      "date": "2026-11-27",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115867"
+    },
+    {
+      "id": "CVE-2026-104998",
+      "description": "The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.1.0 via the process_file_input_field function. This is due to missing file type validation in the process_file_input_field function, which accepts the client-supplied multipart Content-Type header as the sole type gate and writes the uploaded file to the unpr",
+      "score": 9.8,
+      "date": "2026-11-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998"
+    },
+    {
+      "id": "CVE-2026-119582",
+      "description": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
+      "score": 9.8,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
+    },
+    {
+      "id": "CVE-2026-125717",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensitive data or functionality. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.6,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717"
+    },
+    {
+      "id": "CVE-2026-137706",
+      "description": "Smart Portal developed by Direk Tech has a Missing Authorization vulnerability. Authenticated remote attackers can add a specified account to the Active Directory Domain Admins group, thereby obtaining domain administrator privileges.",
+      "score": 9.4,
+      "date": "2026-11-27",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137706"
+    },
+    {
+      "id": "CVE-2026-137544",
+      "description": "LaraDashboard before 1.5.0 contains a path traversal vulnerability in module.json providers and composer.json psr-4 namespace parsing that derives destination folder names without excluding traversal characters. Attackers with module.create permission can upload a crafted module ZIP to write PHP files into the public directory, achieving unauthenticated remote code execution.",
+      "score": 9.4,
+      "date": "2026-11-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-7wwv-x6mc-pxqx",
+      "cve": "CVE-2026-69179",
+      "title": "TastyIgniter allows Remote Code Execution (RCE) via Unrestricted file upload in Media Manager",
+      "packages": [
+        "composer/tastyigniter/tastyigniter"
+      ],
+      "date": "2026-11-25",
+      "url": "https://github.com/advisories/GHSA-7wwv-x6mc-pxqx"
+    },
+    {
+      "id": "GHSA-743w-g9pf-8p94",
+      "cve": "CVE-2026-69178",
+      "title": "TastyIgniter mail template editor allows remote code execution via server-side template injection",
+      "packages": [
+        "composer/tastyigniter/tastyigniter"
+      ],
+      "date": "2026-11-25",
+      "url": "https://github.com/advisories/GHSA-743w-g9pf-8p94"
+    },
+    {
+      "id": "GHSA-crj3-q72p-ggqm",
+      "cve": "CVE-2026-64670",
+      "title": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+      "packages": [
+        "npm/@waline/client"
+      ],
+      "date": "2026-11-25",
+      "url": "https://github.com/advisories/GHSA-crj3-q72p-ggqm"
+    },
+    {
+      "id": "GHSA-c4hm-4h84-2cf3",
+      "cve": "CVE-2026-59726",
+      "title": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+      "packages": [
+        "npm/ruflo"
+      ],
+      "date": "2026-11-24",
+      "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3"
+    },
+    {
+      "id": "GHSA-2r3w-c2vx-fv5g",
+      "cve": "CVE-2026-133469",
+      "title": "Xen Orchestra: Empty-object login token",
+      "packages": [
+        "npm/xo-server"
+      ],
+      "date": "2026-11-23",
+      "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g"
+    },
+    {
+      "id": "GHSA-4hrh-34w3-5ww8",
+      "cve": "CVE-2026-104099",
+      "title": "Fabio: Access-control bypass through unnormalized request paths",
+      "packages": [
+        "go/github.com/fabiolb/fabio"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-4hrh-34w3-5ww8"
+    },
+    {
+      "id": "GHSA-mc8w-wjhw-45x5",
+      "cve": "CVE-2026-114516",
+      "title": "Etherpad: Pre-auth arbitrary file read",
+      "packages": [
+        "npm/ep_etherpad-lite"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
+    },
+    {
+      "id": "GHSA-wj7x-58c2-5793",
+      "cve": "CVE-2026-77369",
+      "title": "Daptin: Broken Access Control (IDOR) in the generic YJS collaboration endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-wj7x-58c2-5793"
+    },
+    {
+      "id": "GHSA-hq2p-f2vj-v3cm",
+      "cve": "CVE-2026-77367",
+      "title": "Daptin: Unauthenticated SQL Injection via the `sort` query parameter on every entity list endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-hq2p-f2vj-v3cm"
+    },
+    {
+      "id": "GHSA-9x8x-crjq-g64h",
+      "cve": "CVE-2026-77359",
+      "title": "Jupyter MCP Server: Browser DNS rebinding can hijack the Jupyter backend through management routes",
+      "packages": [
+        "pip/jupyter-mcp-server"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-9x8x-crjq-g64h"
+    },
+    {
+      "id": "GHSA-p34x-fmph-9fjx",
+      "cve": "CVE-2026-77312",
+      "title": "Flyto2 Core: Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of CVE-2026-67429)",
+      "packages": [
+        "pip/flyto-core"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p34x-fmph-9fjx"
+    },
+    {
+      "id": "GHSA-p32v-8v8j-j534",
+      "cve": "CVE-2026-63344",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI content-type values",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p32v-8v8j-j534"
+    }
+  ],
+  "news": [
+    {
+      "title": "The accessibility tree of our 38 pages has 1,091 named links, 151 pictures with no name, and one live region that never says a word",
+      "url": "https://dev.to/daniel_pertu/the-accessibility-tree-of-our-38-pages-has-1091-named-links-151-pictures-with-no-name-and-one-5040",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "I have measured the accessibility of Notifio 's website twice before, and both times with the wrong instrument. First by grepping the served HTML , which finds what we wrote. Then by pressing Tab 1,224 times , which finds what a keyboard does. Neither of those is what a screen reader reads. What a s"
+    },
+    {
+      "title": "Internal Testing vs Closed Testing on Google Play: Which Track Counts, Which Doesn't (Plus How Web Research Jobs Work for Testers)",
+      "url": "https://dev.to/testlancer/internal-testing-vs-closed-testing-on-google-play-which-track-counts-which-doesnt-plus-how-web-4kei",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Here is the answer most new Android developers need: internal testing is for a small, trusted group and gets builds to them fastest, but it does not count toward Google Play's 12-tester requirement. Closed testing is a private test for people you invite by email list or Google Group, and it is the t"
+    },
+    {
+      "title": "Google Play's 12-Tester Rule: A Field Guide for Solo Android Devs",
+      "url": "https://dev.to/testershub/google-plays-12-tester-rule-a-field-guide-for-solo-android-devs-2jgc",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "If you created a personal Google Play developer account after November 13, 2023, you already know the wall: before you can apply for production access, your app must run a closed test with 12 testers who have been opted in for the last 14 days . ( Google's own help page states the requirement.) For "
+    },
+    {
+      "title": "Our newest hub lends eight of its nine links to an older cluster, and four of them are invisible to the link tests",
+      "url": "https://dev.to/daniel_pertu/our-newest-hub-lends-eight-of-its-nine-links-to-an-older-cluster-and-four-of-them-are-invisible-to-2ej2",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Every public page on this site is a node in one TypeScript array. The sitemap, the canonicals, the breadcrumbs, the navigation and the related links are all derived from it, and 21 tests in one file assert things about that array and the graph it produces: no orphans, no self-links, every hub links "
+    },
+    {
+      "title": "Fifty email templates on our site are rows in an array, a unit test proofreads them, and not one contains an exclamation mark",
+      "url": "https://dev.to/daniel_pertu/fifty-email-templates-on-our-site-are-rows-in-an-array-a-unit-test-proofreads-them-and-not-one-4bca",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Nakodo's public pages are typed objects rather than MDX, which means a page is an array of blocks and a block is a member of a union: export type Block = | { type : \"p\" ; text : Rich } | { type : \"list\" ; items : Rich [ ] ; ordered ?: boolean } | { type : \"steps\" ; items : { title : string ; text : "
+    },
+    {
+      "title": "Test a temporary website closure as an end-to-end enquiry workflow",
+      "url": "https://dev.to/branding_experts_43f7a311/test-a-temporary-website-closure-as-an-end-to-end-enquiry-workflow-4le0",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "A site can accept a form while a team is away and still fail the customer. The submit button returning success only tests the web response. It does not prove anyone can see, triage or answer the enquiry. Write the closure contract Record the start and end in one explicit time zone. List which intake"
+    },
+    {
+      "title": "I added 27 pages in one commit, 108 tests appeared on their own, and the only rule that bent was for a company's name",
+      "url": "https://dev.to/daniel_pertu/i-added-27-pages-in-one-commit-108-tests-appeared-on-their-own-and-the-only-rule-that-bent-was-409p",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Nakodo's public side is 106 URLs, of which 90 are typed objects in one registry: slug, title, description, keywords, summary, sections, FAQs, related pages. Every one of them generates four tests, so the suite grows when the content grows and nobody has to remember to test a page. Last week I added "
+    },
+    {
+      "title": "Two new kinds of page meant edits in ten places, and only two of them were compile errors",
+      "url": "https://dev.to/daniel_pertu/two-new-kinds-of-page-meant-edits-in-ten-places-and-only-two-of-them-were-compile-errors-15c",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Every public page on nakodo.app that is not hand-built is a typed object in one registry. 90 of them, in ten families, rendered by one component and listed in one sitemap of 106 URLs. Last week I added two families: features and templates . Each needed a hub page, a dynamic route, a social card, a s"
+    },
+    {
+      "title": "Two redirect rules stand in for 96 renamed URLs, and the only reason neither one loops is a suffix that is not a suffix",
+      "url": "https://dev.to/daniel_pertu/two-redirect-rules-stand-in-for-96-renamed-urls-and-the-only-reason-neither-one-loops-is-a-suffix-1ef4",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Munchable's site has 461 pages that each answer one question about one ingredient. The slug is the question: /is-onion-low-fodmap , /does-butter-have-lactose , /is-ale-gluten-free . Two conditions got their phrasing wrong on the first attempt. Lactose pages went out as is-X-high-in-lactose , which i"
+    },
+    {
+      "title": "Seven prefixes own our login redirect now, and every other unknown URL finally gets a 404",
+      "url": "https://dev.to/daniel_pertu/seven-prefixes-own-our-login-redirect-now-and-every-other-unknown-url-finally-gets-a-404-hi8",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "Ten days ago I threw thirty malformed URLs at our own site and wrote down the answers. One of them was a real bug: nakodo.app/nope did not reach our 404 page. It answered 307 to /login?next=%2Fnope . I published that with a sentence about what I would do next: The fix I am going with is to send an u"
+    },
+    {
+      "title": "AI Testing and LLM Evaluation: A Practical Guide for Production Teams",
+      "url": "https://dev.to/testdevlab/ai-testing-and-llm-evaluation-a-practical-guide-for-production-teams-7nd",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "AI testing and LLM evaluation is the practice of measuring whether an AI feature behaves correctly, safely, and consistently, using automated checks, statistical scoring, and human review together. An LLM can return a different answer to the same input, so a passing HTTP 200 tells you very little ab"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-27",
+      "snippet": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include them in the bridge by @titusfortner in #18376 [rb] move the BiDi command overrides out of BiDiBridge in"
+    },
+    {
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone "
+    },
+    {
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs direct"
+    },
+    {
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, w"
+    },
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I fo"
+    },
+    {
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]"
+    },
+    {
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]"
+    },
+    {
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]"
+    },
+    {
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]"
+    },
+    {
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]"
+    },
+    {
+      "title": "Quality Assurance - API Testing",
+      "url": "https://dev.to/dev-dinakajoy/quality-assurance-api-testing-49fo",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "I have learned how to test web applications through the browser. Next is API Testing . I needed to know the server is returning the correct data, what happens when a request fails, and how to test login authentication without using the UI. What is an API? API stands for Application Programming Inter"
+    },
+    {
+      "title": "Review-Driven Development Meets Claude Ship: Running an Invariant Loop on Automated PR Agents",
+      "url": "https://dev.to/_er2es_/review-driven-development-meets-claude-ship-running-an-invariant-loop-on-automated-pr-agents-324b",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "On November 12, 2026 , I published Review-Driven Development: a method for the bugs a 95% mutation score can't see . The premise came straight out of shipping Fuzzphony 0.11 with Claude Code: ~3,700 tests, PHPStan at max level, close to 100% line coverage, and a 95% mutation score over ~11,900 mutan"
+    },
+    {
+      "title": "I checked an AI-built login feature against its own PRD. Here is what it missed.",
+      "url": "https://dev.to/samyak_jain_dc6c4b9b19799/i-checked-an-ai-built-login-feature-against-its-own-prd-here-is-what-it-missed-2856",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "AI coding assistants write code that looks right. The question I kept asking was a different one: does it do what the requirements said? A PR reviewer looks at the diff. Nobody looks at the diff against the original PRD. So we built a tool for that, and ran it on a real feature to see what happens. "
+    },
+    {
+      "title": "How to Write Tester Instructions People Can Actually Follow (Plus What Data Labelling Jobs Expect From You)",
+      "url": "https://dev.to/testlancer/how-to-write-tester-instructions-people-can-actually-follow-plus-what-data-labelling-jobs-expect-2i98",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "If your last round of user testing came back full of \"looks good\" and \"app is nice\", the problem was probably the brief, not the testers. Good tester instructions state one goal, list numbered steps with one action each, say exactly what evidence to submit, ask specific questions and give a time est"
+    },
+    {
+      "title": "The Closed Agentic QA Loop: Cypress Agents That Run, Read the Evidence, and Fix",
+      "url": "https://dev.to/daniil-qa/the-closed-agentic-qa-loop-cypress-agents-that-run-read-the-evidence-and-fix-1ppd",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "How our QA agents stopped guessing: they run Cypress headless, debug from real evidence, and close the loop from nightly failure to verified fix. Most AI testing tools stop at writing tests. Ours have to run them. At AppliedAI, our QA team tests Opus , an AI workflow platform. Over the last few mont"
+    },
+    {
+      "title": "Test Data, Dummy Text, and Other Small Annoyances: A Developer's Shortcut List",
+      "url": "https://dev.to/repeatertext/test-data-dummy-text-and-other-small-annoyances-a-developers-shortcut-list-1ji2",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "I was testing a signup form last month, trying to figure out why it kept truncating a particular user's display name at a weird spot. Turns out the field had a 255-character limit nobody had documented anywhere, and the only way to actually confirm it was to paste progressively longer strings in unt"
+    },
+    {
+      "title": "Put the Verification Inbox in the Test Contract",
+      "url": "https://dev.to/sophie_bella_5f438de0c1c3/put-the-verification-inbox-in-the-test-contract-4am7",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "A signup test can be careful about everything except the mailbox. The runner fills the form, asserts the success screen, and then waits on an address that already belongs to last week's job, or to three other people on the same QA account. When the code never arrives, or the wrong message is opened,"
+    },
+    {
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel"
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. \"These are real developers, not thr"
+    },
+    {
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of "
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we took immediate steps t"
+    },
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to C"
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE"
+    },
+    {
+      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]"
+    },
+    {
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]"
+    },
+    {
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]"
+    },
+    {
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]"
+    },
+    {
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]"
+    },
+    {
+      "title": "Order 5001 is off by 100. What should an agent that fixes tests do?",
+      "url": "https://dev.to/checkcraft/order-5001-is-off-by-100-what-should-an-agent-that-fixes-tests-do-50ak",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Order 5001 in our practice API has a subtotal of 3170, a discount of 300 and a total of 2970. By the requirement the total should be 2870. A test written from the requirement fails. A test written from the response passes. Give that failing test to an agent with the instruction \"make CI green\", and "
+    },
+    {
+      "title": "Testing AI-Generated Code: A Guide for Engineering Teams",
+      "url": "https://dev.to/wuweiweiwu/testing-ai-generated-code-a-guide-for-engineering-teams-1k3b",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-25",
+      "snippet": "Test AI-generated code by reviewing the diff, running unit tests, and exercising the built app before merge. Give your coding agent the failing result so it can repair its change. Use exploratory testing to check behavior outside the existing suite, then add regression tests for the bugs you confirm"
+    },
+    {
+      "title": "v16.4.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/v16.4.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-25",
+      "snippet": "Changelog: https://docs.cypress.io/app/references/changelog#16-4-0"
+    },
+    {
+      "title": "chore: release @cypress/webpack-dev-server-v6.2.1",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-dev-server-v6.2.1",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-24",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "chore: release @cypress/puppeteer-v2.0.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fpuppeteer-v2.0.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Selenium 4.54.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.54.0",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for "
+    }
+  ]
+}
