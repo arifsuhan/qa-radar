@@ -1,0 +1,759 @@
+{
+  "generated_at": "2026-11-28T11:34:19+00:00",
+  "model": "gemini-2.5-flash",
+  "brief": [],
+  "top_news": [
+    {
+      "title": "Count Virtual Staging Ratings with Python's Standard Library",
+      "url": "https://dev.to/stagingbench/count-virtual-staging-ratings-with-pythons-standard-library-2c01",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "A realism mean compresses five editor ratings into one number. To see how much of the rating scale the editor actually used, start by counting the scores in each column. Python's standard library can do that with collections.Counter and calculate the overall average with statistics.mean . The rating",
+      "why": ""
+    },
+    {
+      "title": "Firebase Robo test alternative: let an AI agent explore your app",
+      "url": "https://dev.to/mobilebox/firebase-robo-test-alternative-let-an-ai-agent-explore-your-app-1ipk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "We build Mobilebox, a cloud Android phone service, and the third option below is ours. If Robo tests were your only Android test, Google has no direct replacement for them yet. Firebase Test Lab shuts down on 30 September 2027, and the migration guide for its successor lists Android instrumentation ",
+      "why": ""
+    },
+    {
+      "title": "Device Farm Adds Emulators, Simulators and Device Connect: What to Check",
+      "url": "https://dev.to/damogallagher/device-farm-adds-emulators-simulators-and-device-connect-what-to-check-ci8",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "AWS Device Farm added two things this week: Android emulators and iOS simulators alongside real devices, and Device Connect, which lets you use a remote Android device from your own machine. They solve different problems, so I will take them one at a time. Everything here is from the launch posts, n",
+      "why": ""
+    },
+    {
+      "title": "Podlite 3.0: a markup specification with tests next to its rules",
+      "url": "https://dev.to/zag/podlite-30-a-markup-specification-with-tests-next-to-its-rules-p62",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "Podlite 3.0 is out. Its specification now places tests beside the rules they check, and each test states what a parser must find or must not find. The tests are written in Podlite itself, so the same blocks can check other files too. For example, \"every invoice has a :number attribute\" becomes one a",
+      "why": ""
+    },
+    {
+      "title": "Why your NFC wristband works on your phone but not someone else’s",
+      "url": "https://dev.to/bandwove/why-your-nfc-wristband-works-on-your-phone-but-not-someone-elses-5ao1",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "You tap a wristband with your phone and the event schedule opens. You hand it to someone else. They tap it, wait, try a different angle, and get nothing. Start by reading back what is actually stored on the wristband. Then check how the second phone handles it. Your phone may have a personal automat",
+      "why": ""
+    },
+    {
+      "title": "Calendar dates in age code: time zones, date strings and setMonth",
+      "url": "https://dev.to/agecalculatorcom/calendar-dates-in-age-code-time-zones-date-strings-and-setmonth-3a3k",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "Age code often passes its tests on the developer's machine and gives a wrong answer a few time zones away. The first two causes below can be reproduced in Node by changing the TZ environment variable. The third, setMonth, gives the same answer in every zone. Today depends on where you are At 23:30 U",
+      "why": ""
+    },
+    {
+      "title": "A per-digit allowance for scoring repeated digits in a four-digit guess (Python)",
+      "url": "https://dev.to/numblegame/a-per-digit-allowance-for-scoring-repeated-digits-in-a-four-digit-guess-python-16gh",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "Numble uses a four-digit code in which digits can repeat. After a guess, a tile is green in the right place, yellow when the digit is elsewhere in the code, and grey when it is absent or every copy has already been used. The hard part is a guess with more copies of a digit than the code holds. An al",
+      "why": ""
+    },
+    {
+      "title": "Why Generating Fake Data Is a Real Engineering Skill",
+      "url": "https://dev.to/qinjiexu2/why-generating-fake-data-is-a-real-engineering-skill-jl2",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "There is a quiet skill in software engineering that rarely gets written on job descriptions: knowing how to generate good fake data. Not random noise — data that is realistic, awkward in the right ways, and reproducible. The difference between a demo that works and a product that survives contact wi",
+      "why": ""
+    }
+  ],
+  "kev": [
+    {
+      "id": "CVE-2026-120705",
+      "title": "OSGeo GeoServer XML Injection Vulnerability",
+      "product": "OSGeo GeoServer",
+      "description": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerability can be chained with CVE-2026-129244, CVE-2026-129243, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+      "date": "2026-11-27",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705"
+    },
+    {
+      "id": "CVE-2026-129243",
+      "title": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+      "product": "OSGeo GeoServer",
+      "description": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705, CVE-2026-129245, and CVE-2026-129242 to achieve unauthenticated remote code execution on an affected GeoServer instance.",
+      "date": "2026-11-27",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
+    },
+    {
+      "id": "CVE-2026-136716",
+      "title": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+      "product": "Drupal Core",
+      "description": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+      "date": "2026-11-27",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
+    },
+    {
+      "id": "CVE-2026-103406",
+      "title": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+      "product": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
+      "description": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+    },
+    {
+      "id": "CVE-2026-133469",
+      "title": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+      "product": "Vates Xen Orchestra",
+      "description": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
+    },
+    {
+      "id": "CVE-2025-41450",
+      "title": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+      "product": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450"
+    },
+    {
+      "id": "CVE-2023-25914",
+      "title": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "product": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914"
+    },
+    {
+      "id": "CVE-2023-25915",
+      "title": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+      "product": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915"
+    },
+    {
+      "id": "CVE-2026-133324",
+      "title": "Mitel MiCollab Not Failing Securely Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324"
+    },
+    {
+      "id": "CVE-2026-133275",
+      "title": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275"
+    },
+    {
+      "id": "CVE-2026-133311",
+      "title": "Mitel MiCollab Weak Authentication Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311"
+    },
+    {
+      "id": "CVE-2026-133303",
+      "title": "Mitel MiCollab XML Injection Vulnerability",
+      "product": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+      "date": "2026-11-25",
+      "ransomware": false,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
+    }
+  ],
+  "nvd": [
+    {
+      "id": "CVE-2026-137498",
+      "description": "Budibase Server from 3.39.18 before 4.0.0 contains a prototype pollution vulnerability that allows unauthenticated attackers to erase MongoDB query filters by supplying __proto__ as a dynamic JSON key in PUBLIC queries. Attackers can send a single request to the query execution endpoint, reducing the filter to {} to read, update, or delete every document in the collection.",
+      "score": 9.9,
+      "date": "2026-11-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137498"
+    },
+    {
+      "id": "CVE-2026-123986",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986"
+    },
+    {
+      "id": "CVE-2026-123987",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.9,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987"
+    },
+    {
+      "id": "CVE-2026-106125",
+      "description": "The Sneeit Framework plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 8.7 via the 'callback' parameter of the sneeit_compact_menu_mega_content AJAX action. The handler sneeit_compact_menu_mega_content_callback() is registered on the wp_ajax_nopriv_ hook and passes the attacker-supplied 'callback' value directly into call_user_func() after only a functio",
+      "score": 9.8,
+      "date": "2026-11-27",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106125"
+    },
+    {
+      "id": "CVE-2026-115867",
+      "description": "The Database for Contact Form 7, WPforms, Elementor forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.5.5 via the copy_files function. This is due to missing file extension validation in the copy_files function, which accepts attacker-controlled stream wrapper URIs as the file source and derives the destination filename without restricting ex",
+      "score": 9.8,
+      "date": "2026-11-27",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115867"
+    },
+    {
+      "id": "CVE-2026-132165",
+      "description": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13.",
+      "score": 9.8,
+      "date": "2026-11-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+    },
+    {
+      "id": "CVE-2026-104998",
+      "description": "The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.1.0 via the process_file_input_field function. This is due to missing file type validation in the process_file_input_field function, which accepts the client-supplied multipart Content-Type header as the sole type gate and writes the uploaded file to the unpr",
+      "score": 9.8,
+      "date": "2026-11-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998"
+    },
+    {
+      "id": "CVE-2026-119582",
+      "description": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection.\n\nThis issue affects vSRM: from v14.08.3 before v14.08.5.",
+      "score": 9.8,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582"
+    },
+    {
+      "id": "CVE-2026-125717",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensitive data or functionality. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "score": 9.6,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717"
+    },
+    {
+      "id": "CVE-2026-137706",
+      "description": "Smart Portal developed by Direk Tech has a Missing Authorization vulnerability. Authenticated remote attackers can add a specified account to the Active Directory Domain Admins group, thereby obtaining domain administrator privileges.",
+      "score": 9.4,
+      "date": "2026-11-27",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137706"
+    },
+    {
+      "id": "CVE-2026-137544",
+      "description": "LaraDashboard before 1.5.0 contains a path traversal vulnerability in module.json providers and composer.json psr-4 namespace parsing that derives destination folder names without excluding traversal characters. Attackers with module.create permission can upload a crafted module ZIP to write PHP files into the public directory, achieving unauthenticated remote code execution.",
+      "score": 9.4,
+      "date": "2026-11-26",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544"
+    },
+    {
+      "id": "CVE-2026-136184",
+      "description": "compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site request forgery vulnerability because its unauthenticated web UI performs no Origin validation. Malicious websites visited by users can open /ws/shell/{host} or /ws/exec sockets, or abuse unquoted service parameters and PUT /api/console/file, to execute commands on all managed hosts.",
+      "score": 9.4,
+      "date": "2026-11-24",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136184"
+    }
+  ],
+  "ghsa": [
+    {
+      "id": "GHSA-7wwv-x6mc-pxqx",
+      "cve": "CVE-2026-69179",
+      "title": "TastyIgniter allows Remote Code Execution (RCE) via Unrestricted file upload in Media Manager",
+      "packages": [
+        "composer/tastyigniter/tastyigniter"
+      ],
+      "date": "2026-11-25",
+      "url": "https://github.com/advisories/GHSA-7wwv-x6mc-pxqx"
+    },
+    {
+      "id": "GHSA-743w-g9pf-8p94",
+      "cve": "CVE-2026-69178",
+      "title": "TastyIgniter mail template editor allows remote code execution via server-side template injection",
+      "packages": [
+        "composer/tastyigniter/tastyigniter"
+      ],
+      "date": "2026-11-25",
+      "url": "https://github.com/advisories/GHSA-743w-g9pf-8p94"
+    },
+    {
+      "id": "GHSA-crj3-q72p-ggqm",
+      "cve": "CVE-2026-64670",
+      "title": "@waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+      "packages": [
+        "npm/@waline/client"
+      ],
+      "date": "2026-11-25",
+      "url": "https://github.com/advisories/GHSA-crj3-q72p-ggqm"
+    },
+    {
+      "id": "GHSA-c4hm-4h84-2cf3",
+      "cve": "CVE-2026-59726",
+      "title": "ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+      "packages": [
+        "npm/ruflo"
+      ],
+      "date": "2026-11-24",
+      "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3"
+    },
+    {
+      "id": "GHSA-2r3w-c2vx-fv5g",
+      "cve": "CVE-2026-133469",
+      "title": "Xen Orchestra: Empty-object login token",
+      "packages": [
+        "npm/xo-server"
+      ],
+      "date": "2026-11-23",
+      "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g"
+    },
+    {
+      "id": "GHSA-4hrh-34w3-5ww8",
+      "cve": "CVE-2026-104099",
+      "title": "Fabio: Access-control bypass through unnormalized request paths",
+      "packages": [
+        "go/github.com/fabiolb/fabio"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-4hrh-34w3-5ww8"
+    },
+    {
+      "id": "GHSA-mc8w-wjhw-45x5",
+      "cve": "CVE-2026-114516",
+      "title": "Etherpad: Pre-auth arbitrary file read",
+      "packages": [
+        "npm/ep_etherpad-lite"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
+    },
+    {
+      "id": "GHSA-wj7x-58c2-5793",
+      "cve": "CVE-2026-77369",
+      "title": "Daptin: Broken Access Control (IDOR) in the generic YJS collaboration endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-wj7x-58c2-5793"
+    },
+    {
+      "id": "GHSA-hq2p-f2vj-v3cm",
+      "cve": "CVE-2026-77367",
+      "title": "Daptin: Unauthenticated SQL Injection via the `sort` query parameter on every entity list endpoint",
+      "packages": [
+        "go/github.com/daptin/daptin"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-hq2p-f2vj-v3cm"
+    },
+    {
+      "id": "GHSA-9x8x-crjq-g64h",
+      "cve": "CVE-2026-77359",
+      "title": "Jupyter MCP Server: Browser DNS rebinding can hijack the Jupyter backend through management routes",
+      "packages": [
+        "pip/jupyter-mcp-server"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-9x8x-crjq-g64h"
+    },
+    {
+      "id": "GHSA-p34x-fmph-9fjx",
+      "cve": "CVE-2026-77312",
+      "title": "Flyto2 Core: Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of CVE-2026-67429)",
+      "packages": [
+        "pip/flyto-core"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p34x-fmph-9fjx"
+    },
+    {
+      "id": "GHSA-p32v-8v8j-j534",
+      "cve": "CVE-2026-63344",
+      "title": "Refitter allows arbitrary code execution through unescaped OpenAPI content-type values",
+      "packages": [
+        "nuget/Refitter"
+      ],
+      "date": "2026-11-20",
+      "url": "https://github.com/advisories/GHSA-p32v-8v8j-j534"
+    }
+  ],
+  "news": [
+    {
+      "title": "Count Virtual Staging Ratings with Python's Standard Library",
+      "url": "https://dev.to/stagingbench/count-virtual-staging-ratings-with-pythons-standard-library-2c01",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "A realism mean compresses five editor ratings into one number. To see how much of the rating scale the editor actually used, start by counting the scores in each column. Python's standard library can do that with collections.Counter and calculate the overall average with statistics.mean . The rating"
+    },
+    {
+      "title": "Firebase Robo test alternative: let an AI agent explore your app",
+      "url": "https://dev.to/mobilebox/firebase-robo-test-alternative-let-an-ai-agent-explore-your-app-1ipk",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "We build Mobilebox, a cloud Android phone service, and the third option below is ours. If Robo tests were your only Android test, Google has no direct replacement for them yet. Firebase Test Lab shuts down on 30 September 2027, and the migration guide for its successor lists Android instrumentation "
+    },
+    {
+      "title": "Device Farm Adds Emulators, Simulators and Device Connect: What to Check",
+      "url": "https://dev.to/damogallagher/device-farm-adds-emulators-simulators-and-device-connect-what-to-check-ci8",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "AWS Device Farm added two things this week: Android emulators and iOS simulators alongside real devices, and Device Connect, which lets you use a remote Android device from your own machine. They solve different problems, so I will take them one at a time. Everything here is from the launch posts, n"
+    },
+    {
+      "title": "Podlite 3.0: a markup specification with tests next to its rules",
+      "url": "https://dev.to/zag/podlite-30-a-markup-specification-with-tests-next-to-its-rules-p62",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "Podlite 3.0 is out. Its specification now places tests beside the rules they check, and each test states what a parser must find or must not find. The tests are written in Podlite itself, so the same blocks can check other files too. For example, \"every invoice has a :number attribute\" becomes one a"
+    },
+    {
+      "title": "Why your NFC wristband works on your phone but not someone else’s",
+      "url": "https://dev.to/bandwove/why-your-nfc-wristband-works-on-your-phone-but-not-someone-elses-5ao1",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "You tap a wristband with your phone and the event schedule opens. You hand it to someone else. They tap it, wait, try a different angle, and get nothing. Start by reading back what is actually stored on the wristband. Then check how the second phone handles it. Your phone may have a personal automat"
+    },
+    {
+      "title": "Calendar dates in age code: time zones, date strings and setMonth",
+      "url": "https://dev.to/agecalculatorcom/calendar-dates-in-age-code-time-zones-date-strings-and-setmonth-3a3k",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "Age code often passes its tests on the developer's machine and gives a wrong answer a few time zones away. The first two causes below can be reproduced in Node by changing the TZ environment variable. The third, setMonth, gives the same answer in every zone. Today depends on where you are At 23:30 U"
+    },
+    {
+      "title": "A per-digit allowance for scoring repeated digits in a four-digit guess (Python)",
+      "url": "https://dev.to/numblegame/a-per-digit-allowance-for-scoring-repeated-digits-in-a-four-digit-guess-python-16gh",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "Numble uses a four-digit code in which digits can repeat. After a guess, a tile is green in the right place, yellow when the digit is elsewhere in the code, and grey when it is absent or every copy has already been used. The hard part is a guess with more copies of a digit than the code holds. An al"
+    },
+    {
+      "title": "Why Generating Fake Data Is a Real Engineering Skill",
+      "url": "https://dev.to/qinjiexu2/why-generating-fake-data-is-a-real-engineering-skill-jl2",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "There is a quiet skill in software engineering that rarely gets written on job descriptions: knowing how to generate good fake data. Not random noise — data that is realistic, awkward in the right ways, and reproducible. The difference between a demo that works and a product that survives contact wi"
+    },
+    {
+      "title": "How to evaluate AI generated code?",
+      "url": "https://dev.to/izgorodin/how-to-evaluate-ai-generated-code-3bm5",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "To evaluate AI generated code, judge it by what it does when it runs, not by how plausible it reads. HumanEval scores code models the same way, by functional correctness on unit tests, the way developers judge code. Its authors, Chen et al. (2021), also report evidence that BLEU, a fuzzy match again"
+    },
+    {
+      "title": "Testing a Camera App on Several Phones: Flash and Lens Position",
+      "url": "https://dev.to/nesimrazon/testing-a-camera-app-on-several-phones-flash-and-lens-position-5g5o",
+      "source": "DEV #testing",
+      "category": "Testing",
+      "date": "2026-11-28",
+      "snippet": "A camera app that works on your own phone has told you very little. When the signal comes from a fingertip lit by the flash, small hardware differences decide whether the app works at all. This post covers what I learned testing one app on three family phones, which Android flash features I used, an"
+    },
+    {
+      "title": "Nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-28",
+      "snippet": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include them in the bridge by @titusfortner in #18376 [rb] move the BiDi command overrides out of BiDiBridge in"
+    },
+    {
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-28",
+      "snippet": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in respo"
+    },
+    {
+      "title": "AI Code Bottleneck: Autonomous Testing in CI/CD",
+      "url": "https://dev.to/rammehta1899/ai-code-bottleneck-autonomous-testing-in-cicd-40n6",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "As generative AI coding tools flood repositories with code diffs, software verification has replaced writing code as the main bottleneck in engineering organizations. Specialized AI testing agents that interactively explore applications catch significantly more bugs than generalist code models, but "
+    },
+    {
+      "title": "Top 20 Leading Software Testing Companies in 2027",
+      "url": "https://dev.to/martina_stojmanovska/top-20-leading-software-testing-companies-in-2027-5ba5",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "A software testing company is an external firm that plans, runs, and automates software testing for other organizations, from manual and automated QA to performance, security, and accessibility testing. The best software testing companies in 2027 plug into Agile and DevOps workflows, bring automatio"
+    },
+    {
+      "title": "AI Testing and LLM Evaluation: A Practical Guide for Production Teams",
+      "url": "https://dev.to/testdevlab/ai-testing-and-llm-evaluation-a-practical-guide-for-production-teams-7nd",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-27",
+      "snippet": "AI testing and LLM evaluation is the practice of measuring whether an AI feature behaves correctly, safely, and consistently, using automated checks, statistical scoring, and human review together. An LLM can return a different answer to the same input, so a passing HTTP 200 tells you very little ab"
+    },
+    {
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has b"
+    },
+    {
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.code"
+    },
+    {
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone "
+    },
+    {
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs direct"
+    },
+    {
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, w"
+    },
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I fo"
+    },
+    {
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]"
+    },
+    {
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]"
+    },
+    {
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]"
+    },
+    {
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]"
+    },
+    {
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]"
+    },
+    {
+      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]"
+    },
+    {
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]"
+    },
+    {
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]"
+    },
+    {
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]"
+    },
+    {
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "source": "BleepingComputer",
+      "category": "Security",
+      "date": "2026-11-27",
+      "snippet": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]"
+    },
+    {
+      "title": "Quality Assurance - API Testing",
+      "url": "https://dev.to/dev-dinakajoy/quality-assurance-api-testing-49fo",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "I have learned how to test web applications through the browser. Next is API Testing . I needed to know the server is returning the correct data, what happens when a request fails, and how to test login authentication without using the UI. What is an API? API stands for Application Programming Inter"
+    },
+    {
+      "title": "Review-Driven Development Meets Claude Ship: Running an Invariant Loop on Automated PR Agents",
+      "url": "https://dev.to/_er2es_/review-driven-development-meets-claude-ship-running-an-invariant-loop-on-automated-pr-agents-324b",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "On November 12, 2026 , I published Review-Driven Development: a method for the bugs a 95% mutation score can't see . The premise came straight out of shipping Fuzzphony 0.11 with Claude Code: ~3,700 tests, PHPStan at max level, close to 100% line coverage, and a 95% mutation score over ~11,900 mutan"
+    },
+    {
+      "title": "I checked an AI-built login feature against its own PRD. Here is what it missed.",
+      "url": "https://dev.to/samyak_jain_dc6c4b9b19799/i-checked-an-ai-built-login-feature-against-its-own-prd-here-is-what-it-missed-2856",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "AI coding assistants write code that looks right. The question I kept asking was a different one: does it do what the requirements said? A PR reviewer looks at the diff. Nobody looks at the diff against the original PRD. So we built a tool for that, and ran it on a real feature to see what happens. "
+    },
+    {
+      "title": "How to Write Tester Instructions People Can Actually Follow (Plus What Data Labelling Jobs Expect From You)",
+      "url": "https://dev.to/testlancer/how-to-write-tester-instructions-people-can-actually-follow-plus-what-data-labelling-jobs-expect-2i98",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "If your last round of user testing came back full of \"looks good\" and \"app is nice\", the problem was probably the brief, not the testers. Good tester instructions state one goal, list numbered steps with one action each, say exactly what evidence to submit, ask specific questions and give a time est"
+    },
+    {
+      "title": "The Closed Agentic QA Loop: Cypress Agents That Run, Read the Evidence, and Fix",
+      "url": "https://dev.to/daniil-qa/the-closed-agentic-qa-loop-cypress-agents-that-run-read-the-evidence-and-fix-1ppd",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "How our QA agents stopped guessing: they run Cypress headless, debug from real evidence, and close the loop from nightly failure to verified fix. Most AI testing tools stop at writing tests. Ours have to run them. At AppliedAI, our QA team tests Opus , an AI workflow platform. Over the last few mont"
+    },
+    {
+      "title": "Test Data, Dummy Text, and Other Small Annoyances: A Developer's Shortcut List",
+      "url": "https://dev.to/repeatertext/test-data-dummy-text-and-other-small-annoyances-a-developers-shortcut-list-1ji2",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "I was testing a signup form last month, trying to figure out why it kept truncating a particular user's display name at a weird spot. Turns out the field had a 255-character limit nobody had documented anywhere, and the only way to actually confirm it was to paste progressively longer strings in unt"
+    },
+    {
+      "title": "Put the Verification Inbox in the Test Contract",
+      "url": "https://dev.to/sophie_bella_5f438de0c1c3/put-the-verification-inbox-in-the-test-contract-4am7",
+      "source": "DEV #qa",
+      "category": "Testing",
+      "date": "2026-11-26",
+      "snippet": "A signup test can be careful about everything except the mailbox. The runner fills the form, asserts the success screen, and then waits on an address that already belongs to last week's job, or to three other people on the same QA account. When the code never arrives, or the wrong message is opened,"
+    },
+    {
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel"
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. \"These are real developers, not thr"
+    },
+    {
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "date": "2026-11-26",
+      "snippet": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of "
+    },
+    {
+      "title": "v16.4.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/v16.4.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-25",
+      "snippet": "Changelog: https://docs.cypress.io/app/references/changelog#16-4-0"
+    },
+    {
+      "title": "chore: release @cypress/webpack-dev-server-v6.2.1",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-dev-server-v6.2.1",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-24",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "chore: release @cypress/puppeteer-v2.0.0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fpuppeteer-v2.0.0",
+      "source": "Cypress",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "[skip ci]"
+    },
+    {
+      "title": "Selenium 4.54.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.54.0",
+      "source": "Selenium",
+      "category": "Tools",
+      "date": "2026-11-23",
+      "snippet": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for "
+    }
+  ]
+}
